@@ -4,7 +4,25 @@
     <router-link to="/about">About</router-link>
   </div>
   <router-view />
+  <Navigation/>
+  <Landing/>
+  <Footer/>
 </template>
+
+<script>
+import Landing from "./components/Landing.vue";
+import Navigation from "./components/Nav.vue";
+import Footer from "./components/Footer.vue"
+
+export default {
+  name: "App",
+  components: {
+    Navigation,
+    Landing,
+    Footer,
+  },
+};
+</script>
 
 <style>
 #app {
