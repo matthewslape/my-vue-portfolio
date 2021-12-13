@@ -47,13 +47,14 @@ export default {
 <style>
 .navBar {
   margin: 1rem;
-  position: fixed;
+  position: relative;
   top: 0;
   left: 0;
   right: 0;
   justify-content: space-between;
   display: flex;
   align-items: start;
+  height: 20rem;
 }
 
 .pageHeader {
@@ -67,6 +68,8 @@ export default {
   text-transform: uppercase;
 
   color: #022269;
+  background: white;
+  padding: 0.5rem;
 }
 
 .hamburgerWrapper {
@@ -97,6 +100,7 @@ export default {
   pointer-events: all;
   cursor: pointer;
   margin-bottom: 1rem;
+  background: white;
 }
 
 .hamLayer1,
