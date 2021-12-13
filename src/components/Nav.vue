@@ -46,15 +46,16 @@ export default {
 
 <style>
 .navBar {
-  margin: 1rem;
-  position: relative;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
   justify-content: space-between;
   display: flex;
   align-items: start;
-  height: 20rem;
+  height: 5rem;
+  z-index: 50;
+  background: white;
 }
 
 .pageHeader {
@@ -64,12 +65,14 @@ export default {
   font-size: 24px;
   line-height: 36px;
 
-  letter-spacing: 0.195em;
+  letter-spacing: 0.2em;
   text-transform: uppercase;
 
   color: #022269;
-  background: white;
-  padding: 0.5rem;
+  padding-left: 1rem;
+  margin: 1rem;
+  border-radius: 00.25rem;
+
 }
 
 .hamburgerWrapper {
@@ -99,8 +102,8 @@ export default {
   justify-content: space-between;
   pointer-events: all;
   cursor: pointer;
-  margin-bottom: 1rem;
-  background: white;
+  margin: 1rem;
+  margin-bottom: 3rem;
 }
 
 .hamLayer1,
@@ -135,6 +138,10 @@ export default {
 
 .navTabActive {
   transition: 0.5s ease-in-out;
+  background-color: white;
+  padding: 0rem 0.5rem 0rem 0.5rem;
+  border-radius: 0.25rem;
+  margin-right: 1rem;
 }
 .navTab {
   transform: translateX(110rem);
