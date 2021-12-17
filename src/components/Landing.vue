@@ -32,7 +32,7 @@
 }
 #profilePic {
   position: relative;
-  right: -24vw;
+  right: -21vw;
   top: 10rem;
   width: 30vw;
   height: inherit;

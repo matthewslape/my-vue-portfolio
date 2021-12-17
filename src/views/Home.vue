@@ -1,5 +1,6 @@
 <template>
   <div class="home">
+    <Landing />
     <svg
       id="gradientSwoosh1"
       viewBox="0 0 1440 2223"
@@ -29,11 +30,12 @@
 </template>
 
 <script>
-// @ is an alias to /src
-
+import Landing from "../components/Landing.vue";
 export default {
   name: "Home",
-  components: {},
+  components: {
+    Landing,
+  },
 };
 </script>
 <style scoped>

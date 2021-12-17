@@ -1,7 +1,9 @@
 <template>
   <!-- TRYING TO FIGURE OUT HOW TO CLOSE NAV ON SCROLL... v-on:scroll.passive="toggle"-->
   <div class="navBar">
-    <h2 class="pageHeader">Matthew Slape | Creative</h2>
+    <router-link to="/"
+      ><h2 class="pageHeader">Matthew Slape | Creative</h2></router-link
+    >
     <div :class="[isActive ? 'hamburgerWrapperActive' : 'hamburgerWrapper']">
       <div class="hamburger" @click="toggle">
         <div
@@ -17,12 +19,36 @@
           :class="[isActive ? 'hamLayer3Active' : 'hamLayer3']"
         ></div>
       </div>
-      <h3 :class="[isActive ? 'navTabActive' : 'navTab']">Graphics</h3>
-      <h3 :class="[isActive ? 'navTabActive' : 'navTab']">UX Design</h3>
-      <h3 :class="[isActive ? 'navTabActive' : 'navTab']">Photo + Video</h3>
-      <h3 :class="[isActive ? 'navTabActive' : 'navTab']">Illustration</h3>
-      <h3 :class="[isActive ? 'navTabActive' : 'navTab']">Branding</h3>
-      <h3 :class="[isActive ? 'navTabActive' : 'navTab']">Code</h3>
+      <router-link to="/graphics"
+        ><h3 :class="[isActive ? 'navTabActive' : 'navTab']">
+          Graphics
+        </h3></router-link
+      >
+      <router-link to="/ux"
+        ><h3 :class="[isActive ? 'navTabActive' : 'navTab']">
+          UX Design
+        </h3></router-link
+      >
+      <router-link to="/ph"
+        ><h3 :class="[isActive ? 'navTabActive' : 'navTab']">
+          Photo + Video
+        </h3></router-link
+      >
+      <router-link to="/illustration"
+        ><h3 :class="[isActive ? 'navTabActive' : 'navTab']">
+          Illustration
+        </h3></router-link
+      >
+      <router-link to="/branding"
+        ><h3 :class="[isActive ? 'navTabActive' : 'navTab']">
+          Branding
+        </h3></router-link
+      >
+      <router-link to="/code"
+        ><h3 :class="[isActive ? 'navTabActive' : 'navTab']">
+          Code
+        </h3></router-link
+      >
     </div>
   </div>
 </template>
@@ -72,7 +98,6 @@ export default {
   padding-left: 1rem;
   margin: 1rem;
   border-radius: 00.25rem;
-
 }
 
 .hamburgerWrapper {
@@ -82,7 +107,7 @@ export default {
 }
 
 .hamburgerWrapperActive {
-  width: 20vw;
+  width: 18rem;
   height: 100vh;
   position: absolute;
   top: 0rem;
