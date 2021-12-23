@@ -65,7 +65,8 @@ h3 {
     position: fixed;
     top: 50%;
     left: 50%;
-    width: 30rem;
+    width: 80%;
+    font-size: 2rem;
     transform: translate(-50%, -50%);
     text-transform: uppercase;
     color: white;
