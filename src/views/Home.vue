@@ -40,10 +40,10 @@ export default {
 </script>
 <style scoped>
 #gradientSwoosh1 {
-  width: 100vw;
   position: absolute;
   top: 12rem;
-  right: 0;
+  display: flex;
+  width: 100vw;
   z-index: -100;
 }
 </style>

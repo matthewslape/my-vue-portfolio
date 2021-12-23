@@ -2,7 +2,7 @@
   <div class="titleWrapper">
     <img
       id="profilePic"
-      src="../assets/profile.jpg"
+      src="../assets/photos/profile.jpg"
       alt="Photo of Matthew Slape"
     />
     <h1 class="title">
