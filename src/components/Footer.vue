@@ -1,42 +1,45 @@
 <template>
   <div class="footer">
-    <img
-      class="footerLink"
-      id="github"
-      src="../assets/photos/github.png"
-      alt="Github Link"
-    />
-    <img
-      class="footerLink"
-      id="linkedin"
-      src="../assets/photos/linkedin.png"
-      alt="LinkedIn Link"
-    />
-    <img
-      class="footerLink"
-      id="instagram"
-      src="../assets/photos/instagram.png"
-      alt="Instagram Link"
-    />
+    <a href="https://github.com/matthewslape">
+      <img
+        class="footerLink"
+        id="github"
+        src="../assets/photos/github.png"
+        alt="Github Link"
+    /></a>
+    <a href="https://www.linkedin.com/in/matthew-slape/"
+      ><img
+        class="footerLink"
+        id="linkedin"
+        src="../assets/photos/linkedin.png"
+        alt="LinkedIn Link"
+    /></a>
+    <a href="https://www.instagram.com/mslape_art/"
+      ><img
+        class="footerLink"
+        id="instagram"
+        src="../assets/photos/instagram.png"
+        alt="Instagram Link"
+    /></a>
   </div>
 </template>
 <script>
-//STILL NEED TO ADD LINKS FOR FOOTER 12.23.21
 </script>
 
 <style scoped>
 .footer {
+  padding: 1rem 1rem 2rem 2rem;
   display: flex;
   align-items: center;
   justify-content: flex-end;
   position: fixed;
   bottom: 0;
-  height: 4rem;
+  height: 5rem;
   width: 100%;
 }
 .footerLink {
   height: 30px;
   margin: 0.5rem;
-  filter: drop-shadow(0 0 0.5rem black);
+  filter: drop-shadow(0 0 0.5rem rgb(1, 6, 63));
 }
 </style>

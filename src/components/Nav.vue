@@ -1,7 +1,7 @@
 <template>
   <!-- TRYING TO FIGURE OUT HOW TO CLOSE NAV ON SCROLL... v-on:scroll.passive="toggle"-->
   <div class="navBar">
-    <router-link to="/"
+    <router-link to="/" style="text-decoration: none"
       ><h2 class="pageHeader">Matthew Slape | Creative</h2></router-link
     >
     <div :class="[isActive ? 'hamburgerWrapperActive' : 'hamburgerWrapper']">
@@ -19,32 +19,32 @@
           :class="[isActive ? 'hamLayer3Active' : 'hamLayer3']"
         ></div>
       </div>
-      <router-link to="/graphics"
+      <router-link to="/graphics" style="text-decoration: none"
         ><h3 :class="[isActive ? 'navTabActive' : 'navTab']">
           Graphics
         </h3></router-link
       >
-      <router-link to="/ux"
+      <router-link to="/ux" style="text-decoration: none"
         ><h3 :class="[isActive ? 'navTabActive' : 'navTab']">
           UX Design
         </h3></router-link
       >
-      <router-link to="/ph"
+      <router-link to="/ph" style="text-decoration: none"
         ><h3 :class="[isActive ? 'navTabActive' : 'navTab']">
           Photo + Video
         </h3></router-link
       >
-      <router-link to="/illustration"
+      <router-link to="/illustration" style="text-decoration: none"
         ><h3 :class="[isActive ? 'navTabActive' : 'navTab']">
           Illustration
         </h3></router-link
       >
-      <router-link to="/branding"
+      <router-link to="/branding" style="text-decoration: none"
         ><h3 :class="[isActive ? 'navTabActive' : 'navTab']">
           Branding
         </h3></router-link
       >
-      <router-link to="/code"
+      <router-link to="/code" style="text-decoration: none"
         ><h3 :class="[isActive ? 'navTabActive' : 'navTab']">
           Code
         </h3></router-link
