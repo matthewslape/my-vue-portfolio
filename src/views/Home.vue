@@ -65,6 +65,7 @@ export default {
   components: {
     Landing,
   },
+
 };
 </script>
 <style scoped>

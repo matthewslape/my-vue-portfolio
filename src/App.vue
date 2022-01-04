@@ -10,12 +10,30 @@
 <script>
 import Navigation from "./components/Nav.vue";
 import Footer from "./components/Footer.vue";
+import { computed, reactive } from "vue";
+import { useHead } from "@vueuse/head";
 
 export default {
   name: "App",
   components: {
     Navigation,
     Footer,
+  },
+  setup() {
+    const siteData = reactive({
+      title: "Matthew Slape Design",
+      Description: "Portfolio Website",
+    });
+
+    useHead({
+      title: computed(() => siteData.title),
+      meta: [
+        {
+          name: `description`,
+          content: computed(() => siteData.description),
+        },
+      ],
+    });
   },
 };
 </script>
