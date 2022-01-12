@@ -27,9 +27,7 @@
           <h1 class="customHeader">Code</h1>
         </div>
       </div>
-      <div class="decorWrapper">
-        <h3 class="decorType">Created to Create</h3>
-      </div>
+      <h3 class="decorType">Created to Create</h3>
       <img class="swoosh1" src="../assets/svgs/swoosh1.svg" alt="decoration" />
     </div>
   </div>
@@ -113,13 +111,6 @@
   font-weight: bold;
   text-transform: uppercase;
 }
-.decorWrapper {
-  position: absolute;
-  bottom: 32vw;
-  width: 100vw;
-  display: flex;
-  justify-content: flex-start;
-}
 .decorType {
   letter-spacing: 0.195em;
   text-transform: uppercase;
@@ -127,9 +118,12 @@
   transform: rotate(-90deg);
   font-weight: 800;
   font-size: 2.5vw;
+
+  position: absolute;
+  bottom: 35vw;
+  left: -15vw;
   margin-left: 1rem;
-  position: relative;
-  right: 16vw;
+  z-index: 2;
   opacity: 80%;
 }
 </style>
