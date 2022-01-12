@@ -72,10 +72,6 @@ export default {
 
 <style>
 .navBar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
   justify-content: space-between;
   display: flex;
   align-items: start;
@@ -116,6 +112,7 @@ export default {
   flex-direction: column;
   justify-content: start;
   align-items: flex-end;
+  z-index: 100;
 }
 
 /*hamburger animation*/
@@ -169,6 +166,7 @@ export default {
   margin-right: 1rem;
 }
 .navTab {
+  position: fixed;
   transform: translateX(110rem);
   transition: 0.5s ease-in-out;
 }

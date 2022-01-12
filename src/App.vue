@@ -1,8 +1,5 @@
 <template>
   <Navigation />
-  <div class="cover">
-    <h1 class="msg">Mobile for Website not ready, please veiw on desktop.</h1>
-  </div>
   <router-view />
   <Footer />
 </template>
@@ -65,30 +62,4 @@ h3 {
   color: #022269;
 }
 
-.cover {
-  display: none;
-}
-
-@media only screen and (max-width: 768px) {
-  .cover {
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    height: 600rem;
-    width: 100vw;
-    background: black;
-    z-index: 500;
-  }
-  .msg {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    width: 80%;
-    font-size: 2rem;
-    transform: translate(-50%, -50%);
-    text-transform: uppercase;
-    color: white;
-    letter-spacing: 0.5rem;
-  }
-}
 </style>
