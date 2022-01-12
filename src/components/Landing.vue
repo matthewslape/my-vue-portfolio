@@ -124,6 +124,6 @@
   left: -15vw;
   margin-left: 1rem;
   z-index: 2;
-  opacity: 80%;
+  opacity: 82%;
 }
 </style>
