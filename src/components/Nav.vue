@@ -1,8 +1,9 @@
 <template>
   <!-- TRYING TO FIGURE OUT HOW TO CLOSE NAV ON SCROLL... v-on:scroll.passive="toggle"-->
   <div class="navBar">
-    <router-link to="/" style="text-decoration: none"
-      ><h2 class="pageHeader">Matthew Slape | Creative</h2></router-link
+    <router-link to="/" class="pageHeader" style="text-decoration: none"
+      ><h2 class="pageHeader1">Matthew Slape</h2>
+      <h2 class="pageHeader1 pageHeader2">| Creative</h2></router-link
     >
     <div :class="[isActive ? 'hamburgerWrapperActive' : 'hamburgerWrapper']">
       <div class="hamburger" @click="toggle">
@@ -20,7 +21,10 @@
         ></div>
       </div>
       <router-link to="/graphics" style="text-decoration: none"
-        ><h3 :class="[isActive ? 'navTabActive' : 'navTab']">
+        ><h3
+          :class="[isActive ? 'navTabActive' : 'navTab']"
+          style="margin-top: 2rem"
+        >
           Graphics
         </h3></router-link
       >
@@ -72,6 +76,10 @@ export default {
 
 <style>
 .navBar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   justify-content: space-between;
   display: flex;
   align-items: start;
@@ -81,19 +89,22 @@ export default {
 }
 
 .pageHeader {
+  display: flex;
+  padding-left: 1rem;
+  margin: 1rem;
+}
+
+.pageHeader1 {
   font-family: Poppins;
   font-style: normal;
   font-weight: 800;
-  font-size: 24px;
-  line-height: 36px;
-
+  font-size: 1.5rem;
   letter-spacing: 0.2em;
   text-transform: uppercase;
-
   color: #022269;
-  padding-left: 1rem;
-  margin: 1rem;
-  border-radius: 00.25rem;
+}
+.pageHeader2 {
+  padding-left: 0.75rem;
 }
 
 .hamburgerWrapper {
@@ -113,6 +124,7 @@ export default {
   justify-content: start;
   align-items: flex-end;
   z-index: 100;
+  margin-bottom: 3rem;
 }
 
 /*hamburger animation*/
@@ -125,7 +137,6 @@ export default {
   pointer-events: all;
   cursor: pointer;
   margin: 1rem;
-  margin-bottom: 3rem;
 }
 
 .hamLayer1,
@@ -135,7 +146,7 @@ export default {
   height: 0.35rem;
   width: 2.65rem;
   border-radius: 0.25rem;
-  transition: 0.5s ease-in-out;
+  transition: 0.6s ease-in-out;
 }
 
 .hamLayer1 {
@@ -169,5 +180,23 @@ export default {
   position: fixed;
   transform: translateX(110rem);
   transition: 0.5s ease-in-out;
+}
+
+@media (max-width: 750px) {
+  .navBar {
+    position: relative;
+  }
+  .pageHeader1 {
+    font-size: 1rem;
+  }
+  .pageHeader2 {
+    padding-left: 0.5rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .pageHeader2 {
+    display: none;
+  }
 }
 </style>

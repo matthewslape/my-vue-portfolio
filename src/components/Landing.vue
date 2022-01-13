@@ -43,10 +43,10 @@
 }
 .landingTitle {
   display: flex;
+  transform: translateY(8vw);
   justify-content: space-between;
   align-items: center;
   width: 80vw;
-  max-width: 80rem;
   z-index: 2;
 }
 #profilePic {
@@ -71,11 +71,11 @@
 }
 /*Directory*/
 .landingNav {
+  transform: translateY(-16vw);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  transform: translateY(-25vw);
   z-index: 1;
 }
 .swoosh1 {
