@@ -13,7 +13,7 @@
     </div>
     <div class="landingNav">
       <div class="directory">
-        <div class="directoryMain">
+        <div class="mainDirectory">
           <h1 class="customHeader customHeaderBold">About Me</h1>
           <h1 class="customHeader customHeaderBold">Contact</h1>
           <h1 class="customHeader customHeaderBold">Work</h1>
@@ -27,9 +27,9 @@
           <h1 class="customHeader">Code</h1>
         </div>
       </div>
-      <h3 class="decorType">Created to Create</h3>
       <img class="swoosh1" src="../assets/svgs/swoosh1.svg" alt="decoration" />
     </div>
+    <h3 class="decorType">Created to Create</h3>
   </div>
 </template>
 
@@ -90,7 +90,7 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.directoryMain {
+.mainDirectory {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -106,6 +106,10 @@
   text-transform: uppercase;
   line-height: 150%;
   color: white;
+  transition: 0.5s ease-in-out;
+}
+.customHeader:hover {
+  letter-spacing: 1vw;
 }
 .customHeaderBold {
   font-weight: bold;
@@ -120,10 +124,40 @@
   font-size: 2.5vw;
 
   position: absolute;
-  bottom: 35vw;
-  left: -15vw;
-  margin-left: 1rem;
+  bottom: 40vw;
+  left: -11vw;
+  /* margin-left: 2vw; */
   z-index: 2;
   opacity: 0.8;
+}
+@media (max-width: 450px) {
+  .landingTitle {
+    transform: translateY(0);
+    justify-content: center;
+  }
+  #profilePic {
+    width: 55vw;
+  }
+  .title {
+    display: none;
+  }
+  .directory {
+    align-items: center;
+  }
+  .mainDirectory {
+    align-items: center;
+  }
+  .workDirectory {
+    align-items: center;
+  }
+  .customHeader {
+    font-size: 6vw;
+  }
+}
+
+@media (max-width: 400px) {
+  .customHeader {
+    font-size: 7vw;
+  }
 }
 </style>

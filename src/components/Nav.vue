@@ -95,12 +95,6 @@ export default {
 }
 
 .pageHeader1 {
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 1.5rem;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
   color: #022269;
 }
 .pageHeader2 {
@@ -197,6 +191,9 @@ export default {
 @media (max-width: 450px) {
   .pageHeader2 {
     display: none;
+  }
+  .pageHeader1 {
+    text-align: left;
   }
 }
 </style>
