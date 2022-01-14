@@ -9,7 +9,7 @@
       />
     </div>
     <div class="aboutSub">
-      Oh, Whats Up. My name is Matthew Slape. Heres the “why” behind what I do.
+      Oh, Whats Up. My name is Matthew Slape. Here's the “why” behind what I do.
     </div>
     <div class="aboutBody">
       <p>
