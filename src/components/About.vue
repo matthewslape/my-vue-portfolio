@@ -91,15 +91,7 @@
   text-align: left;
   display: flex;
   align-items: center;
-  background: linear-gradient(
-    138.27deg,
-    #000000 0%,
-    #001d68 34.98%,
-    #1c6b6b 90.98%
-  );
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
+  color: #1c6b6b;
 }
 .aboutBody {
   grid-row: 3;

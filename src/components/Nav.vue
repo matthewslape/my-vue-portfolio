@@ -20,7 +20,10 @@
           :class="[isActive ? 'hamLayer3Active' : 'hamLayer3']"
         ></div>
       </div>
-      <router-link to="/graphics" style="text-decoration: none"
+      <router-link
+        v-on:click="toggle"
+        to="/graphics"
+        style="text-decoration: none"
         ><h3
           :class="[isActive ? 'navTabActive' : 'navTab']"
           style="margin-top: 2rem"
@@ -28,27 +31,33 @@
           Graphics
         </h3></router-link
       >
-      <router-link to="/ux" style="text-decoration: none"
+      <router-link v-on:click="toggle" to="/ux" style="text-decoration: none"
         ><h3 :class="[isActive ? 'navTabActive' : 'navTab']">
           UX Design
         </h3></router-link
       >
-      <router-link to="/ph" style="text-decoration: none"
+      <router-link v-on:click="toggle" to="/ph" style="text-decoration: none"
         ><h3 :class="[isActive ? 'navTabActive' : 'navTab']">
           Photo + Video
         </h3></router-link
       >
-      <router-link to="/illustration" style="text-decoration: none"
+      <router-link
+        v-on:click="toggle"
+        to="/illustration"
+        style="text-decoration: none"
         ><h3 :class="[isActive ? 'navTabActive' : 'navTab']">
           Illustration
         </h3></router-link
       >
-      <router-link to="/branding" style="text-decoration: none"
+      <router-link
+        v-on:click="toggle"
+        to="/branding"
+        style="text-decoration: none"
         ><h3 :class="[isActive ? 'navTabActive' : 'navTab']">
           Branding
         </h3></router-link
       >
-      <router-link to="/code" style="text-decoration: none"
+      <router-link v-on:click="toggle" to="/code" style="text-decoration: none"
         ><h3 :class="[isActive ? 'navTabActive' : 'navTab']">
           Code
         </h3></router-link
@@ -96,6 +105,7 @@ export default {
 
 .pageHeader1 {
   color: #022269;
+  padding-top: 0.4rem;
 }
 .pageHeader2 {
   padding-left: 0.75rem;

@@ -4,21 +4,21 @@
       <img
         class="footerLink"
         id="github"
-        src="../assets/photos/github.png"
+        src="../assets/svgs/github.svg"
         alt="Github Link"
     /></a>
     <a href="https://www.linkedin.com/in/matthew-slape/"
       ><img
         class="footerLink"
         id="linkedin"
-        src="../assets/photos/linkedin.png"
+        src="../assets/svgs/linkedin.svg"
         alt="LinkedIn Link"
     /></a>
     <a href="https://www.instagram.com/mslape_art/"
       ><img
         class="footerLink"
         id="instagram"
-        src="../assets/photos/instagram.png"
+        src="../assets/svgs/instagram.svg"
         alt="Instagram Link"
     /></a>
   </div>
@@ -40,7 +40,7 @@
 .footerLink {
   height: 30px;
   margin: 0.5rem;
-  filter: drop-shadow(0 0 0.5rem rgb(1, 6, 63));
+  filter: drop-shadow(0 0 0.5rem rgb(0, 4, 41));
 }
 
 @media (max-width: 820px) {

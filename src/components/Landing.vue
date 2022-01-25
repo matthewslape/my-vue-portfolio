@@ -1,10 +1,12 @@
 <template>
   <div class="landingWrapper">
     <div class="landingTitle">
-      <h1 class="title">
-        Welcome to my<br />
-        <div id="titleBold">Creative Safe...</div>
-      </h1>
+      <animated-component>
+        <h1 class="title">
+          Welcome to my<br />
+          <div id="titleBold">Creative Safe...</div>
+        </h1>
+      </animated-component>
       <img
         id="profilePic"
         src="../assets/photos/profile.jpg"
@@ -32,6 +34,15 @@
     <h3 class="decorType">Created to Create</h3>
   </div>
 </template>
+<script>
+import AnimatedComponent from "../components/AnimatedComponent.vue";
+
+export default {
+  components: {
+    AnimatedComponent,
+  },
+};
+</script>
 
 <style lang="css" scoped>
 .landingWrapper {
@@ -125,7 +136,7 @@
 
   position: absolute;
   bottom: 40vw;
-  left: -11vw;
+  left: -13vw;
   /* margin-left: 2vw; */
   z-index: 2;
   opacity: 0.8;
