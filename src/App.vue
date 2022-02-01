@@ -58,11 +58,12 @@ body::-webkit-scrollbar {
 h1 {
   font-family: Poppins;
   font-style: normal;
-  font-weight: 500;
-  font-size: 4rem;
   letter-spacing: 0.02em;
   fill: black;
   padding-top: 1rem;
+  font-size: 4vw;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 h2 {

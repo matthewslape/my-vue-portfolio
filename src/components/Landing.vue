@@ -16,17 +16,17 @@
     <div class="landingNav">
       <div class="directory">
         <div class="mainDirectory">
-          <h1 class="customHeader customHeaderBold">About Me</h1>
-          <h1 class="customHeader customHeaderBold">Contact</h1>
-          <h1 class="customHeader customHeaderBold">Work</h1>
+          <h1 class="customHeader">About Me</h1>
+          <h1 class="customHeader">Contact</h1>
+          <h1 class="customHeader">Work</h1>
         </div>
         <div class="workDirectory">
-          <h1 class="customHeader">Graphics</h1>
-          <h1 class="customHeader">UX Design</h1>
-          <h1 class="customHeader">Photo + Video</h1>
-          <h1 class="customHeader">Illustration</h1>
-          <h1 class="customHeader">Branding</h1>
-          <h1 class="customHeader">Code</h1>
+          <h1 class="customHeader" style="font-weight: 500">Graphics</h1>
+          <h1 class="customHeader" style="font-weight: 500">UX Design</h1>
+          <h1 class="customHeader" style="font-weight: 500">Photo + Video</h1>
+          <h1 class="customHeader" style="font-weight: 500">Illustration</h1>
+          <h1 class="customHeader" style="font-weight: 500">Branding</h1>
+          <h1 class="customHeader" style="font-weight: 500">Code</h1>
         </div>
       </div>
       <img class="swoosh1" src="../assets/svgs/swoosh1.svg" alt="decoration" />
@@ -68,6 +68,8 @@ export default {
 }
 .title {
   font-size: 4.5vw;
+  text-transform: none;
+  font-weight: 500;
 }
 #titleBold {
   font-weight: 700;
@@ -79,6 +81,7 @@ export default {
   );
   background-clip: text;
   color: transparent;
+  text-transform: none;
 }
 /*Directory*/
 .landingNav {
@@ -121,10 +124,6 @@ export default {
 }
 .customHeader:hover {
   letter-spacing: 1vw;
-}
-.customHeaderBold {
-  font-weight: bold;
-  text-transform: uppercase;
 }
 .decorType {
   letter-spacing: 0.195em;

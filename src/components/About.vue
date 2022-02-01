@@ -1,6 +1,6 @@
 <template>
   <div class="aboutMeWrapper">
-    <h1 class="customHeaderBold aboutHeader" style="color: black">About Me</h1>
+    <h1 class="aboutHeader" style="color: black">About Me</h1>
     <div class="aboutPhotoWrapper">
       <img
         class="matthewSitting"
@@ -40,7 +40,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
-  max-width: 70rem;
+  max-width: 58rem;
   width: 70%;
   margin: auto;
 }
@@ -51,11 +51,6 @@
   margin-left: -2rem;
   display: flex;
   align-items: flex-end;
-}
-.customHeaderBold {
-  font-size: 4vw;
-  font-weight: bold;
-  text-transform: uppercase;
 }
 .contactButton {
   color: white;
