@@ -83,4 +83,16 @@ h3 {
   font-size: 1.75rem;
   color: #022269;
 }
+
+@media (max-width: 1000px) {
+  h1 {
+    font-size: 7vw;
+  }
+}
+
+@media (max-width: 450px) {
+  h1 {
+    font-size: 10vw;
+  }
+}
 </style>

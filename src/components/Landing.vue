@@ -95,7 +95,7 @@ export default {
 .swoosh1 {
   object-fit: cover;
   width: 100vw;
-  min-width: 430px;
+  min-width: 560px;
 }
 .directory {
   position: absolute;

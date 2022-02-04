@@ -108,7 +108,6 @@
     flex-direction: column;
   }
   .aboutHeader {
-    font-size: 7vw;
     display: flex;
     margin-left: 0;
     justify-content: center;
@@ -116,9 +115,6 @@
 }
 
 @media (max-width: 450px) {
-  .aboutHeader {
-    font-size: 10vw;
-  }
   .contactButton {
     font-size: 1rem;
   }
