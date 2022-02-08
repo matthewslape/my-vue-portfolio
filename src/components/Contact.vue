@@ -2,7 +2,7 @@
   <div class="contactWrapper">
     <div class="contact">
       <div class="contactForm">
-        <h1 class="contactHeader">Contact</h1>
+        <h1 class="contactHeader" id="contact">Contact</h1>
         <form ref="form" @submit.prevent="sendEmail">
           <div class="rowWrapper">
             <div class="fieldWrapper seprateBox">
@@ -82,7 +82,7 @@ export default {
 .swoosh2 {
   object-fit: cover;
   width: 100vw;
-  min-width: 560px;
+  min-width: 1100px;
 }
 .contact {
   position: absolute;
@@ -99,6 +99,7 @@ export default {
 .contactHeader {
   color: white;
   padding-bottom: 2rem;
+  padding-top: 9rem;
 }
 /*FORM*/
 form {
@@ -125,7 +126,7 @@ label {
 .rowWrapper {
   display: flex;
   width: 80vw;
-  max-width: 50rem;
+  max-width: 60rem;
   justify-content: space-between;
 }
 .fieldWrapper {
@@ -158,5 +159,11 @@ label {
 }
 .sendButton:hover {
   background: #1c6b6b;
+}
+
+@media (max-width: 450px) {
+  .contactHeader {
+    padding-top: none;
+  }
 }
 </style>

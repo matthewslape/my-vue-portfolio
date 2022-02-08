@@ -1,20 +1,20 @@
 <template>
   <div class="footer">
-    <a href="https://github.com/matthewslape">
+    <a href="https://github.com/matthewslape" target="_blank">
       <img
         class="footerLink"
         id="github"
         src="../assets/svgs/github.svg"
         alt="Github Link"
     /></a>
-    <a href="https://www.linkedin.com/in/matthew-slape/"
+    <a href="https://www.linkedin.com/in/matthew-slape/" target="_blank"
       ><img
         class="footerLink"
         id="linkedin"
         src="../assets/svgs/linkedin.svg"
         alt="LinkedIn Link"
     /></a>
-    <a href="https://www.instagram.com/mslape_art/"
+    <a href="https://www.instagram.com/mslape_art/" target="_blank"
       ><img
         class="footerLink"
         id="instagram"

@@ -83,6 +83,12 @@ h3 {
   font-size: 1.75rem;
   color: #022269;
 }
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+}
 
 @media (max-width: 1000px) {
   h1 {

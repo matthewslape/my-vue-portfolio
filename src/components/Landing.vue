@@ -16,17 +16,41 @@
     <div class="landingNav">
       <div class="directory">
         <div class="mainDirectory">
-          <h1 class="customHeader">About Me</h1>
-          <h1 class="customHeader">Contact</h1>
-          <h1 class="customHeader">Work</h1>
+          <a href="/#aboutUs"><h1 class="customHeader">About Me</h1></a>
+          <a href="/#contact"><h1 class="customHeader">Contact</h1></a>
+          <a href="/#work"><h1 class="customHeader">Work</h1></a>
         </div>
-        <div class="workDirectory">
-          <h1 class="customHeader" style="font-weight: 500">Graphics</h1>
-          <h1 class="customHeader" style="font-weight: 500">UX Design</h1>
-          <h1 class="customHeader" style="font-weight: 500">Photo + Video</h1>
-          <h1 class="customHeader" style="font-weight: 500">Illustration</h1>
-          <h1 class="customHeader" style="font-weight: 500">Branding</h1>
-          <h1 class="customHeader" style="font-weight: 500">Code</h1>
+        <div class="workDirectory" id="work">
+          <router-link to="/graphics"
+            ><h1 class="customHeader" style="font-weight: 500">
+              Graphics
+            </h1></router-link
+          >
+          <router-link to="/ux"
+            ><h1 class="customHeader" style="font-weight: 500">
+              UX Design
+            </h1></router-link
+          >
+          <router-link to="/ph"
+            ><h1 class="customHeader" style="font-weight: 500">
+              Photo + Video
+            </h1></router-link
+          >
+          <router-link to="/illustration"
+            ><h1 class="customHeader" style="font-weight: 500">
+              Illustration
+            </h1></router-link
+          >
+          <router-link to="/branding"
+            ><h1 class="customHeader" style="font-weight: 500">
+              Branding
+            </h1></router-link
+          >
+          <router-link to="/code"
+            ><h1 class="customHeader" style="font-weight: 500">
+              Code
+            </h1></router-link
+          >
         </div>
       </div>
       <img class="swoosh1" src="../assets/svgs/swoosh1.svg" alt="decoration" />
@@ -113,6 +137,7 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  padding-top: 5.5rem;
 }
 .customHeader {
   font-size: 4vw;
@@ -150,15 +175,6 @@ export default {
   }
   .title {
     display: none;
-  }
-  .directory {
-    align-items: center;
-  }
-  .mainDirectory {
-    align-items: center;
-  }
-  .workDirectory {
-    align-items: center;
   }
   .customHeader {
     font-size: 6vw;
