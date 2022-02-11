@@ -153,7 +153,8 @@ export default {
 .decorType {
   letter-spacing: 0.195em;
   text-transform: uppercase;
-  color: #5f75a5;
+  color: white;
+  opacity: 30%;
   transform: rotate(-90deg);
   font-weight: 800;
   font-size: 2.5vw;
@@ -163,7 +164,6 @@ export default {
   left: -13vw;
   /* margin-left: 2vw; */
   z-index: 2;
-  opacity: 0.8;
 }
 @media (max-width: 450px) {
   .landingTitle {

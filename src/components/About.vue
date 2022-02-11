@@ -59,7 +59,7 @@
   height: 3rem;
   background: #101010;
   border-radius: 8px;
-  margin-bottom: 1rem;
+  margin: 2rem 0rem 1rem 0rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -93,11 +93,12 @@
 /*REBUILD*/
 .aboutWrapper {
   padding-bottom: 5rem;
-  width: 70vw;
+  width: 60vw;
   max-width: 80rem;
   /* max-height: 83rem; */
   height: 75vh;
   max-height: 52rem;
+  min-height: 40rem;
   margin: auto;
   margin-bottom: 15vw;
   transform: translateY(-15vw);
@@ -148,5 +149,4 @@
     font-size: 1rem;
   }
 }
-
 </style>

@@ -99,7 +99,6 @@ export default {
 .contactHeader {
   color: white;
   padding-bottom: 2rem;
-  padding-top: 9rem;
 }
 /*FORM*/
 form {
@@ -125,7 +124,7 @@ label {
 }
 .rowWrapper {
   display: flex;
-  width: 80vw;
+  width: 60vw;
   max-width: 60rem;
   justify-content: space-between;
 }
@@ -162,8 +161,11 @@ label {
 }
 
 @media (max-width: 450px) {
-  .contactHeader {
-    padding-top: none;
+  .rowWrapper {
+    flex-direction: column;
+  }
+  .seprateBox {
+    width: 100%;
   }
 }
 </style>

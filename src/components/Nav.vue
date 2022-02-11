@@ -99,7 +99,7 @@ export default {
 
 .pageHeader {
   display: flex;
-  padding-left: 0.5rem;
+  padding-left: 0.8rem;
   margin: 1rem;
 }
 
