@@ -29,7 +29,7 @@ export default {
 
 <style scoped>
 h1 {
-  margin-top: 10vw;
+  margin-top: 7vw;
   background: linear-gradient(
     138.27deg,
     #000000 0%,
