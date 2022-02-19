@@ -95,10 +95,12 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 7vw;
 }
 .contactHeader {
   color: white;
   padding-bottom: 2rem;
+  padding-top: 7vw;
 }
 /*FORM*/
 form {

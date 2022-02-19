@@ -5,7 +5,7 @@
       <div class="projectCard" v-for="item in list" :key="item">
         <div class="gradientOverlay"></div>
         <img
-          :src="require(`../assets/photos/${item.photo}.jpg`)"
+          :src="require(`../assets/photos/ux/ux-cardPhoto-${item.photo}.png`)"
           alt="Project"
         />
         <h3>{{ item.title }}</h3>
@@ -18,9 +18,9 @@ export default {
   data() {
     return {
       list: [
-        { photo: "profile", title: "Trade Coffee App" },
-        { photo: "profile", title: "wikiHow App Redesign" },
-        { photo: "profile", title: "Daily Dashboard" },
+        { photo: "trade", title: "Trade Coffee App" },
+        { photo: "wikiHow", title: "wikiHow App Redesign" },
+        { photo: "dashboard", title: "Daily Dashboard" },
       ],
     };
   },
@@ -52,6 +52,7 @@ h1 {
   display: flex;
   flex-direction: column;
   width: 50%;
+  max-width: 78rem;
   height: 30vw;
   position: relative;
   text-align: center;
@@ -65,9 +66,9 @@ h1 {
   transition-duration: 300ms;
 }
 .gradientOverlay:hover {
-  background: linear-gradient(#000000 0%, #001d68 34.98%, #1c6b6b 90.98%);
-  opacity: 1;
-  mix-blend-mode: exclusion;
+  background: linear-gradient(#ffffff 0%, #000000 100%);
+  opacity: 0.4;
+  mix-blend-mode: overlay;
 }
 h3 {
   position: absolute;

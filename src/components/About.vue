@@ -87,14 +87,13 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border: 5px solid #101010;
   margin-bottom: 1rem;
 }
 /*REBUILD*/
 .aboutWrapper {
   padding-bottom: 5rem;
-  width: 60vw;
-  max-width: 80rem;
+  width: 90vw;
+  max-width: 60rem;
   /* max-height: 83rem; */
   height: 75vh;
   max-height: 52rem;
