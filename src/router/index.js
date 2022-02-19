@@ -41,6 +41,11 @@ const routes = [
     name: "Code",
     component: () => import("../views/Code.vue"),
   },
+  {
+    path: "/ux/wikihow",
+    name: "wikiHow App Redesign",
+    component: () => import("../views/wikiHow.vue"),
+  },
 ];
 
 const router = createRouter({

@@ -126,7 +126,7 @@ label {
 }
 .rowWrapper {
   display: flex;
-  width: 60vw;
+  width: 90vw;
   max-width: 60rem;
   justify-content: space-between;
 }
