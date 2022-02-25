@@ -186,7 +186,7 @@ export default {
   transition: 0.5s ease-in-out;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 760px) {
   .navBar {
     position: relative;
   }

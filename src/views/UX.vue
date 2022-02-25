@@ -3,7 +3,7 @@
     <h1>UX DESIGN</h1>
     <div class="projectWrapper">
       <div class="projectCard" v-for="item in list" :key="item">
-        <div class="gradientOverlay"></div>
+        <a class="gradientOverlay" :href="`/ux/${item.photo}`"></a>
         <img
           :src="require(`../assets/photos/ux/ux-cardPhoto-${item.photo}.png`)"
           alt="Project"
@@ -19,7 +19,7 @@ export default {
     return {
       list: [
         { photo: "trade", title: "Trade Coffee App" },
-        { photo: "wikiHow", title: "wikiHow App Redesign" },
+        { photo: "wikihow", title: "wikiHow App Redesign" },
         { photo: "dashboard", title: "Daily Dashboard" },
       ],
     };
@@ -86,7 +86,7 @@ img {
 @media (max-width: 750px) {
   .projectCard {
     width: 85%;
-    height: 40vh;
+    height: 44vh;
   }
   .projectWrapper {
     justify-content: center;

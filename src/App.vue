@@ -83,11 +83,17 @@ h3 {
   font-size: 1.75rem;
   color: #022269;
 }
+
 a,
 a:hover,
 a:focus,
 a:active {
   text-decoration: none;
+}
+
+h4,
+h5 {
+  padding-top: 1rem;
 }
 
 @media (max-width: 1000px) {
@@ -99,6 +105,24 @@ a:active {
 @media (max-width: 450px) {
   h1 {
     font-size: 10vw;
+  }
+  h2 {
+    font-size: 4vw;
+  }
+}
+
+@media (min-width: 850px) {
+  p {
+    font-size: 1.25rem;
+  }
+  h4 {
+    font-size: 1.75rem;
+  }
+  h5 {
+    font-size: 1.25rem;
+  }
+  h6 {
+    font-size: 1rem;
   }
 }
 </style>
