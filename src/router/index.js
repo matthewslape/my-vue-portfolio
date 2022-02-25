@@ -42,7 +42,7 @@ const routes = [
     component: () => import("../views/Code.vue"),
   },
   {
-    path: "/ux/wikihow",
+    path: "/ux/wikiHow",
     name: "wikiHow App Redesign",
     component: () => import("../views/wikiHow.vue"),
   },
