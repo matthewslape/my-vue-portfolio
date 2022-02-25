@@ -19,7 +19,7 @@ export default {
     return {
       list: [
         { photo: "trade", title: "Trade Coffee App" },
-        { photo: "wikihow", title: "wikiHow App Redesign" },
+        { photo: "wikihow", title: "WikiHow App Redesign" },
         { photo: "dashboard", title: "Daily Dashboard" },
       ],
     };
