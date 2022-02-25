@@ -2,7 +2,7 @@
   <img
     class="coverPhoto"
     id="coverPhoto"
-    src="../assets/photos/ux/ux-cardPhoto-wikihow.png"
+    src="../assets/photos/ux/ux-cardPhoto-wikiHow.png"
     alt="wikiHow Cover Photo"
   />
   <div class="articleWrapper">

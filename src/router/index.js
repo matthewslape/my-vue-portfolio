@@ -44,7 +44,7 @@ const routes = [
   {
     path: "/ux/wikiHow",
     name: "wikiHow App Redesign",
-    component: () => import("../views/wikiHow.vue"),
+    component: () => import("../views/wikihow.vue"),
   },
 ];
 
