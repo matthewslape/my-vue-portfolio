@@ -46,6 +46,11 @@ const routes = [
     name: "wikiHow App Redesign",
     component: () => import("../views/wikiHow.vue"),
   },
+  {
+    path: "/ux/trade",
+    name: "Trade Coffee App",
+    component: () => import("../views/Trade.vue"),
+  },
 ];
 
 const router = createRouter({

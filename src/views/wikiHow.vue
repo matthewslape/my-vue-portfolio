@@ -130,6 +130,11 @@ h6 {
   height: auto;
   align-self: center;
   padding: 3rem 0rem 3rem 0rem;
+  transition: 0.5s ease-in-out;
+}
+
+.finalPhoto:hover {
+  transform: translateY(-20px);
 }
 
 .protoButton {
