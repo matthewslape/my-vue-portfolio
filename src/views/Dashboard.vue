@@ -228,7 +228,7 @@ h6 {
   border-radius: 10px;
   background: #f1f1f1;
   color: #001d68;
-  transition-duration: 0.5s;
+  transition-duration: 0.5s ease-in-out;
 }
 
 .dOption:hover {
@@ -252,6 +252,12 @@ h6 {
   width: 90vw;
   align-self: center;
   margin: 3rem 0rem 3rem 0rem;
+}
+
+@media (min-width: 850px) {
+  p {
+    font-size: 1.25rem;
+  }
 }
 
 @media (max-width: 900px) {

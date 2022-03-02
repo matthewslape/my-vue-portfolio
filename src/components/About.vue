@@ -10,20 +10,18 @@
         <div class="aboutBody">
           <p>
             My focus is to partner with people in bringing their creative ideas
-            to life. In my designs, I value
-            <i style="font-weight: bold">simplicity</i> and
-            <i style="font-weight: bold">purpose</i>. I am not willing to design
-            and put effort into something if there is not some sort of meaning
-            behind it. I am driven to make a creative impact on the world that
-            will last longer than myself. I feel as is my purpose on this earth
-            is to solve problems through creative thinking.
+            to life. In my designs, I am not willing to design and put effort
+            into something if there is not some sort of meaning behind it. I am
+            driven to make a creative impact on the world that will last longer
+            than myself. I feel as is my purpose on this earth is to solve
+            problems through creative thinking.
           </p>
           <p>
             My work is pretty widespread, and stretches from brand identity to
-            photograpy to development. My inspiration comes from the creation of
-            this Earth, and I am known for trying to replicate that in my
+            photography to development. My inspiration comes from the creation
+            of this Earth, and I am known for trying to replicate that in my
             designs. I put time and authenticity into my work, and feel that its
-            main purpose is to open doors and connect people.
+            main purpose is solve problems and help others.
           </p>
         </div>
         <a href="/#contact"
@@ -35,7 +33,7 @@
       <div class="rightColumn">
         <img
           class="matthewSitting"
-          src="../assets/photos/aboutMePhoto.jpg"
+          src="../assets/photos/aboutMe.jpeg"
           alt="Photo of Matthew Sitting"
         />
       </div>
@@ -87,17 +85,17 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center;
   margin-bottom: 1rem;
 }
 /*REBUILD*/
 .aboutWrapper {
   padding-bottom: 5rem;
-  width: 90vw;
-  max-width: 80rem;
-  /* max-height: 83rem; */
+  width: 80vw;
+  max-width: 60rem;
   height: 75vh;
   max-height: 52rem;
-  min-height: 40rem;
+  min-height: 36rem;
   margin: auto;
   margin-bottom: 15vw;
   transform: translateY(-15vw);

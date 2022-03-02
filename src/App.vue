@@ -112,9 +112,6 @@ h5 {
 }
 
 @media (min-width: 850px) {
-  p {
-    font-size: 1.25rem;
-  }
   h4 {
     font-size: 1.75rem;
   }

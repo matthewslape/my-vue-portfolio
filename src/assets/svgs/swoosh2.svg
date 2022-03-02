@@ -3,10 +3,10 @@
 <defs>
  <linearGradient id="darkGradient" x1="30%" y1="70%">
     <stop offset="0%" stop-color="#001D68">
-      <animate attributeName="stop-color" values=" #001D68; #1C6B6B; #001D68; #000000; #001D68; #1C6B6B; #001D68; #000000; #001D68; #1C6B6B; #001D68; #000000; #001D68; #1C6B6B; #001D68; #000000; #001D68; #1C6B6B; #001D68" dur="260s" fill="freeze"/>
+      <animate attributeName="stop-color" values=" #001D68; #1C6B6B; #001D68; #001D68; #1C6B6B; #001D68; #1C6B6B; #001D68; #001D68; #1C6B6B; #001D68; #001D68; #1C6B6B; #001D68" dur="260s" fill="freeze"/>
     </stop>
-    <stop offset="100%" stop-color="#001D68">
-    <animate attributeName="stop-color" values=" #W1C6B6B; #001D68; #00000; #W1C6B6B; #001D68; #00000; #W1C6B6B; #001D68; #00000; #W1C6B6B; #001D68; #00000; #W1C6B6B; #001D68; #00000; #W1C6B6B; #001D68; #00000; #W1C6B6B " dur="260s" fill="freeze" />
+    <stop offset="100%" stop-color="#W1C6B6B">
+    <animate attributeName="stop-color" values=" #W1C6B6B; #001D68; #W1C6B6B; #001D68; #W1C6B6B; #001D68; #W1C6B6B; #001D68; #W1C6B6B; #001D68; #W1C6B6B; #001D68; #W1C6B6B " dur="260s" fill="freeze" />
     </stop>
   </linearGradient>
 </defs>

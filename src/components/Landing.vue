@@ -8,8 +8,8 @@
         </h1>
       </animated-component>
       <img
-        id="profilePic"
-        src="../assets/photos/profile.jpg"
+        class="profilePic"
+        src="../assets/photos/profile.jpeg"
         alt="Photo of Matthew Slape"
       />
     </div>
@@ -84,11 +84,19 @@ export default {
   width: 80vw;
   z-index: 2;
 }
-#profilePic {
+.profilePic {
   width: 30vw;
-  height: inherit;
+  height: 30vw;
+  object-fit: cover;
+  object-position: center;
   overflow: hidden;
   border-radius: 90rem;
+  filter: brightness(1.05);
+  transition-duration: 0.5s;
+}
+.profilePic:hover {
+  width: 31vw;
+  height: 31vw;
 }
 .title {
   font-size: 4.5vw;
