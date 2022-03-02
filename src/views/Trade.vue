@@ -49,7 +49,7 @@
       src="../assets/photos/ux/trade/ux-trade-empathy.png"
       alt="Trade Emphathy Map"
     />
-    <h4>Lofi Prototype</h4>
+    <h4>Lo Fidelity Prototype</h4>
     <p>
       Next, I created and wireframed a low fidelity prototype, so that I could
       properly design the layout and system of the app without the distractions

@@ -51,6 +51,11 @@ const routes = [
     name: "Trade Coffee App",
     component: () => import("../views/Trade.vue"),
   },
+  {
+    path: "/ux/dashboard",
+    name: "Daily DashBoard",
+    component: () => import("../views/Dashboard.vue"),
+  },
 ];
 
 const router = createRouter({
