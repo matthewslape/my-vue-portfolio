@@ -93,7 +93,7 @@
 .aboutWrapper {
   padding-bottom: 5rem;
   width: 90vw;
-  max-width: 60rem;
+  max-width: 80rem;
   /* max-height: 83rem; */
   height: 75vh;
   max-height: 52rem;
