@@ -179,7 +179,12 @@ export default {
     justify-content: center;
   }
   .profilePic {
-    width: 55vw;
+    width: 85vw;
+    height: 85vw;
+  }
+  .profilePic:hover {
+    width: 85vw;
+    height: 85vw;
   }
   .title {
     display: none;
