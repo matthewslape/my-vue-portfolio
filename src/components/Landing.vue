@@ -178,7 +178,7 @@ export default {
     transform: translateY(0);
     justify-content: center;
   }
-  #profilePic {
+  .profilePic {
     width: 55vw;
   }
   .title {
