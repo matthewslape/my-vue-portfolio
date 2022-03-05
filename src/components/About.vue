@@ -10,11 +10,12 @@
         <div class="aboutBody">
           <p>
             My focus is to partner with people in bringing their creative ideas
-            to life. In my designs, I am not willing to design and put effort
-            into something if there is not some sort of meaning behind it. I am
-            driven to make a creative impact on the world that will last longer
-            than myself. I feel as is my purpose on this earth is to solve
-            problems through creative thinking.
+            to life, in order to solve problems. In my designs, I am not willing
+            to create and put effort into something if there is not some sort of
+            meaning behind it that aligns with what I believe. I am driven to
+            make a creative impact on the world that will last longer than
+            myself. I feel as if my purpose on this earth is to help the people
+            around me through creative thinking.
           </p>
           <p>
             My work is pretty widespread, and stretches from brand identity to
