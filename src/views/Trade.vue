@@ -164,6 +164,7 @@ h6 {
   justify-content: center;
   align-items: center;
   transition: 0.1s ease-in-out;
+  margin-top: 2rem;
   margin: auto;
   padding: 0rem 1rem;
 }

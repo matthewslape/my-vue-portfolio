@@ -77,6 +77,7 @@ h1 {
   opacity: 100;
 }
 .cardTitle {
+  font-size: 1.5rem;
   position: absolute;
   bottom: 1rem;
   left: 2rem;
@@ -99,9 +100,9 @@ img {
     justify-content: center;
   }
 }
-@media (max-width: 850px) {
-  h3 {
-    font-size: 1.25rem;
+@media (max-width: 950px) {
+  .cardTitle {
+    font-size: 1rem;
   }
 }
 </style>
