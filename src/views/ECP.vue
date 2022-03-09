@@ -8,7 +8,7 @@
   />
   <div class="articleWrapper">
     <h1>Energy Conservation Program</h1>
-    <h2 style="margin-top: 1rem">Branding and Production Design</h2>
+    <h2>Branding and Production Design</h2>
     <p>
       The Energy Conservation Program is a subdivision of Cheney Public Works
       that helps the homeowners of Cheney get rebates on appliance upgrades, in
@@ -85,8 +85,6 @@ h6 {
   object-position: top;
 }
 
-.infoPhoto {
-}
 .finalPhoto {
   width: 90vw;
   height: auto;

@@ -104,7 +104,7 @@ h5 {
 
 @media (max-width: 450px) {
   h1 {
-    font-size: 10vw;
+    font-size: 8vw;
   }
   h2 {
     font-size: 4vw;

@@ -66,6 +66,16 @@ const routes = [
     name: "Energy Conservation Program",
     component: () => import("../views/ECP.vue"),
   },
+  {
+    path: "/branding/sphoto",
+    name: "Samantha Rhea Photography",
+    component: () => import("../views/Sphoto.vue"),
+  },
+  {
+    path: "/branding/keyconnect",
+    name: "Key the Connect",
+    component: () => import("../views/Key.vue"),
+  },
 ];
 
 const router = createRouter({
