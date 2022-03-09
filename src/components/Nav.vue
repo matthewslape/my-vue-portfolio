@@ -22,13 +22,13 @@
       </div>
       <router-link
         v-on:click="toggle"
-        to="/graphics"
+        to="/branding"
         style="text-decoration: none"
         ><h3
           :class="[isActive ? 'navTabActive' : 'navTab']"
           style="margin-top: 2rem"
         >
-          Graphics
+          Branding
         </h3></router-link
       >
       <router-link v-on:click="toggle" to="/ux" style="text-decoration: none"
@@ -49,12 +49,13 @@
           Illustration
         </h3></router-link
       >
+
       <router-link
         v-on:click="toggle"
-        to="/branding"
+        to="/graphics"
         style="text-decoration: none"
         ><h3 :class="[isActive ? 'navTabActive' : 'navTab']">
-          Branding
+          Graphics
         </h3></router-link
       >
       <router-link v-on:click="toggle" to="/code" style="text-decoration: none"

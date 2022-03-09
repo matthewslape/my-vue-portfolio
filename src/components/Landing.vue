@@ -21,9 +21,9 @@
           <a href="/#work"><h1 class="customHeader">Work</h1></a>
         </div>
         <div class="workDirectory" id="work">
-          <router-link to="/graphics"
+          <router-link to="/branding"
             ><h1 class="customHeader" style="font-weight: 500">
-              Graphics
+              Branding
             </h1></router-link
           >
           <router-link to="/ux"
@@ -41,9 +41,9 @@
               Illustration
             </h1></router-link
           >
-          <router-link to="/branding"
+          <router-link to="/graphics"
             ><h1 class="customHeader" style="font-weight: 500">
-              Branding
+              Graphics
             </h1></router-link
           >
           <router-link to="/code"

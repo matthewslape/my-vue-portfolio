@@ -56,6 +56,16 @@ const routes = [
     name: "Daily DashBoard",
     component: () => import("../views/Dashboard.vue"),
   },
+  {
+    path: "/branding/js",
+    name: "JS Trucking and Excavation",
+    component: () => import("../views/JS.vue"),
+  },
+  {
+    path: "/branding/ecp",
+    name: "Energy Conservation Program",
+    component: () => import("../views/ECP.vue"),
+  },
 ];
 
 const router = createRouter({
