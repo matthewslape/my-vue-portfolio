@@ -10,7 +10,7 @@
     src="../assets/videos/branding-key-video.mp4"
   ></video>
   <div class="articleWrapper">
-    <h1>Key the Connect</h1>
+    <h1>KEYTHECONNECT</h1>
     <h2>Branding and Creative Direction</h2>
     <p>
       The motto behind Key Connect is utilizing your own specialized Key that

@@ -23,7 +23,7 @@ export default {
         { photo: "js", title: "JS Trucking and Excavation" },
         { photo: "ecp", title: "Energy Conservation Program" },
         { photo: "sphoto", title: "Samanth Rhea Photography" },
-        { photo: "keyconnect", title: "Key The Connect" },
+        { photo: "keyconnect", title: "KEYTHECONNECT" },
       ],
     };
   },
