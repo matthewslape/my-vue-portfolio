@@ -35,7 +35,7 @@
   bottom: 0;
   height: 5rem;
   width: 100%;
-  z-index: 100;
+  z-index: 50;
 }
 .footerLink {
   height: 30px;

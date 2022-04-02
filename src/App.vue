@@ -1,4 +1,13 @@
 <template>
+  <div class="loader-wrapper">
+    <div class="loader">
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+    </div>
+  </div>
   <Navigation />
   <router-view />
   <Footer />
@@ -30,6 +39,12 @@ export default {
           content: computed(() => siteData.description),
         },
       ],
+    });
+  },
+  mounted() {
+    window.addEventListener("load", function () {
+      const element = document.querySelector(".loader-wrapper");
+      console.log(element.classList.add("fade-out"));
     });
   },
 };
@@ -94,6 +109,108 @@ a:active {
 h4,
 h5 {
   padding-top: 1rem;
+}
+/*loading animation*/
+.loader-wrapper {
+  z-index: 100;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(
+    138.27deg,
+    #000000 0%,
+    #001d68 34.98%,
+    #1c6b6b 90.98%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loader {
+  position: relative;
+  margin: auto;
+}
+
+.fade-out {
+  display: none;
+}
+
+.circle {
+  position: absolute;
+  width: 38px;
+  height: 38px;
+  opacity: 0;
+  transform: rotate(225deg);
+  animation-iteration-count: infinite;
+  animation-name: orbit;
+  animation-duration: 5.5s;
+}
+
+.circle:after {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  border-radius: 5px;
+  background: #fff; /* Pick a color */
+}
+
+.circle:nth-child(2) {
+  animation-delay: 240ms;
+}
+.circle:nth-child(3) {
+  animation-delay: 480ms;
+}
+.circle:nth-child(4) {
+  animation-delay: 720ms;
+}
+.circle:nth-child(5) {
+  animation-delay: 960ms;
+}
+
+@keyframes orbit {
+  0% {
+    transform: rotate(225deg);
+    opacity: 1;
+    animation-timing-function: ease-out;
+  }
+
+  7% {
+    transform: rotate(345deg);
+    animation-timing-function: linear;
+  }
+
+  30% {
+    transform: rotate(455deg);
+    animation-timing-function: ease-in-out;
+  }
+
+  39% {
+    transform: rotate(690deg);
+    animation-timing-function: linear;
+  }
+
+  70% {
+    transform: rotate(815deg);
+    opacity: 1;
+    animation-timing-function: ease-out;
+  }
+
+  75% {
+    transform: rotate(945deg);
+    animation-timing-function: ease-out;
+  }
+
+  76% {
+    transform: rotate(945deg);
+    opacity: 0;
+  }
+  100% {
+    transform: rotate(945deg);
+    opacity: 0;
+  }
 }
 
 @media (max-width: 1000px) {

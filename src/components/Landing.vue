@@ -21,35 +21,27 @@
           <a href="/#work"><h1 class="customHeader">Work</h1></a>
         </div>
         <div class="workDirectory" id="work">
-          <router-link to="/branding"
-            ><h1 class="customHeader" style="font-weight: 500">
-              Branding
-            </h1></router-link
+          <a href="/branding"
+            ><h1 class="customHeader" style="font-weight: 500">Branding</h1></a
           >
-          <router-link to="/ux"
-            ><h1 class="customHeader" style="font-weight: 500">
-              UX Design
-            </h1></router-link
+          <a href="/ux"
+            ><h1 class="customHeader" style="font-weight: 500">UX Design</h1></a
           >
-          <router-link to="/ph"
+          <a href="/ph"
             ><h1 class="customHeader" style="font-weight: 500">
               Photo + Video
-            </h1></router-link
+            </h1></a
           >
-          <router-link to="/illustration"
+          <a href="/illustration"
             ><h1 class="customHeader" style="font-weight: 500">
               Illustration
-            </h1></router-link
+            </h1></a
           >
-          <router-link to="/graphics"
-            ><h1 class="customHeader" style="font-weight: 500">
-              Graphics
-            </h1></router-link
+          <a href="/graphics"
+            ><h1 class="customHeader" style="font-weight: 500">Graphics</h1></a
           >
-          <router-link to="/code"
-            ><h1 class="customHeader" style="font-weight: 500">
-              Code
-            </h1></router-link
+          <a href="/code"
+            ><h1 class="customHeader" style="font-weight: 500">Code</h1></a
           >
         </div>
       </div>
