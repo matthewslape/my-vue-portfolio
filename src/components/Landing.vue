@@ -167,6 +167,7 @@ export default {
 }
 @media (max-width: 450px) {
   .landingTitle {
+    flex-direction: column-reverse;
     transform: translateY(0);
     justify-content: center;
   }
@@ -179,7 +180,7 @@ export default {
     height: 85vw;
   }
   .title {
-    display: none;
+    font-size: 8vw;
   }
   .customHeader {
     font-size: 6vw;
