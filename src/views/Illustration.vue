@@ -52,28 +52,28 @@ export default {
           title: "West Plains Tools",
         },
         {
-          key: "Y4bf2CtcgG8cvB9CfZ4PEkAWUkE9jl6pxo3-y2LA8dkE5FOJz1SlsXkJ69I_uwKpCkrLBvn0zw8PwBkRL-kycFwTvWKKiOvmF3PCrplZRDsx55kRQ1MRlZv08sYQjh2OQV09v3x95g",
+          key: "gHRIFCSl6qabeeTDd1K7VGFshu1fv0qbzLIEKF6EDe3bt8w6OA76-mjFc8DwsJJGu-oM3kGtx2CG2Jb55nTUMA46enU4EJ-cs8HT1FTDTJNhnzksm69K8mNzPpGhyz9-OxkD2QqPMA=w2400",
           title: "West Plains Tools",
         },
         {
-          key: "Y4bf2CtcgG8cvB9CfZ4PEkAWUkE9jl6pxo3-y2LA8dkE5FOJz1SlsXkJ69I_uwKpCkrLBvn0zw8PwBkRL-kycFwTvWKKiOvmF3PCrplZRDsx55kRQ1MRlZv08sYQjh2OQV09v3x95g",
+          key: "IZXrYlz4d2FEeUW7687kaZpkSXvJP1qyxyP8KQC6CR5mKIn84QiR8kc6lMBg4AIOeCCJB6eOw7_sWg9PAr_fnzkvSbChhfvN0rBWosklbHI3FBUzL3PCpgW15U9ZLFLzFrSBmXgfxw=w2400",
           title: "West Plains Tools",
         },
         {
-          key: "Y4bf2CtcgG8cvB9CfZ4PEkAWUkE9jl6pxo3-y2LA8dkE5FOJz1SlsXkJ69I_uwKpCkrLBvn0zw8PwBkRL-kycFwTvWKKiOvmF3PCrplZRDsx55kRQ1MRlZv08sYQjh2OQV09v3x95g",
-          title: "West Plains Tools",
+          key: "uAzds0pHq7422gCn2PqMAbGyLL6TdYsB_b64wQNQrAQnLMkO78011H3zE0NQolpYYQmfUOcM3kaf5o9sPjchyZ8hjwH4_83c2KriJZRPp4dWiYSN8GcXxy-2HvxT4KaUvs4WgUZltA=w2400",
+          title: "Cheney WA. Sticker",
         },
         {
-          key: "Y4bf2CtcgG8cvB9CfZ4PEkAWUkE9jl6pxo3-y2LA8dkE5FOJz1SlsXkJ69I_uwKpCkrLBvn0zw8PwBkRL-kycFwTvWKKiOvmF3PCrplZRDsx55kRQ1MRlZv08sYQjh2OQV09v3x95g",
-          title: "West Plains Tools",
+          key: "hNcj9L9LFSRR8eUaOD9Jy0HuAsAc51Pq7PbFa2o9AwQNQcsM7hx9vSLSlXwT0s2yXKDJInzYpv_0YXthhS9UFBSlqQHdGFesozluVCTcJqfy9ca-Sun3qICzD2lWuYRZKZBKFhKXxw=w2400",
+          title: "Bully Breed Logo",
         },
         {
-          key: "Y4bf2CtcgG8cvB9CfZ4PEkAWUkE9jl6pxo3-y2LA8dkE5FOJz1SlsXkJ69I_uwKpCkrLBvn0zw8PwBkRL-kycFwTvWKKiOvmF3PCrplZRDsx55kRQ1MRlZv08sYQjh2OQV09v3x95g",
-          title: "West Plains Tools",
+          key: "OIqMjQBUocF_zQpNRs13N_wl6BJbCA15V4p1FkoFMpWYpVwygvsc-R-zQ_SJrDXALltYkiuhm80yv6D683s9iLTSWwDTGcj6NlWoKvkmRrNUfMqecVFD76lBQ_4cyRGXIcLLEkQhoQ=w2400",
+          title: "Coffee Skull",
         },
         {
-          key: "Y4bf2CtcgG8cvB9CfZ4PEkAWUkE9jl6pxo3-y2LA8dkE5FOJz1SlsXkJ69I_uwKpCkrLBvn0zw8PwBkRL-kycFwTvWKKiOvmF3PCrplZRDsx55kRQ1MRlZv08sYQjh2OQV09v3x95g",
-          title: "West Plains Tools",
+          key: "U06VLuf0zg7tYlFqBg-XwDjEh3HyoY3hSnteG-WSklLLvixLNol54ZyBDCrsgzeLcgyhtFZgpZREWW3ZdAexw4B7UpfLoTfqRKHAJYBqPJ-v_YQk-67TuGQmiNYsHj71MKmFbT4LkA=w2400",
+          title: "Do Good Illustration",
         },
       ],
       column2: [
@@ -199,15 +199,23 @@ h1 {
   z-index: 4;
   opacity: 0;
   transition-duration: 0.5s;
+  /*TEXT SHADOW*/
+}
+
+.column img {
+  opacity: 1;
 }
 
 /* Hover */
 .column img:hover {
-  filter: blur(2px) grayscale(1);
+  /*STILL MESSING WITH!
+  filter: blur(2px) grayscale(1);*/
+  opacity: 0.1;
 }
 
 .column img:hover ~ .photoTitle {
   opacity: 1;
+  color: black;
 }
 
 /* Row of columns that sits next to each other */
