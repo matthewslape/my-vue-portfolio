@@ -131,6 +131,7 @@ h5 {
 .loader {
   position: relative;
   margin: auto;
+  transform: translateX(-3vw);
 }
 
 .fade-out {
@@ -154,7 +155,7 @@ h5 {
   width: 5px;
   height: 5px;
   border-radius: 5px;
-  background: #fff; /* Pick a color */
+  background: #fff;
 }
 
 .circle:nth-child(2) {
