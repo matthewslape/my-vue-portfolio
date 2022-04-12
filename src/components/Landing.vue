@@ -1,7 +1,7 @@
 <template>
   <div class="landingWrapper">
     <div class="landingTitle">
-      <animated-component>
+      <animated-component class="titleWrapper">
         <h1 class="title">
           Welcome to my<br />
           <div id="titleBold">Creative Safe...</div>
@@ -168,8 +168,13 @@ export default {
 @media (max-width: 450px) {
   .landingTitle {
     flex-direction: column-reverse;
-    transform: translateY(0);
+    transform: translateY(40px);
     justify-content: center;
+  }
+  .titleWrapper {
+    min-height: 8rem;
+    transform: translateY(-122px);
+    z-index: 20;
   }
   .profilePic {
     width: 85vw;
