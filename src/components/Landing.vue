@@ -168,17 +168,15 @@ export default {
 @media (max-width: 450px) {
   .landingTitle {
     flex-direction: column-reverse;
-    transform: translateY(40px);
     justify-content: center;
+    transform: translateY(0);
   }
   .titleWrapper {
     min-height: 8rem;
-    transform: translateY(-122px);
-    z-index: 20;
   }
   .profilePic {
-    width: 85vw;
-    height: 85vw;
+    width: 50vw;
+    height: auto;
   }
   .profilePic:hover {
     width: 85vw;
