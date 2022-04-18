@@ -68,6 +68,7 @@ export default {
 <style lang="css" scoped>
 .disabled {
   opacity: 0.5;
+  pointer-events: none;
 }
 .landingWrapper {
   transform: translateY(2rem);
