@@ -76,8 +76,7 @@ export default {
 
 <style>
 .disabled {
-  opacity: 50%;
-  pointer-events: none;
+  opacity: 0.5;
 }
 .navBar {
   position: fixed;
