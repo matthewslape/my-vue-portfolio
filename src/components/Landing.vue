@@ -27,8 +27,9 @@
           <a href="/ux"
             ><h1 class="customHeader" style="font-weight: 500">UX Design</h1></a
           >
-          <a href="/ph"
-            ><h1 class="customHeader" style="font-weight: 500">
+          <!-- TOOK OUT HREF TO DISABLE ON CODE, P+H, AND GRAPHICS-->
+          <a
+            ><h1 class="customHeader disabled" style="font-weight: 500">
               Photo + Video
             </h1></a
           >
@@ -37,11 +38,15 @@
               Illustration
             </h1></a
           >
-          <a href="/graphics"
-            ><h1 class="customHeader" style="font-weight: 500">Graphics</h1></a
+          <a
+            ><h1 class="customHeader disabled" style="font-weight: 500">
+              Graphics
+            </h1></a
           >
-          <a href="/code"
-            ><h1 class="customHeader" style="font-weight: 500">Code</h1></a
+          <a
+            ><h1 class="customHeader disabled" style="font-weight: 500">
+              Code
+            </h1></a
           >
         </div>
       </div>
@@ -61,6 +66,10 @@ export default {
 </script>
 
 <style lang="css" scoped>
+.disabled {
+  opacity: 50%;
+  pointer-events: none;
+}
 .landingWrapper {
   transform: translateY(2rem);
   width: 100vw;

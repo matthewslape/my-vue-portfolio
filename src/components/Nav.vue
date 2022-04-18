@@ -20,48 +20,38 @@
           :class="[isActive ? 'hamLayer3Active' : 'hamLayer3']"
         ></div>
       </div>
-      <router-link
-        v-on:click="toggle"
-        to="/branding"
-        style="text-decoration: none"
+      <a v-on:click="toggle" href="/branding" style="text-decoration: none"
         ><h3
           :class="[isActive ? 'navTabActive' : 'navTab']"
           style="margin-top: 2rem"
         >
           Branding
-        </h3></router-link
+        </h3></a
       >
-      <router-link v-on:click="toggle" to="/ux" style="text-decoration: none"
-        ><h3 :class="[isActive ? 'navTabActive' : 'navTab']">
-          UX Design
-        </h3></router-link
+      <a v-on:click="toggle" href="/ux" style="text-decoration: none"
+        ><h3 :class="[isActive ? 'navTabActive' : 'navTab']">UX Design</h3></a
       >
-      <router-link v-on:click="toggle" to="/ph" style="text-decoration: none"
-        ><h3 :class="[isActive ? 'navTabActive' : 'navTab']">
+      <!-- TOOK OUT HREF TO DISABLE ON CODE, P+H, AND GRAPHICS-->
+      <a v-on:click="toggle" style="text-decoration: none"
+        ><h3 :class="[isActive ? 'navTabActive disabled' : 'navTab']">
           Photo + Video
-        </h3></router-link
+        </h3></a
       >
-      <router-link
-        v-on:click="toggle"
-        to="/illustration"
-        style="text-decoration: none"
+      <a v-on:click="toggle" href="/illustration" style="text-decoration: none"
         ><h3 :class="[isActive ? 'navTabActive' : 'navTab']">
           Illustration
-        </h3></router-link
+        </h3></a
       >
 
-      <router-link
-        v-on:click="toggle"
-        to="/graphics"
-        style="text-decoration: none"
-        ><h3 :class="[isActive ? 'navTabActive' : 'navTab']">
+      <a v-on:click="toggle" style="text-decoration: none">
+        <h3 :class="[isActive ? 'navTabActive disabled' : 'navTab']">
           Graphics
-        </h3></router-link
+        </h3></a
       >
-      <router-link v-on:click="toggle" to="/code" style="text-decoration: none"
-        ><h3 :class="[isActive ? 'navTabActive' : 'navTab']">
+      <a v-on:click="toggle" style="text-decoration: none"
+        ><h3 :class="[isActive ? 'navTabActive disabled' : 'navTab']">
           Code
-        </h3></router-link
+        </h3></a
       >
     </div>
   </div>
@@ -85,6 +75,10 @@ export default {
 </script>
 
 <style>
+.disabled {
+  opacity: 50%;
+  pointer-events: none;
+}
 .navBar {
   position: fixed;
   top: 0;
