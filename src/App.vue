@@ -84,7 +84,7 @@ h1 {
 h2 {
   font-family: Poppins;
   font-style: normal;
-  font-weight: 800;
+  font-weight: 400;
   font-size: 1.5rem;
   letter-spacing: 0.2em;
   text-transform: uppercase;
@@ -109,6 +109,9 @@ a:active {
 h4,
 h5 {
   padding-top: 1rem;
+}
+p {
+  font-size: 1.25rem;
 }
 /*loading animation*/
 .loader-wrapper {
@@ -226,6 +229,9 @@ h5 {
   }
   h2 {
     font-size: 4vw;
+  }
+  p {
+    font-size: 1rem;
   }
 }
 

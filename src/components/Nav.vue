@@ -101,6 +101,7 @@ export default {
 .pageHeader1 {
   color: #022269;
   padding-top: 0.4rem;
+  font-weight: 800;
 }
 .pageHeader2 {
   padding-left: 0.75rem;

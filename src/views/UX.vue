@@ -6,7 +6,7 @@
         <a class="gradientOverlay" :href="`/ux/${item.photo}`"></a>
         <img
           :src="require(`../assets/photos/ux/ux-cardPhoto-${item.photo}.png`)"
-          alt="Project"
+          alt="UX Project"
         />
         <h3>{{ item.title }}</h3>
       </div>
@@ -18,9 +18,9 @@ export default {
   data() {
     return {
       list: [
-        { photo: "trade", title: "Trade Coffee App" },
         { photo: "wikiHow", title: "WikiHow App Redesign" },
         { photo: "dashboard", title: "Daily Dashboard" },
+        { photo: "trade", title: "Trade Coffee App" },
       ],
     };
   },
@@ -38,6 +38,9 @@ h1 {
   );
   background-clip: text;
   color: transparent;
+}
+h3 {
+  font-size: 2vw;
 }
 .projectWrapper {
   display: flex;

@@ -255,12 +255,6 @@ h6 {
   margin: 3rem 0rem 3rem 0rem;
 }
 
-@media (min-width: 850px) {
-  p {
-    font-size: 1.25rem;
-  }
-}
-
 @media (max-width: 900px) {
   .infoPhoto {
     width: 100vw;

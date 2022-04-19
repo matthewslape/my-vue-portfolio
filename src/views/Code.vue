@@ -4,12 +4,12 @@
     <div class="projectWrapper">
       <div class="projectCard" v-for="item in list" :key="item">
         <a class="gradientOverlay" :href="`/code/${item.photo}`"></a>
-        <!--<img
+        <img
           :src="
             require(`../assets/photos/code/code-cardPhoto-${item.photo}.png`)
           "
-          alt="Project"
-        />-->
+          alt="Code Project"
+        />
         <h3>{{ item.title }}</h3>
       </div>
     </div>
@@ -20,10 +20,11 @@ export default {
   data() {
     return {
       list: [
-        { photo: "googleDoodle", title: "Google Doodle" },
         { photo: "14four", title: "14Four Internship" },
-        { photo: "jsWebsite", title: "JS Website" },
+        { photo: "googleDoodle", title: "Google Doodle" },
         { photo: "portfolio", title: "Portfolio Website" },
+        { photo: "jsWebsite", title: "JS Website" },
+        { photo: "johnSoundboard", title: "John's Soundboard" },
       ],
     };
   },
@@ -40,6 +41,9 @@ h1 {
   );
   background-clip: text;
   color: transparent;
+}
+h3 {
+  font-size: 2vw;
 }
 .projectWrapper {
   display: flex;

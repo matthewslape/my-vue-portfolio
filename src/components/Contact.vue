@@ -112,7 +112,7 @@ label {
   font-family: Poppins;
   font-style: normal;
   font-weight: bold;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.2rem;
   text-transform: uppercase;
   color: white;
 }
@@ -127,7 +127,7 @@ label {
 .rowWrapper {
   display: flex;
   width: 90vw;
-  max-width: 60rem;
+  max-width: 80rem;
   justify-content: space-between;
 }
 .fieldWrapper {

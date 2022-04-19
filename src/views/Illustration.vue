@@ -114,7 +114,7 @@ export default {
         },
         {
           key: "FDyAIX-Mln8NpE_9YmY168rMOfAQrf7VUCZh3KvhYL3pCws07uMqADZW7H7YZTkd04OqkTav3jQqUHPKgZXb7GMllANVJQAdpL-4OGglXFDPKy93U_sV5YomxB28v4uuYSNTV7885g=w2400",
-          title: "Permanance Type (Bible)",
+          title: "Permanence Type (Bible)",
         },
         {
           key: "V_LVDfDhmZcf7AYRPOwoKqvMcbDyUCJh91WJUPZ_sn4_DOvSQ7r2iFoWXQkcZJ03-rhxqTnQ-VnYVPosk1khh0nYLo-YiqLpuIAYmPeRNj80dIyBKFsU-ngOxiJ_ht_syU96lZ5zJA=w2400",
@@ -140,7 +140,7 @@ export default {
       column4: [
         {
           key: "rp9Jjfk0Uuq8YwRFDRnNiH--7h9I9oKf6FHmSmQ8qJUFs9R7d6Els75OojS81mpY67gAvqLZ8FVScdqJSw9eW4UBnmEh8oo_zZ2GC-2qFXzAKX3MD3oWjyzgfryCgNjOuqOOcHDSSw=w2400",
-          title: "Mount Ranier Logo",
+          title: "Mount Rainier Logo",
         },
 
         {

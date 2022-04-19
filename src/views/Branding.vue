@@ -8,7 +8,7 @@
           :src="
             require(`../assets/photos/branding/branding-cardPhoto-${item.photo}.png`)
           "
-          alt="Project"
+          alt="Branding Project"
         />
         <h3 class="cardTitle">{{ item.title }}</h3>
       </div>
@@ -42,6 +42,9 @@ h1 {
   background-clip: text;
   color: transparent;
 }
+h3 {
+  font-size: 2vw;
+}
 .projectWrapper {
   display: flex;
   flex-wrap: wrap;
@@ -74,16 +77,15 @@ h1 {
   mix-blend-mode: multiply;
 }
 .overlay:hover ~ .cardTitle {
-  opacity: 100;
+  opacity: 1;
+  color: #ffffff;
 }
 .cardTitle {
-  font-size: 1.5rem;
   position: absolute;
   bottom: 1rem;
   left: 2rem;
   color: white;
   z-index: 4;
-  opacity: 0;
 }
 img {
   object-fit: cover;

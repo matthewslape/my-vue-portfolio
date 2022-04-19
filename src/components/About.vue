@@ -63,6 +63,7 @@
   justify-content: center;
   align-items: center;
   transition: 0.1s ease-in-out;
+  font-weight: 800;
 }
 .contactButton:hover {
   background: #1c6b6b;
@@ -93,7 +94,7 @@
 .aboutWrapper {
   padding-bottom: 5rem;
   width: 80vw;
-  max-width: 60rem;
+  max-width: 80rem;
   height: 75vh;
   max-height: 52rem;
   min-height: 36rem;
