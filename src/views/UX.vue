@@ -88,11 +88,13 @@ img {
 
 @media (max-width: 750px) {
   .projectCard {
-    width: 85%;
+    width: 100%;
     height: 44vh;
+    padding: 0.5rem 0rem 0.5rem 0rem;
   }
   .projectWrapper {
     justify-content: center;
+    width: 100vw;
   }
 }
 @media (max-width: 850px) {
