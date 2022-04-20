@@ -91,9 +91,12 @@
   margin-bottom: 1rem;
 }
 /*REBUILD*/
+p {
+  font-size: 1rem;
+}
 .aboutWrapper {
   padding-bottom: 5rem;
-  width: 80vw;
+  width: 65vw;
   max-width: 80rem;
   height: 75vh;
   max-height: 52rem;
@@ -146,6 +149,14 @@
 @media (max-width: 450px) {
   .contactButton {
     font-size: 1rem;
+  }
+}
+@media (min-width: 2000px) {
+  .aboutWrapper {
+    max-width: 80rem;
+  }
+  p {
+    font-size: 1.25rem;
   }
 }
 </style>

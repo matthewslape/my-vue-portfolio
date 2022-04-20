@@ -138,6 +138,7 @@ h6 {
 }
 
 .protoButton {
+  font-weight: 800;
   color: white;
   max-width: 20rem;
   height: 3rem;
@@ -152,7 +153,7 @@ h6 {
   padding: 0rem 1rem;
 }
 .protoButton:hover {
-  background: #63bf72;
+  background: #001d68;
 }
 
 .directory {

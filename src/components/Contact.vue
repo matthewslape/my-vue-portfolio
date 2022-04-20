@@ -127,7 +127,7 @@ label {
 .rowWrapper {
   display: flex;
   width: 90vw;
-  max-width: 80rem;
+  max-width: 60rem;
   justify-content: space-between;
 }
 .fieldWrapper {
@@ -168,6 +168,11 @@ label {
   }
   .seprateBox {
     width: 100%;
+  }
+}
+@media (min-width: 2000px) {
+  .rowWrapper {
+    max-width: 80rem;
   }
 }
 </style>

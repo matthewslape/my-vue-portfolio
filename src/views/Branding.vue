@@ -96,8 +96,12 @@ img {
 @media (max-width: 750px) {
   .projectCard {
     width: 100%;
-    height: 44vh;
+    height: 50vh;
     padding: 0.5rem 0rem 0.5rem 0rem;
+  }
+  .overlay {
+    width: 100%;
+    inset: 0.5rem 0rem;
   }
   .projectWrapper {
     justify-content: center;
