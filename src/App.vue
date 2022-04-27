@@ -88,6 +88,7 @@ h2 {
   font-size: 1.5rem;
   letter-spacing: 0.2em;
   text-transform: uppercase;
+  margin-bottom: 1.5rem;
 }
 
 h3 {
@@ -134,7 +135,7 @@ p {
 .loader {
   position: relative;
   margin: auto;
-  transform: translateX(-3vw);
+  transform: translateX(-1vw);
 }
 
 .fade-out {

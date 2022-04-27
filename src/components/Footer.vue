@@ -38,9 +38,14 @@
   z-index: 50;
 }
 .footerLink {
-  height: 30px;
+  height: 2rem;
   margin: 0.5rem;
   filter: drop-shadow(0 0 0.5rem rgb(0, 4, 41));
+  transition: 0.4s ease-in-out;
+}
+
+.footerLink:hover {
+  height: 3rem;
 }
 
 @media (max-width: 820px) {

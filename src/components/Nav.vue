@@ -48,10 +48,8 @@
           Graphics
         </h3></a
       >
-      <a v-on:click="toggle" style="text-decoration: none"
-        ><h3 :class="[isActive ? 'navTabActive disabled' : 'navTab']">
-          Code
-        </h3></a
+      <a v-on:click="toggle" href="/code" style="text-decoration: none"
+        ><h3 :class="[isActive ? 'navTabActive' : 'navTab']">Code</h3></a
       >
     </div>
   </div>

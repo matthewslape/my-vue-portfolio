@@ -43,8 +43,8 @@
               Graphics
             </h1></a
           >
-          <a
-            ><h1 class="customHeader disabled" style="font-weight: 500">
+          <a href="/code"
+            ><h1 class="customHeader" style="font-weight: 500">
               Code
             </h1></a
           >
@@ -154,7 +154,7 @@ export default {
   text-transform: uppercase;
   line-height: 150%;
   color: white;
-  transition: 0.5s ease-in-out;
+  transition: 0.4s ease-in-out;
 }
 .customHeader:hover {
   letter-spacing: 1vw;
