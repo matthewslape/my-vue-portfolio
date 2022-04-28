@@ -21,8 +21,8 @@ export default {
     return {
       list: [
         { photo: "14four", title: "14Four Internship" },
-        /*{ photo: "doogle", title: "Google Doodle" },
-        { photo: "portfolio", title: "Portfolio Website" },*/
+        { photo: "doogle", title: "Google Doodle" },
+        /*{ photo: "portfolio", title: "Portfolio Website" },*/
         { photo: "jsWebsite", title: "JS Website" },
         { photo: "johnSoundboard", title: "John's Soundboard" },
       ],
