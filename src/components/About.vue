@@ -3,26 +3,31 @@
     <h1 class="aboutHeader" id="aboutUs" style="color: black">About Me</h1>
     <div class="aboutContent">
       <div class="leftColumn">
-        <div class="aboutSub">
-          Oh, Whats Up. My name is Matthew Slape. Here's the “why” behind what I
-          do.
-        </div>
+        <div class="aboutSub">Oh, Whats Up. My name is Matthew Slape.</div>
         <div class="aboutBody">
           <p>
-            My focus is to partner with people in bringing their creative ideas
-            to life, in order to solve problems. In my designs, I am not willing
-            to create and put effort into something if there is not some sort of
-            meaning behind it that aligns with what I believe. I am driven to
-            make a creative impact on the world that will last longer than
-            myself. I feel as if my purpose on this earth is to help the people
-            around me through creative thinking.
+            I am a <b>hardworking</b>, problem solving, coffee loving
+            <b>human</b>, on a mission to serve others through design thinking.
+            Fueled by my excessive need to <b>understand how things work</b>,
+            learning comes easy to me. I know what you're thinking, my
+            background in UX design, psychology, front end development,
+            production design, photography and videography might come off as a
+            sign that I am not great at making decisions. But I can assure you,
+            this all comes from a place of wanting to
+            <b>grow as a person.</b>
           </p>
           <p>
-            My work is pretty widespread, and stretches from brand identity to
-            photography to development. My inspiration comes from the creation
-            of this Earth, and I am known for trying to replicate that in my
-            designs. I put time and authenticity into my work, and feel that its
-            main purpose is solve problems and help others.
+            Organised creativity is my happy place. No matter the discipline,
+            creating in order to <b>serve others</b> is what I find joy in. In
+            design, I believe that accessibility, intentionality, and
+            sustainability are key to developing great <b>solutions</b>. I am
+            <b>driven</b> to make a creative impact on the world that will last
+            longer than myself, in order to help my fellow humans around me.
+            Currently, I am on the <b>job hunt</b> to find a place where
+            <b>community, growth, and service</b> through creativity are top
+            priority. I am confident in my abilities to help out a company that
+            aligns with these pillars. Please, contact me if you want to
+            <b>connect!</b>
           </p>
         </div>
         <a href="/#contact"
@@ -43,13 +48,17 @@
 </template>
 
 <style scoped>
+b {
+  font-weight: 800;
+  font-size: 110%;
+}
 .aboutHeader {
   display: flex;
   margin-left: -2rem;
   display: flex;
   align-items: flex-end;
   padding-top: 5.5rem;
-  padding-bottom: 3rem;
+  padding-bottom: 2rem;
 }
 .contactButton {
   color: white;
@@ -58,7 +67,7 @@
   height: 3rem;
   background: #101010;
   border-radius: 8px;
-  margin: 2rem 0rem 1rem 0rem;
+  margin: 1rem 0rem 1rem 0rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -69,10 +78,11 @@
   background: #1c6b6b;
 }
 .aboutSub {
+  line-height: 115% !important;
   font-family: Poppins;
-  font-style: normal;
+  font-style: italic;
   font-weight: bold;
-  font-size: 1.25rem;
+  font-size: 2rem;
   line-height: 175%;
   text-transform: uppercase;
   text-align: left;
@@ -82,7 +92,10 @@
 }
 .aboutBody {
   text-align: left;
+  overflow-y: auto;
+  padding: 1rem;
 }
+
 .matthewSitting {
   width: 100%;
   height: 100%;
@@ -96,9 +109,9 @@ p {
 }
 .aboutWrapper {
   padding-bottom: 5rem;
-  width: 65vw;
-  max-width: 80rem;
+  width: 75vw;
   height: 75vh;
+  max-width: 80rem;
   max-height: 52rem;
   min-height: 36rem;
   margin: auto;
@@ -116,8 +129,9 @@ p {
   flex-direction: column;
   justify-content: space-between;
   width: 48%;
-  height: 70%;
+  height: 100%;
 }
+
 .rightColumn {
   width: 48%;
   height: 100%;
@@ -125,7 +139,7 @@ p {
 .aboutSub {
   padding-bottom: 1rem;
 }
-@media (max-width: 1000px) {
+@media (max-width: 1225px) {
   .aboutWrapper {
     height: auto;
     max-height: none;

@@ -73,6 +73,7 @@ h3 {
 }
 .overlay:hover {
   background: linear-gradient(#ffffff 0%, #000000 100%);
+  border-radius: 0.75rem;
   opacity: 0.8;
   mix-blend-mode: multiply;
 }
@@ -89,6 +90,7 @@ h3 {
 }
 img {
   object-fit: cover;
+  border-radius: 0.75rem;
   width: 100%;
   height: 100%;
 }
@@ -105,12 +107,12 @@ img {
   }
   .projectWrapper {
     justify-content: center;
-    width: 100vw;
   }
 }
-@media (max-width: 950px) {
+@media (max-width: 750px) {
   .cardTitle {
-    font-size: 1rem;
+    font-size: 1.5rem;
+    text-align: left;
   }
 }
 </style>

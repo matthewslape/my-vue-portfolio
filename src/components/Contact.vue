@@ -126,8 +126,8 @@ label {
 }
 .rowWrapper {
   display: flex;
-  width: 90vw;
-  max-width: 60rem;
+  width: 75vw;
+  max-width: 80rem;
   justify-content: space-between;
 }
 .fieldWrapper {

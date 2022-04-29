@@ -62,6 +62,7 @@ h3 {
 }
 .gradientOverlay {
   position: absolute;
+  border-radius: 0.75rem;
   inset: 0.5rem 0.5rem 0.5rem 0.5rem;
   z-index: 3;
   opacity: 0;
@@ -82,6 +83,7 @@ h3 {
 }
 img {
   object-fit: cover;
+  border-radius: 0.75rem;
   width: 100%;
   height: 100%;
 }
@@ -98,12 +100,12 @@ img {
   }
   .projectWrapper {
     justify-content: center;
-    width: 100vw;
   }
 }
-@media (max-width: 850px) {
+@media (max-width: 750px) {
   h3 {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
+    text-align: left;
   }
 }
 </style>
