@@ -39,8 +39,8 @@
       <h6>6-8 weeks</h6>
       <h5>Tools</h5>
       <h6>
-        Visual Studio Code, Figma, HTML, CSS, JavaScript, Vue.js 2, Netlify, Github,
-        Email.js
+        Visual Studio Code, Figma, HTML, CSS, JavaScript, Vue.js 2, Netlify,
+        Github, Email.js
       </h6>
       <h5>My Role</h5>
       <h6>Web Developer, Designer</h6>
@@ -51,7 +51,8 @@
       color scheme and fonts that matched JS Trucking and Excavations brand, I
       took the time to finish out the build of the site. The client was beyond
       happy with the result.
-    </p><div class="screenWrapper">
+    </p>
+    <div class="screenWrapper">
       <img
         class="screenPhoto"
         src="../assets/photos/code/jsWebsite/code-jsWebsite-screen2.png"

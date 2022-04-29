@@ -83,7 +83,6 @@ h6 {
   object-position: center;
 }
 
-
 .directory {
   display: flex;
   justify-content: space-between;
