@@ -22,11 +22,11 @@
             design, I believe that accessibility, intentionality, and
             sustainability are key to developing great <b>solutions</b>. I am
             <b>driven</b> to make a creative impact on the world that will last
-            longer than myself, in order to help my fellow humans around me.
+            longer than myself, in order to help fellow humans around me.
             Currently, I am on the <b>job hunt</b> to find a place where
-            <b>community, growth, and service</b> through creativity are top
-            priority. I am confident in my abilities to help out a company that
-            aligns with these pillars. Please, contact me if you want to
+            community, growth, and service through creativity are top priority.
+            I am confident in my abilities to help out a company that aligns
+            with these pillars. Please, contact me if you want to
             <b>connect!</b>
           </p>
         </div>
@@ -163,6 +163,9 @@ p {
 @media (max-width: 450px) {
   .contactButton {
     font-size: 1rem;
+  }
+  .aboutWrapper {
+    width: 88vw;
   }
 }
 @media (min-width: 2000px) {

@@ -93,7 +93,7 @@ h6 {
   text-align: left;
 }
 .articleWrapper {
-  width: 70vw;
+  width: 86vw;
   max-width: 60rem;
   display: flex;
   flex-direction: column;
@@ -112,6 +112,9 @@ h6 {
   margin: 1vw;
   border-radius: 8px;
 }
+a {
+  align-self: center;
+}
 .protoButton {
   font-weight: 800;
   color: white;
@@ -123,8 +126,8 @@ h6 {
   justify-content: center;
   align-items: center;
   transition: 0.1s ease-in-out;
-  margin: auto;
   padding: 0rem 1rem;
+  margin: 1rem;
 }
 .protoButton:hover {
   background: #001d68;

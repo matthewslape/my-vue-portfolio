@@ -165,6 +165,10 @@ label {
 @media (max-width: 450px) {
   .rowWrapper {
     flex-direction: column;
+    width: 88vw;
+  }
+  .sendButton {
+    font-size: 1rem;
   }
   .seprateBox {
     width: 100%;
