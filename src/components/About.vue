@@ -17,7 +17,7 @@
             <b>grow as a person.</b>
           </p>
           <p>
-            Organised creativity is my happy place. No matter the discipline,
+            Organized creativity is my happy place. No matter the discipline,
             creating in order to <b>serve others</b> is what I find joy in. In
             design, I believe that accessibility, intentionality, and
             sustainability are key to developing great <b>solutions</b>. I am
