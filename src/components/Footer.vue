@@ -1,5 +1,6 @@
 <template>
   <div class="footer">
+    <h8>&copy; Matthew Slape Design 2022 | all right reserved</h8>
     <a href="https://github.com/matthewslape" target="_blank">
       <img
         class="footerLink"
@@ -26,6 +27,13 @@
 <script></script>
 
 <style scoped>
+h8 {
+  font-size: 0.75rem;
+  align-self: end;
+  opacity: 50%;
+  padding-right: 1vw;
+  text-align: end;
+}
 .footer {
   padding: 1rem 1rem 2rem 2rem;
   display: flex;
