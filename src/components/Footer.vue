@@ -1,44 +1,50 @@
 <template>
   <div class="footer">
-    <h8>&copy; Matthew Slape Design 2022 | all right reserved</h8>
-    <a href="https://github.com/matthewslape" target="_blank">
-      <img
-        class="footerLink"
-        id="github"
-        src="../assets/svgs/github.svg"
-        alt="Github Link"
-    /></a>
-    <a href="https://www.linkedin.com/in/matthew-slape/" target="_blank"
-      ><img
-        class="footerLink"
-        id="linkedin"
-        src="../assets/svgs/linkedin.svg"
-        alt="LinkedIn Link"
-    /></a>
-    <a href="https://www.instagram.com/mslape_art/" target="_blank"
-      ><img
-        class="footerLink"
-        id="instagram"
-        src="../assets/svgs/instagram.svg"
-        alt="Instagram Link"
-    /></a>
+    <h8>&copy; MS Design 2022 | all right reserved</h8>
+    <div class="buttons">
+      <a href="https://github.com/matthewslape" target="_blank">
+        <img
+          class="footerLink"
+          id="github"
+          src="../assets/svgs/github.svg"
+          alt="Github Link"
+      /></a>
+      <a href="https://www.linkedin.com/in/matthew-slape/" target="_blank"
+        ><img
+          class="footerLink"
+          id="linkedin"
+          src="../assets/svgs/linkedin.svg"
+          alt="LinkedIn Link"
+      /></a>
+      <a href="https://www.instagram.com/mslape_art/" target="_blank"
+        ><img
+          class="footerLink"
+          id="instagram"
+          src="../assets/svgs/instagram.svg"
+          alt="Instagram Link"
+      /></a>
+    </div>
   </div>
 </template>
 <script></script>
 
 <style scoped>
 h8 {
+  text-transform: uppercase;
+  font-weight: 600;
   font-size: 0.75rem;
   align-self: end;
   opacity: 50%;
-  padding-right: 1vw;
-  text-align: end;
+  text-align: start;
+}
+.buttons {
+  display: flex;
 }
 .footer {
-  padding: 1rem 1rem 2rem 2rem;
+  padding: 1rem;
   display: flex;
-  align-items: center;
-  justify-content: flex-end;
+  align-items: flex-end;
+  justify-content: space-between;
   position: fixed;
   bottom: 0;
   height: 5rem;

@@ -6,7 +6,7 @@
         <div class="photoWrapper" v-for="item in column1" :key="item">
           <img
             :src="`https://lh3.googleusercontent.com/${item.key}`"
-            alt="Project"
+            alt="Photo"
           />
           <h3 class="photoTitle">{{ item.title }}</h3>
         </div>
@@ -15,7 +15,7 @@
         <div class="photoWrapper" v-for="item in column2" :key="item">
           <img
             :src="`https://lh3.googleusercontent.com/${item.key}`"
-            alt="Project"
+            alt="Photo"
           />
           <h3 class="photoTitle">{{ item.title }}</h3>
         </div>
@@ -24,7 +24,7 @@
         <div class="photoWrapper" v-for="item in column3" :key="item">
           <img
             :src="`https://lh3.googleusercontent.com/${item.key}`"
-            alt="Project"
+            alt="Photo"
           />
           <h3 class="photoTitle">{{ item.title }}</h3>
         </div>
@@ -33,7 +33,7 @@
         <div class="photoWrapper" v-for="item in column4" :key="item">
           <img
             :src="`https://lh3.googleusercontent.com/${item.key}`"
-            alt="Project"
+            alt="Photo"
           />
           <h3 class="photoTitle">{{ item.title }}</h3>
         </div>
@@ -48,9 +48,10 @@ export default {
     return {
       column1: [
         {
-          key: "RWjZHouC3IIFnaG4f3f-1YckO2g6CdjevQOc92b0SOzl0PAsa4mKt5NogA8dHRBqY35ya8Rxl_8CH5kWZ_uAKa27tNak6IdFI1wY1L8yvGBYXMxeJhL2a8oUxaTyqP7NXa4IuVoM4Q=w2400",
-          title: "Wenatchee 8.25.2021",
+          key: "34LE4BLJseE4ghraMHxO_iSHTQh6dT5X2cT2yZ9icz2bpkIfLYJXrBowkIL79UYrt0iSt0OppIuTRonhkHzJg9-q5IDzWq5PCZQJBE7x5ny_bFGDrNdTEkSAoqDz56i-F8RU-uLvyQ=w2400",
+          title: "Cheney Grain 6.2021",
         },
+
         {
           key: "EmQgXmUxC2sy6ppuNAjztwx6uqzb-Z3q_fJgCekm1HRf_D3P6b2p71NFarOqVPATNBWwXIek5v4JITahmtTF2bR9w2u8dXMYXWnQeU8Vsje8fFgN_mCG2l8ZpzErB1bqs5aA-zFH2g=w2400",
           title: "Airplane (2) 4.28.2022",
@@ -60,11 +61,11 @@ export default {
           title: "Spokane 4.28.2022",
         },
         {
-          key: "C5jG4ekUkp1TS-CKNC9_gZ0719G30FY1gVs3USeEcGIDVgf44LRq3_PlHtwmvP_ekX52K9ctXlCqD01jVqhTuJoLiviIjdgbbygStw5HDcTGvwFQNwEJj4ctZz3-kiywlsUab9XfXg=w2400",
+          key: "O7Ryu_FlTeSZGkkOar62rARp2fhQjYSD_KDxTn0-Pqp191KN8OVcdj3qyrFDjixfgLwR89f63NdLsOU4n9WDtlAh_AL9jE8W6AH29Y52uBaZ-WNxiqFJNSGPmBbIc1BeQuZIxx4MfA=w2400",
           title: "Product Color (1) 11.2019",
         },
         {
-          key: "X5JU2S5mfwTy8pPG8olVgRc8ZoAHQduOTrfar-dBYGQCERotoClLDcBYFaZXn3gxeYtB9tos1exrdwW_bqJ2ArW3zuqPvDcVvGttrN8uDqF-J_adw_o_JHnJVjiuAHc-iAYjYzOuNw=w2400",
+          key: "g6IATe8EWyClWZo6BSt4H2uxMBHFdZJZeYXC5qwQuQHUTcGi7U-MLDS8LBj7E75Zk_oYfK_TJP_1pnF-_X8k_696BVjjxp4766Oy7iX3aMQloxNfsMURM1bu7AHR31JBOMWk-XfWtA=w2400",
           title: "Product Color (2) 11.2019",
         },
         {
@@ -99,10 +100,6 @@ export default {
           key: "erBS2dItwhJtPeQ6BBAcjqHspgU828IRrmMYXzHFfNBLnEml24SBLGOREr75QOEqXkgOEw82vihG0JfGLjRlxb-GiYuqJDWeLbUzLE2SXM9LfWsVOMCKllDUCMWRQmhcDCoh0tJcAw=w2400",
           title: "Jeep 11.20.2020",
         },
-        {
-          key: "tI_oEj3oO3XQXk46yHt1Zy1fTd-soWYT9o-qYMi94WcMYfyKUAusAdeYKXfP356pTF8VCK5UtxbPcRbSkWoQTrv4GPa91SMl65a5fN7kPu6YaXKISXlJWVHEbe1KzrwiRj65CFr5Uw=w2400",
-          title: "Meta Type (8) 8.2019",
-        },
       ],
       column2: [
         {
@@ -114,21 +111,22 @@ export default {
           title: "Leavenworth (2) 10.26.2020",
         },
         {
-          key: "34LE4BLJseE4ghraMHxO_iSHTQh6dT5X2cT2yZ9icz2bpkIfLYJXrBowkIL79UYrt0iSt0OppIuTRonhkHzJg9-q5IDzWq5PCZQJBE7x5ny_bFGDrNdTEkSAoqDz56i-F8RU-uLvyQ=w2400",
-          title: "Cheney Grain 6.2021",
+          key: "RWjZHouC3IIFnaG4f3f-1YckO2g6CdjevQOc92b0SOzl0PAsa4mKt5NogA8dHRBqY35ya8Rxl_8CH5kWZ_uAKa27tNak6IdFI1wY1L8yvGBYXMxeJhL2a8oUxaTyqP7NXa4IuVoM4Q=w2400",
+          title: "Wenatchee 8.25.2021",
         },
         {
           key: "iaHvT0yMr-hC75qgZlkbzXMI8xBPE7_XbpSYUmPojomT290A8iVCuUTZoj4Bhoq1ktrhMMvmmUuOY6HfmThC_eKdsIrUhzwsJKfDT8_WoEhOFS1rcOU9SczeIncjuoJCDhhLzCag-Q=w2400",
           title: "Adna Baseball (2) 3.22.2022",
         },
         {
-          key: "MzCGY81WMPLq-oGLfozkt8Tm84v54ShxcYIlcLfShnl-ri8pbfUD1YvnB_dDmRKPVoKWOH6LfB_9XphTXeEhCL-NZPaO0lLiDV6QtcXePou_TqnngToJe6hcRQrdkTLIBWSOk8vyDA=w2400",
-          title: "Adna Baseball (3) 3.22.2022",
-        },
-        {
           key: "OT5JuBPbGv23mKaK6gwJU9_tji34Hdorv3flt3VR3ZVVBLbnuq8xDZZ5uvsmxXlY1vo9rlqy0PIzcIGOTVuDdtLJ-0QDUhZwaHt0PFnYbTzlZGYxdQqzCqjPF4B0nT0CqBgKK5gb9Q=w2400",
           title: "Turnbull 4.14.2021",
         },
+        {
+          key: "MzCGY81WMPLq-oGLfozkt8Tm84v54ShxcYIlcLfShnl-ri8pbfUD1YvnB_dDmRKPVoKWOH6LfB_9XphTXeEhCL-NZPaO0lLiDV6QtcXePou_TqnngToJe6hcRQrdkTLIBWSOk8vyDA=w2400",
+          title: "Adna Baseball (3) 3.22.2022",
+        },
+
         {
           key: "MwF6_M0U0UmFItV-QP26RakFRLgfqX-lmN1XLUQYSBecSj0YPTk3Lei7t8hTB9hkIzscTiWeZbvT6UkV_qKfu3DxLq2QB4FC_KT4Hcuskh-LsMQUKa0t3Rn_9La2kKtTISS-Qknu_A=w2400",
           title: "Home (3) 12.27.2021",
@@ -153,11 +151,6 @@ export default {
           key: "R5yog_71Uhp65aC9IoHP9weijKJ8PrTyllWDCTIztdNq5GP8asFc_EWuGpo3N52OIM9Uwd-UQmUTklNDXGnCw5Fra_eBJ5Axlq1ik7uXsn7kRDB7TEIBr9NZXkwN4upgxFIuaPACTQ=w2400",
           title: "Wenatchee (3) 8.25.2021",
         },
-        {
-          key: "LNK2G43HIroKc86wuivSe7Oa9mE5zQVuCGudKicS_U56qDcWeJvUqJruf6LceO-vyuG_nyAsr5RdCs70TSAqBpguT_qiGwjQcDtnCfMgXCQDV_37a_QSrHkkLWnoT7AgXz8kjcbheg=w2400",
-          title: "Meta Type (6) 8.2019",
-        },
-        
       ],
       column3: [
         {
@@ -173,20 +166,20 @@ export default {
           title: "Leavenworth (1) 10.26.2020",
         },
         {
-          key: "aEnoxdtuI9GfnKzHqAPcHt_iG44RU6C7r43ERrxpN5huAnlGRRD1_UEcMNNx7MhyUkksqcIRpUkuNNFloCXeZGrnthvxbRNdU610ebQfODlDel54kyzT1nE3P_aAp8KuycUBS-vQ0w=w2400",
-          title: "Mountian 4.17.2021",
-        },
-        {
-          key: "pdYdGTnuenaUSAQcAppyWxSnPiZyousc5hAZRhWPnGyJepspXq232ZC3Iy7IgdEHrRP4iuvW8XgiPsE8eofJ33BTwO2QYWG1ijn9b6q-Du6tH-jaEs20LybOyX7HZ2LuoKhbaap0cA=w2400",
-          title: "Downtown (2) 7.2021",
+          key: "BF0YLXVBYkbdPo8jorPSkKaMWvjS0guYymOeJaYF-zwMZPpbu1aq6RomoYwysaZ8OJJSu0xbnFaTdj1QF5FKnDt_CO3som1mSjcVHKUhxg-YxMOPFameVx6Vcl8kTBEvN3cjnZrpqw=w2400",
+          title: "Downtown (3) 7.2021",
         },
         {
           key: "RVOf8eY41V32S6yNh5iaFGsRUaC_sVXzXJESNpNg5ghMRIwjGA6Bxl3NEzSpWYsYuODopk0bTY5fTl_FxN6ADrptYuhJSL_gs7YggKIr-mhmsM0Y6m1z5am4UlWey9mLQJReJ-cmaQ=w2400",
           title: "Downtown (1) 7.2021",
         },
         {
-          key: "BF0YLXVBYkbdPo8jorPSkKaMWvjS0guYymOeJaYF-zwMZPpbu1aq6RomoYwysaZ8OJJSu0xbnFaTdj1QF5FKnDt_CO3som1mSjcVHKUhxg-YxMOPFameVx6Vcl8kTBEvN3cjnZrpqw=w2400",
-          title: "Downtown (3) 7.2021",
+          key: "pdYdGTnuenaUSAQcAppyWxSnPiZyousc5hAZRhWPnGyJepspXq232ZC3Iy7IgdEHrRP4iuvW8XgiPsE8eofJ33BTwO2QYWG1ijn9b6q-Du6tH-jaEs20LybOyX7HZ2LuoKhbaap0cA=w2400",
+          title: "Downtown (2) 7.2021",
+        },
+        {
+          key: "aEnoxdtuI9GfnKzHqAPcHt_iG44RU6C7r43ERrxpN5huAnlGRRD1_UEcMNNx7MhyUkksqcIRpUkuNNFloCXeZGrnthvxbRNdU610ebQfODlDel54kyzT1nE3P_aAp8KuycUBS-vQ0w=w2400",
+          title: "Mountian 4.17.2021",
         },
         {
           key: "QDiXHDGSWVsK-ALCHfrU9YsePlcpn55vH3hDoL1EaVbFaCCAvo2xO7q8GbO5po7dxTE5L4DB7nlSv4pEbYL-R37K5Lntd4xp1HtUpn8Qa5I9tC1X9hmSRRQ4O93xR7UKgXDBanFR3g=w2400",
@@ -203,10 +196,6 @@ export default {
         {
           key: "CkkZlWPZRanxFOP9O0Ht0igsaC2vujC1Z2xPwr532MUiTEzhEdSovF6jVsDmavtBbbB4W9yXCqPKx-SsE7gGlTxVMhpxdld5xYMg2nwY_7nYLt7siwtOz9sqhZgGYBS29KPDMhrtww=w2400",
           title: "Moses Lake 3.2021",
-        },
-        {
-          key: "vootgWpMmqarfkXi7UgMUbkO4zx9QWimxdeU4-wgO-UoPmqfq6n8P8n0vaPuXz3QxvYZYQSfv009WzRpVtsyOqjyxVO7XGfOughWXFNGrBOIe-ftPyqih_KYelhGkKTLjpKFUEHiQA=w2400",
-          title: "Meta Type (7) 8.2019",
         },
       ],
       column4: [
@@ -249,10 +238,6 @@ export default {
         {
           key: "mAWFRKbVJdGnSeiW2PP-sXBoaufapl1G8uo6J7L1AtxqmvOhEWAwLIQESJ56wR4Bxw2FVOYU3CGuNBNkw9dkD7OzBMXVWhptJGJRb8OahJN93NW6uX_ofIcNzdG2fUCpA9_RSORDvQ=w2400",
           title: "Cheney Sun 10.28.2021",
-        },
-        {
-          key: "baawmJgXg9mGpbjQbfGTneGqEVwv5gYQbozTaYACn5PF2HQZ0y41AeovQzskQC6RGTypYPh0sldvKmdXXPD4YoCcF0KQ7rrsmWrXLfzWo7FqsOvcu5ZV43VisNbZNlZlIgAfBw5MxQ=w2400",
-          title: "Meta Type (5) 8.2019",
         },
         {
           key: "4DyrGadKU0RVKwOrBRkb0zo1mvq8cE4v6zbL3-RWlkJ94z4lWL3JMwE_L-NG3NwZ89gZNBhlm6wYpU4La04aCS10thXaoBeLGbW4oJafqin79TdPElIZkhn9OOXHxQRikTE3OawDVA=w2400",
@@ -299,17 +284,16 @@ h1 {
   opacity: 1;
 }
 
-/* Hover */
+/*Hover
 .column img:hover {
-  /*STILL MESSING WITH!
-  filter: blur(2px) grayscale(1);*/
+  filter: blur(2px) grayscale(1);
   opacity: 0.1;
 }
 
 .column img:hover ~ .photoTitle {
   opacity: 1;
   color: black;
-}
+}*/
 
 /* Row of columns that sits next to each other */
 .row {
