@@ -16,11 +16,13 @@
       about this program. My mission was to create a visual identity for the
       ECP, as well as a few promotional pieces to get the word out.
     </p>
+    <h4>Sketches</h4>
     <img
       class="infoPhoto"
       src="../assets/photos/branding/ecp/branding-ecp-sketches.png"
       alt="ECP Logo Sketches"
     />
+    <h4>Finished Product</h4>
     <img
       class="infoPhoto"
       src="../assets/photos/branding/ecp/branding-ecp-logosheet.png"
@@ -31,6 +33,7 @@
       src="../assets/photos/branding/ecp/branding-ecp-icons.png"
       alt="ECP Icons"
     />
+    <h4>Promotional Assets</h4>
     <img
       class="infoPhoto"
       src="../assets/photos/branding/ecp/branding-ecp-mockups.png"
@@ -61,6 +64,11 @@ h1 {
 h2 {
   opacity: 0.8;
   margin-bottom: 2rem;
+}
+
+h4 {
+  padding-top: 4rem;
+  padding-bottom: 1rem;
 }
 
 p,

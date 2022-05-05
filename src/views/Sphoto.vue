@@ -16,6 +16,7 @@
       illustration work. My job was to create a primary and a few secondary
       logos for Samantha, along with a color palette for her creative direction.
     </p>
+    <h4>Sketches</h4>
     <img
       class="infoPhoto"
       src="../assets/photos/branding/sphoto/branding-sphoto-sketches2.jpg"
@@ -26,6 +27,7 @@
       src="../assets/photos/branding/sphoto/branding-sphoto-sketches.jpg"
       alt="SR Photo Sketches"
     />
+    <h4>Final Icons</h4>
     <img
       class="infoPhoto"
       src="../assets/photos/branding/sphoto/branding-sphoto-icon1.png"
@@ -51,6 +53,7 @@
       src="../assets/photos/branding/sphoto/branding-sphoto-icon5.png"
       alt="SR Photo Icons"
     />
+    <h4>Final Logo</h4>
     <img
       class="infoPhoto"
       src="../assets/photos/branding/branding-cardPhoto-sphoto.png"
@@ -75,6 +78,11 @@ h1 {
 h2 {
   opacity: 0.8;
   margin-bottom: 2rem;
+}
+
+h4 {
+  padding-top: 4rem;
+  padding-bottom: 1rem;
 }
 
 p,

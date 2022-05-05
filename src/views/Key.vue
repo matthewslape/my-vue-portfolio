@@ -18,6 +18,7 @@
       goal was to help Keyvan, the owner of KTC, create a visual identity for
       Key Connect, as well as a few branding components.
     </p>
+    <h4>Sketches</h4>
     <img
       class="infoPhoto"
       src="../assets/photos/branding/key/branding-key-sketches.jpeg"
@@ -28,6 +29,7 @@
       src="../assets/photos/branding/key/branding-key-sketches2.jpeg"
       alt="KTC Sketches"
     />
+    <h4>Final Product</h4>
     <img
       class="infoPhoto"
       src="../assets/photos/branding/key/branding-key-logo1.jpg"
@@ -62,6 +64,11 @@ h1 {
 h2 {
   opacity: 0.8;
   margin-bottom: 2rem;
+}
+
+h4 {
+  padding-top: 4rem;
+  padding-bottom: 1rem;
 }
 
 p,

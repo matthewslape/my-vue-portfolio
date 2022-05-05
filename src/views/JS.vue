@@ -15,11 +15,13 @@
       Trucking and Excavation needed an identity to convey this message, and my
       task was to create this visual identity for them.
     </p>
+    <h4>Sketches</h4>
     <img
       class="infoPhoto"
       src="../assets/photos/branding/js/branding-js-sketches.jpg"
       alt="JS Logo Sketches"
     />
+    <h4>Final Product</h4>
     <img
       class="infoPhoto"
       src="../assets/photos/branding/js/branding-js-sheet.png"
@@ -30,6 +32,7 @@
       src="../assets/photos/branding/js/branding-js-pattern.png"
       alt="JS Pattern"
     />
+    <h4>Mockups</h4>
     <img
       class="infoPhoto"
       src="../assets/photos/branding/js/branding-js-frontShirt.png"
@@ -59,6 +62,11 @@ h1 {
 h2 {
   opacity: 0.8;
   margin-bottom: 2rem;
+}
+
+h4 {
+  padding-top: 4rem;
+  padding-bottom: 1rem;
 }
 
 p,
