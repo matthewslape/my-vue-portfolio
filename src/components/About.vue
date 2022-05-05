@@ -9,15 +9,15 @@
             I am a <b>hardworking</b>, problem solving, coffee loving
             <b>human</b>, on a mission to serve others through design thinking.
             Fueled by my excessive need to <b>understand how things work</b>,
-            learning comes easy to me. I know what you're thinking, my
+            learning comes easy to me. I know what you're thinking... my
             background in UX design, psychology, front end development,
             production design, photography and videography might come off as a
-            sign that I am not great at making decisions. But I can assure you,
-            this all comes from a place of wanting to
+            sign that I am not great at making decisions. However I can assure
+            you, this all comes from a place of wanting to
             <b>grow as a person.</b>
           </p>
           <p>
-            Organized creativity is my happy place. No matter the discipline,
+            Organized creativity is my happy place. No matter the discipline
             creating in order to <b>serve others</b> is what I find joy in. In
             design, I believe that accessibility, intentionality, and
             sustainability are key to developing great <b>solutions</b>. I am
@@ -26,7 +26,7 @@
             Currently, I am on the <b>job hunt</b> to find a place where
             community, growth, and service through creativity are top priority.
             I am confident in my abilities to help out a company that aligns
-            with these pillars. Please, contact me if you want to
+            with these pillars. Please contact me if you want to
             <b>connect!</b>
           </p>
         </div>

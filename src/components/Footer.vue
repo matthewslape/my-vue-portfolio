@@ -1,6 +1,6 @@
 <template>
   <div class="footer">
-    <h8>&copy; MS Design 2022 | all right reserved</h8>
+    <h8>&copy; MS Design 2022 | all rights reserved</h8>
     <div class="buttons">
       <a href="https://github.com/matthewslape" target="_blank">
         <img
@@ -39,6 +39,7 @@ h8 {
 }
 .buttons {
   display: flex;
+  align-items: center;
 }
 .footer {
   padding: 1rem;
