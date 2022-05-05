@@ -28,8 +28,8 @@
             ><h1 class="customHeader" style="font-weight: 500">UX Design</h1></a
           >
           <!-- TOOK OUT HREF TO DISABLE ON CODE, P+H, AND GRAPHICS-->
-          <a
-            ><h1 class="customHeader disabled" style="font-weight: 500">
+          <a href="/ph"
+            ><h1 class="customHeader" style="font-weight: 500">
               Photo + Video
             </h1></a
           >
@@ -44,9 +44,7 @@
             </h1></a
           >
           <a href="/code"
-            ><h1 class="customHeader" style="font-weight: 500">
-              Code
-            </h1></a
+            ><h1 class="customHeader" style="font-weight: 500">Code</h1></a
           >
         </div>
       </div>

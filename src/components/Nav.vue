@@ -32,8 +32,8 @@
         ><h3 :class="[isActive ? 'navTabActive' : 'navTab']">UX Design</h3></a
       >
       <!-- TOOK OUT HREF TO DISABLE ON CODE, P+H, AND GRAPHICS-->
-      <a v-on:click="toggle" style="text-decoration: none"
-        ><h3 :class="[isActive ? 'navTabActive disabled' : 'navTab']">
+      <a v-on:click="toggle" href="/ph" style="text-decoration: none"
+        ><h3 :class="[isActive ? 'navTabActive' : 'navTab']">
           Photo + Video
         </h3></a
       >
