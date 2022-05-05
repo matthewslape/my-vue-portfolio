@@ -34,12 +34,12 @@ h8 {
   font-weight: 600;
   font-size: 0.75rem;
   align-self: end;
-  opacity: 50%;
+  opacity: 0.5;
   text-align: start;
 }
 .buttons {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
 }
 .footer {
   padding: 1rem;
