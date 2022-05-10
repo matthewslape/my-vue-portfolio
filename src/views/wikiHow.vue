@@ -181,7 +181,7 @@ a {
 }
 
 .dOption:hover {
-  font-size: 140%;
+  font-size: 130%;
 }
 
 @media (max-width: 900px) {

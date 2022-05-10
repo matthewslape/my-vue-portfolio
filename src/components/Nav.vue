@@ -20,12 +20,13 @@
           :class="[isActive ? 'hamLayer3Active' : 'hamLayer3']"
         ></div>
       </div>
-      <a v-on:click="toggle" href="/branding" style="text-decoration: none"
+
+      <a v-on:click="toggle" href="/code" style="text-decoration: none"
         ><h3
           :class="[isActive ? 'navTabActive' : 'navTab']"
           style="margin-top: 2rem"
         >
-          Branding
+          Code
         </h3></a
       >
       <a v-on:click="toggle" href="/ux" style="text-decoration: none"
@@ -42,14 +43,14 @@
           Illustration
         </h3></a
       >
+      <a v-on:click="toggle" href="/branding" style="text-decoration: none"
+        ><h3 :class="[isActive ? 'navTabActive' : 'navTab']">Branding</h3></a
+      >
 
       <a v-on:click="toggle" style="text-decoration: none">
         <h3 :class="[isActive ? 'navTabActive disabled' : 'navTab']">
-          Graphics
+          Print
         </h3></a
-      >
-      <a v-on:click="toggle" href="/code" style="text-decoration: none"
-        ><h3 :class="[isActive ? 'navTabActive' : 'navTab']">Code</h3></a
       >
     </div>
   </div>

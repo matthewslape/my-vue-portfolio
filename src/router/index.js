@@ -14,13 +14,13 @@ const routes = [
     component: Success,
   },
   {
-    path: "/graphics",
-    name: "Graphics",
+    path: "/print",
+    name: "Print",
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () =>
-      import(/* webpackChunkName: "graphics" */ "../views/Graphics.vue"),
+      import(/* webpackChunkName: "graphics" */ "../views/Print.vue"),
   },
   {
     path: "/ux",
@@ -106,6 +106,36 @@ const routes = [
     path: "/code/johnSoundboard",
     name: "John's Soundboard",
     component: () => import("../views/Soundboard.vue"),
+  },
+  {
+    path: "/print/nikePoster",
+    name: 'Nike "Iconic" Poster',
+    component: () => import("../views/NikePoster.vue"),
+  },
+  {
+    path: "/print/jbPoster",
+    name: "John's Soundboard",
+    component: () => import("../views/JB.vue"),
+  },
+  {
+    path: "/print/tlPoster",
+    name: "Tyler Lockett Poster",
+    component: () => import("../views/TL.vue"),
+  },
+  {
+    path: "/print/manzanar",
+    name: "Manzanar History Book",
+    component: () => import("../views/Manzanar.vue"),
+  },
+  {
+    path: "/print/boeing",
+    name: "Boeing History Book",
+    component: () => import("../views/Boeing.vue"),
+  },
+  {
+    path: "/print/polaroid",
+    name: "Polaroid Poster",
+    component: () => import("../views/Polaroid.vue"),
   },
 ];
 

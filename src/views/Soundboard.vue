@@ -145,7 +145,7 @@ h6 {
 }
 
 .dOption:hover {
-  font-size: 140%;
+  font-size: 130%;
 }
 
 /*Screen Photos*/

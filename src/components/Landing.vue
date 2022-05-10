@@ -21,8 +21,8 @@
           <a href="/#work"><h1 class="customHeader">Work</h1></a>
         </div>
         <div class="workDirectory" id="work">
-          <a href="/branding"
-            ><h1 class="customHeader" style="font-weight: 500">Branding</h1></a
+          <a href="/code"
+            ><h1 class="customHeader" style="font-weight: 500">Code</h1></a
           >
           <a href="/ux"
             ><h1 class="customHeader" style="font-weight: 500">UX Design</h1></a
@@ -38,13 +38,13 @@
               Illustration
             </h1></a
           >
+          <a href="/branding"
+            ><h1 class="customHeader" style="font-weight: 500">Branding</h1></a
+          >
           <a
             ><h1 class="customHeader disabled" style="font-weight: 500">
-              Graphics
+              Print
             </h1></a
-          >
-          <a href="/code"
-            ><h1 class="customHeader" style="font-weight: 500">Code</h1></a
           >
         </div>
       </div>
