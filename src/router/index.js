@@ -118,7 +118,7 @@ const routes = [
     component: () => import("../views/JB.vue"),
   },
   {
-    path: "/print/tlPoster",
+    path: "/print/lockett",
     name: "Tyler Lockett Poster",
     component: () => import("../views/TL.vue"),
   },

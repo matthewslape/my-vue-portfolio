@@ -32,7 +32,6 @@
       <a v-on:click="toggle" href="/ux" style="text-decoration: none"
         ><h3 :class="[isActive ? 'navTabActive' : 'navTab']">UX Design</h3></a
       >
-      <!-- TOOK OUT HREF TO DISABLE ON CODE, P+H, AND GRAPHICS-->
       <a v-on:click="toggle" href="/ph" style="text-decoration: none"
         ><h3 :class="[isActive ? 'navTabActive' : 'navTab']">
           Photo + Video
@@ -47,10 +46,8 @@
         ><h3 :class="[isActive ? 'navTabActive' : 'navTab']">Branding</h3></a
       >
 
-      <a v-on:click="toggle" style="text-decoration: none">
-        <h3 :class="[isActive ? 'navTabActive disabled' : 'navTab']">
-          Print
-        </h3></a
+      <a v-on:click="toggle" href="/print" style="text-decoration: none">
+        <h3 :class="[isActive ? 'navTabActive' : 'navTab']">Print</h3></a
       >
     </div>
   </div>

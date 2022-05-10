@@ -3,21 +3,20 @@
     class="coverPhoto"
     id="coverPhoto"
     src="../assets/photos/print/print-cardPhoto-nikePoster.png"
-    alt="ECP Cover Photo, Photo by Dmitry Mishin on Unsplash
+    alt="Poster Cover Poster
   "
   />
   <div class="articleWrapper">
     <h1>Nike "Iconic" Poster</h1>
     <p>
       A historical poster in light of Nike hitting its 50 year mark. The poster
-      includes 10 of the most iconic Nike sponsered athletes over the last 50
+      includes 10 of the most iconic Nike sponsored athletes over the last 50
       years, along with what they have accomplished. Designed with Adobe
       Photoshop and Adobe InDesign.
     </p>
     <h4>Final Poster</h4>
     <iframe
-      class="infoPhoto"
-      src="../assets/pdfs/nikePoster.pdf"
+      src="https://issuu.com/matthewslape/docs/nike_poster/1?ff"
       width="100%"
       height="500px"
     />

@@ -20,10 +20,10 @@ export default {
   data() {
     return {
       list: [
-        { photo: "nikePoster", title: 'Nike "Iconic" Poster' },
-        { photo: "jb", title: "Jordan Burroughs Poster" },
-        { photo: "lockett", title: "Tyler Lockett Poster" },
         { photo: "manzanar", title: "Manzanar History Book" },
+        { photo: "nikePoster", title: 'Nike "Iconic" Poster' },
+        { photo: "jbPoster", title: "Jordan Burroughs Poster" },
+        { photo: "lockett", title: "Tyler Lockett Poster" },
         { photo: "boeing", title: "Boeing History Book" },
         { photo: "polaroid", title: "Polaroid Poster" },
       ],
@@ -70,6 +70,7 @@ h3 {
   inset: 0.5rem 0.5rem 0.5rem 0.5rem;
   z-index: 3;
   opacity: 0;
+  border-radius: 0.75rem;
   background: black;
   transition-duration: 300ms;
 }

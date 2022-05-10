@@ -41,10 +41,8 @@
           <a href="/branding"
             ><h1 class="customHeader" style="font-weight: 500">Branding</h1></a
           >
-          <a
-            ><h1 class="customHeader disabled" style="font-weight: 500">
-              Print
-            </h1></a
+          <a href="/print"
+            ><h1 class="customHeader" style="font-weight: 500">Print</h1></a
           >
         </div>
       </div>

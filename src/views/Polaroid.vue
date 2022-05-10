@@ -2,52 +2,29 @@
   <img
     class="coverPhoto"
     id="coverPhoto"
-    src="../assets/photos/branding/js/branding-js-cover.jpg"
-    alt="ECP Cover Photo, Photo by Dmitry Mishin on Unsplash
+    src="../assets/photos/print/print-cardPhoto-polaroid.png"
+    alt="Poster Cover Poster
   "
   />
   <div class="articleWrapper">
-    <h1>JS Trucking and Excavation</h1>
-    <h2>Branding and Creative Direction</h2>
+    <h1>Polaroid Poster</h1>
     <p>
-      Trucking and excavation services in Lewis, Thurston and Cowlitz counties.
-      A business that takes pride in providing honest and reliable work. JS
-      Trucking and Excavation needed an identity to convey this message, and my
-      task was to create this visual identity for them.
+      Informative poster on how Polaroid photo formatting and symbolism paved
+      the way for social media. I do not take credit for any of the writing or
+      photography on this poster. I was in charge of layout and design of the
+      book, and used Adobe InDesign to execute this.
     </p>
-    <h4>Sketches</h4>
-    <img
-      class="infoPhoto"
-      src="../assets/photos/branding/js/branding-js-sketches.jpg"
-      alt="JS Logo Sketches"
+    <h4>Final Poster</h4>
+    <iframe
+      src="https://issuu.com/matthewslape/docs/polaroid/1?ff"
+      width="100%"
+      height="500px"
     />
-    <h4>Final Product</h4>
-    <img
-      class="infoPhoto"
-      src="../assets/photos/branding/js/branding-js-sheet.png"
-      alt="JS Logos"
-    />
-    <img
-      class="infoPhoto"
-      src="../assets/photos/branding/js/branding-js-pattern.png"
-      alt="JS Pattern"
-    />
-    <h4>Mockups</h4>
-    <img
-      class="infoPhoto"
-      src="../assets/photos/branding/js/branding-js-frontShirt.png"
-      alt="JS T-Shirt"
-    />
-    <img
-      class="infoPhoto"
-      src="../assets/photos/branding/js/branding-js-backShirt.jpg"
-      alt="JS T-Shirt"
-    />
-  </div>
-  <div class="directory">
-    <a href="#coverPhoto"><h5 class="dOption">to Start</h5></a>
-    <a href="/branding"><h5 class="dOption">to Branding</h5></a>
-    <a href="/"><h5 class="dOption">to Home</h5></a>
+    <div class="directory">
+      <a href="#coverPhoto"><h5 class="dOption">to Start</h5></a>
+      <a href="/print"><h5 class="dOption">to Print</h5></a>
+      <a href="/"><h5 class="dOption">to Home</h5></a>
+    </div>
   </div>
 </template>
 
@@ -88,7 +65,7 @@ h6 {
   width: 100vw;
   height: 40vh;
   object-fit: cover;
-  object-position: center;
+  object-position: top;
 }
 
 .directory {
