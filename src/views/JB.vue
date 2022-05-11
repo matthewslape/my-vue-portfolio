@@ -22,6 +22,13 @@
       width="100%"
       height="500px"
     />
+    <a
+      class="protoButton"
+      href="https://issuu.com/matthewslape/docs/jbPoster/1?ff"
+      target="_blank"
+    >
+      <h2 class="protoButtonText">Poster Link</h2>
+    </a>
     <div class="directory">
       <a href="#coverPhoto"><h5 class="dOption">to Start</h5></a>
       <a href="/print"><h5 class="dOption">to Print</h5></a>
@@ -68,6 +75,28 @@ h6 {
   height: 40vh;
   object-fit: cover;
   object-position: top;
+}
+
+.protoButtonText {
+  font-weight: 800;
+  color: white;
+  max-width: 22rem;
+  height: 3rem;
+  background: #101010;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.1s ease-in-out;
+  margin: 1rem;
+  padding: 0rem 1rem;
+}
+.protoButton {
+  align-self: center;
+}
+
+.protoButtonText:hover {
+  background: #001d68;
 }
 
 .directory {

@@ -40,7 +40,7 @@
       alt="ECP Mockups"
     />
     <a
-      href="https://issuu.com/matthewslape/docs/ecp-vcd3_brandingguide"
+      href="https://issuu.com/matthewslape/docs/ecp-vcd3_brandingguide/1?ff"
       target="_blank"
     >
       <h2 class="protoButton">Brand Guide Link</h2>

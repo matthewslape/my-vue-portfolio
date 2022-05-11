@@ -114,6 +114,9 @@ h8 {
   .footer {
     position: revert;
   }
+  .footerWrapper {
+    position: revert;
+  }
   .arrow {
     display: none;
   }
