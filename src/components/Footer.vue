@@ -1,33 +1,35 @@
 <template>
-  <div class="footer">
-    <h8>&copy; MS Design 2022 | all rights reserved</h8>
+  <div class="footerWrapper">
     <img
       class="arrow"
       src="../assets/svgs/down-arrow.svg"
       alt="Flashing Arrow"
     />
-    <div class="buttons">
-      <a href="https://github.com/matthewslape" target="_blank">
-        <img
-          class="footerLink"
-          id="github"
-          src="../assets/svgs/github.svg"
-          alt="Github Link"
-      /></a>
-      <a href="https://www.linkedin.com/in/matthew-slape/" target="_blank"
-        ><img
-          class="footerLink"
-          id="linkedin"
-          src="../assets/svgs/linkedin.svg"
-          alt="LinkedIn Link"
-      /></a>
-      <a href="https://www.instagram.com/mslape_art/" target="_blank"
-        ><img
-          class="footerLink"
-          id="instagram"
-          src="../assets/svgs/instagram.svg"
-          alt="Instagram Link"
-      /></a>
+    <div class="footer">
+      <h8>&copy; MS Design 2022 | all rights reserved</h8>
+      <div class="buttons">
+        <a href="https://github.com/matthewslape" target="_blank">
+          <img
+            class="footerLink"
+            id="github"
+            src="../assets/svgs/github.svg"
+            alt="Github Link"
+        /></a>
+        <a href="https://www.linkedin.com/in/matthew-slape/" target="_blank"
+          ><img
+            class="footerLink"
+            id="linkedin"
+            src="../assets/svgs/linkedin.svg"
+            alt="LinkedIn Link"
+        /></a>
+        <a href="https://www.instagram.com/mslape_art/" target="_blank"
+          ><img
+            class="footerLink"
+            id="instagram"
+            src="../assets/svgs/instagram.svg"
+            alt="Instagram Link"
+        /></a>
+      </div>
     </div>
   </div>
 </template>
@@ -69,10 +71,22 @@ h8 {
 }
 
 .arrow {
-  margin-bottom: 1rem;
   animation: blinker 5s;
   opacity: 0;
-  transform: perspective();
+  width: 4vw;
+  height: auto;
+}
+
+.footerWrapper {
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-content: flex-end;
+  position: fixed;
+  bottom: 0;
+  height: 5rem;
+  width: 100%;
+  z-index: 50;
 }
 
 @keyframes blinker {
