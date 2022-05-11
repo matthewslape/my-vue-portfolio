@@ -1,6 +1,11 @@
 <template>
   <div class="footer">
     <h8>&copy; MS Design 2022 | all rights reserved</h8>
+    <img
+      class="arrow"
+      src="../assets/svgs/down-arrow.svg"
+      alt="Flashing Arrow"
+    />
     <div class="buttons">
       <a href="https://github.com/matthewslape" target="_blank">
         <img
@@ -26,7 +31,6 @@
     </div>
   </div>
 </template>
-<script></script>
 
 <style scoped>
 h8 {
@@ -36,6 +40,7 @@ h8 {
   align-self: end;
   opacity: 0.5;
   text-align: start;
+  transform: translateX(1rem);
 }
 .buttons {
   display: flex;
@@ -60,30 +65,46 @@ h8 {
 }
 
 .footerLink:hover {
-  height: 3rem;
+  transform: scale(1.2);
+}
+
+.arrow {
+  margin-bottom: 1rem;
+  animation: blinker 5s;
+  opacity: 0;
+  transform: perspective();
+}
+
+@keyframes blinker {
+  0% {
+    opacity: 1;
+  }
+  20% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
 @media (max-width: 820px) {
   .footer {
-    /*STYLED?*/
-
-    /*padding: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: fixed;
-    bottom: 0;
-    right: 1rem;
-    height: 4rem;
-    width: 10rem;
-    z-index: 100;
-    background: #022269;
-    padding: 1rem;
-    border-radius: 6rem;
-    margin-bottom: 1rem;
-    border: solid white;*/
-
     position: revert;
+  }
+  .arrow {
+    display: none;
+  }
+  h8 {
+    transform: translateX(0);
   }
 }
 
