@@ -30,11 +30,14 @@
             <b>connect!</b>
           </p>
         </div>
-        <a href="/#contact"
-          ><div class="buttonWrapper">
+        <div class="buttonRow">
+          <a class="button" href="/#contact">
             <h2 class="contactButton">Contact</h2>
-          </div></a
-        >
+          </a>
+          <a class="button" href="/mslape-resume-s22-general.pdf">
+            <h2 class="resumeButton">Resume</h2>
+          </a>
+        </div>
       </div>
       <div class="rightColumn">
         <img
@@ -60,22 +63,49 @@ b {
   padding-top: 5.5rem;
   padding-bottom: 2rem;
 }
+.buttonRow {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.button {
+  width: 45%;
+}
 .contactButton {
   color: white;
-  width: 50vw;
-  max-width: 18rem;
+  width: 100%;
   height: 3rem;
   background: #101010;
   border-radius: 8px;
-  margin: 1rem 0rem 1rem 0rem;
   display: flex;
   justify-content: center;
   align-items: center;
   transition: 0.1s ease-in-out;
   font-weight: 800;
 }
+
 .contactButton:hover {
   background: #1c6b6b;
+}
+
+.resumeButton {
+  color: black;
+  border: black solid;
+  width: 100%;
+  height: 3rem;
+  background: white;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.1s ease-in-out;
+  font-weight: 800;
+}
+
+.resumeButton:hover {
+  color: #1c6b6b;
+  border: #1c6b6b solid;
 }
 .aboutSub {
   line-height: 115% !important;
@@ -161,11 +191,20 @@ p {
 }
 
 @media (max-width: 450px) {
-  .contactButton {
+  .contactButton .resumeButton {
     font-size: 1rem;
   }
   .aboutWrapper {
     width: 88vw;
+  }
+}
+@media (max-width: 500px) {
+  .buttonRow {
+    flex-direction: column;
+    align-items: center;
+  }
+  .button {
+    width: 70%;
   }
 }
 @media (min-width: 2000px) {

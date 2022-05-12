@@ -92,6 +92,10 @@ img {
 }
 
 @media (max-width: 750px) {
+  h3 {
+    font-size: 1.5rem;
+    text-align: left;
+  }
   .projectCard {
     width: 100%;
     height: 50vh;
@@ -103,12 +107,6 @@ img {
   }
   .projectWrapper {
     justify-content: center;
-  }
-}
-@media (max-width: 750px) {
-  h3 {
-    font-size: 1.5rem;
-    text-align: left;
   }
 }
 </style>
