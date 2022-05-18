@@ -3,7 +3,7 @@
     class="coverPhoto"
     id="coverPhoto"
     src="../assets/photos/code/code-cardPhoto-johnSoundboard.png"
-    alt="JS Website Cover Photo"
+    alt="Soundboard Cover Photo"
   />
   <div class="articleWrapper">
     <h1>John's Soundboard</h1>

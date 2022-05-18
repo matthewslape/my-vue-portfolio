@@ -105,7 +105,7 @@ const routes = [
   {
     path: "/code/johnSoundboard",
     name: "John's Soundboard",
-    component: () => import("../views/Soundboard.vue"),
+    component: () => import("../views/JohnSoundboard.vue"),
   },
   {
     path: "/print/nikePoster",
@@ -114,7 +114,7 @@ const routes = [
   },
   {
     path: "/print/jbPoster",
-    name: "John's Soundboard",
+    name: "Jordan Burroughs Poster",
     component: () => import("../views/JB.vue"),
   },
   {
