@@ -8,6 +8,7 @@
   />
   <div class="articleWrapper">
     <h1>Nike "Iconic" Poster</h1>
+    <h2>Personal Project</h2>
     <p>
       A historical poster in light of Nike hitting its 50 year mark. The poster
       includes 10 of the most iconic Nike sponsored athletes over the last 50

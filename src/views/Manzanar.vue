@@ -8,6 +8,7 @@
   />
   <div class="articleWrapper">
     <h1>Manzanar History Book</h1>
+    <h2>Class Project</h2>
     <p>
       Manzanar is the site of one of ten American concentration camps, where
       more than 120,000 Japanese Americans were incarcerated during World War II

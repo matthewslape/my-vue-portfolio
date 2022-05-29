@@ -8,6 +8,7 @@
   />
   <div class="articleWrapper">
     <h1>Jordan Burroughs Poster</h1>
+    <h2>Personal Project</h2>
     <p>
       I have always had a passion for the sport of wrestling. It has taught me
       to be disciplined, work hard, and keep fighting even when the odds are

@@ -8,6 +8,7 @@
   />
   <div class="articleWrapper">
     <h1>Boeing History Book</h1>
+    <h2>Class Project</h2>
     <p>
       A historical book highlighting what Boeing has accomplished since their
       start in 1915. I do not take credit for any of the writing or photography

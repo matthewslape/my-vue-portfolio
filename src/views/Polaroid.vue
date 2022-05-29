@@ -8,6 +8,7 @@
   />
   <div class="articleWrapper">
     <h1>Polaroid Poster</h1>
+    <h2>Class Project</h2>
     <p>
       Informative poster on how Polaroid photo formatting and symbolism paved
       the way for social media. I do not take credit for any of the writing or
