@@ -23,12 +23,13 @@
       or photography in this book. I was in charge of layout and design, and
       used Adobe InDesign to execute this.
     </p>
+    <!--
     <h4>Final Book</h4>
     <iframe
       src="https://issuu.com/matthewslape/docs/manzanar/1?ff"
       width="100%"
       height="500px"
-    />
+    />-->
      <a
       class="protoButton"
       href="https://issuu.com/matthewslape/docs/manzanar/1?ff"

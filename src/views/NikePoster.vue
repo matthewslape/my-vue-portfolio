@@ -15,12 +15,13 @@
       years, along with what they have accomplished. Designed with Adobe
       Photoshop and Adobe InDesign.
     </p>
+    <!--
     <h4>Final Poster</h4>
     <iframe
       src="https://issuu.com/matthewslape/docs/nike_poster/1?ff"
       width="100%"
       height="500px"
-    />
+    />-->
      <a
       class="protoButton"
       href="https://issuu.com/matthewslape/docs/nike_poster/1?ff"

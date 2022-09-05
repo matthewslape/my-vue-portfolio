@@ -15,12 +15,13 @@
       in this book. I was in charge of layout and design of the book, and used
       Adobe InDesign to execute this.
     </p>
+    <!--
     <h4>Final Poster</h4>
     <iframe
       src="https://issuu.com/matthewslape/docs/boeing/1?ff"
       width="100%"
       height="500px"
-    />
+    />-->
     <a
       class="protoButton"
       href="https://issuu.com/matthewslape/docs/boeing/1?ff"

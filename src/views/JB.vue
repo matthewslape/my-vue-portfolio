@@ -17,12 +17,12 @@
       honor of him, and all he has done for the wrestling community. Designed
       with Adobe Photoshop.
     </p>
-    <h4>Final Poster</h4>
+    <!--<h4>Final Poster</h4>
     <iframe
       src="https://issuu.com/matthewslape/docs/jbPoster/1?ff"
       width="100%"
       height="500px"
-    />
+    />-->
     <a
       class="protoButton"
       href="https://issuu.com/matthewslape/docs/jbPoster/1?ff"
