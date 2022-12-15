@@ -34,7 +34,7 @@
           <a class="button" href="/#contact">
             <h2 class="contactButton">Contact</h2>
           </a>
-          <a class="button" href="/mslape-resume-s22-general.pdf">
+          <a class="button" href="/mslape-resume-w22.pdf">
             <h2 class="resumeButton">Resume</h2>
           </a>
         </div>
