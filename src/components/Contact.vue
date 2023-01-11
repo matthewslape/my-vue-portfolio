@@ -30,8 +30,21 @@
         </form>
       </div>
     </div>
-    <img class="swoosh2" src="../assets/svgs/swoosh2.svg" alt="decoration" />
+    <img class="swoosh2 squiggle" src="../assets/svgs/swoosh2.svg" alt="decoration" />
   </div>
+  <svg xmlns="http://www.w3.org/2000/svg" version="1.1" height="0" width="0">
+    <defs>
+      <filter id="squiggle">
+        <feTurbulence
+          type="fractalNoise"
+          id="turbulence"
+          baseFrequency=".2"
+          numOctaves="40"
+        />
+        <feDisplacementMap id="displacement" in="SourceGraphic" scale="4" />
+      </filter>
+    </defs>
+  </svg>
 </template>
 <script>
 import emailjs from "@emailjs/browser";
@@ -81,7 +94,7 @@ export default {
 }
 .swoosh2 {
   object-fit: cover;
-  width: 100vw;
+  width: 102vw;
   min-width: 1100px;
 }
 .contact {
@@ -160,6 +173,11 @@ label {
 }
 .sendButton:hover {
   background: #1c6b6b;
+}
+
+/*TEXTURE CLASS*/
+.squiggle {
+  filter: url(#squiggle);
 }
 
 @media (max-width: 450px) {

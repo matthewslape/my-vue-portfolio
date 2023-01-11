@@ -46,10 +46,27 @@
           >
         </div>
       </div>
-      <img class="swoosh1" src="../assets/svgs/swoosh1.svg" alt="decoration" />
+      <img
+        class="swoosh1 squiggle"
+        src="../assets/svgs/swoosh1.svg"
+        alt="decoration"
+      />
     </div>
     <h3 class="decorType">Created to Create</h3>
   </div>
+  <svg xmlns="http://www.w3.org/2000/svg" version="1.1" height="0" width="0">
+    <defs>
+      <filter id="squiggle">
+        <feTurbulence
+          type="fractalNoise"
+          id="turbulence"
+          baseFrequency=".2"
+          numOctaves="40"
+        />
+        <feDisplacementMap id="displacement" in="SourceGraphic" scale="4" />
+      </filter>
+    </defs>
+  </svg>
 </template>
 <script>
 import AnimatedComponent from "../components/AnimatedComponent.vue";
@@ -123,8 +140,9 @@ export default {
 }
 .swoosh1 {
   object-fit: cover;
-  width: 100vw;
+  width: 102vw;
   min-width: 560px;
+  z-index: -20;
 }
 .directory {
   position: absolute;
@@ -170,6 +188,12 @@ export default {
   /* margin-left: 2vw; */
   z-index: 2;
 }
+
+/*TEXTURE CLASS*/
+.squiggle {
+  filter: url(#squiggle);
+}
+
 @media (max-width: 450px) {
   .landingTitle {
     flex-direction: column-reverse;
