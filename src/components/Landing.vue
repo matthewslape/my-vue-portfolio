@@ -46,11 +46,7 @@
           >
         </div>
       </div>
-      <img
-        class="swoosh1 squiggle"
-        src="../assets/svgs/swoosh1.svg"
-        alt="decoration"
-      />
+      <img class="swoosh1" src="../assets/svgs/swoosh1.svg" alt="decoration" />
     </div>
     <h3 class="decorType">Created to Create</h3>
   </div>

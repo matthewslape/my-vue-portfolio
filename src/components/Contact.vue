@@ -30,7 +30,7 @@
         </form>
       </div>
     </div>
-    <img class="swoosh2 squiggle" src="../assets/svgs/swoosh2.svg" alt="decoration" />
+    <img class="swoosh2" src="../assets/svgs/swoosh2.svg" alt="decoration" />
   </div>
   <svg xmlns="http://www.w3.org/2000/svg" version="1.1" height="0" width="0">
     <defs>
