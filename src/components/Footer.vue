@@ -6,7 +6,7 @@
       alt="Flashing Arrow"
     />
     <div class="footer">
-      <h8>&copy; MS Design 2022 | all rights reserved</h8>
+      <h8>&copy; MS Design 2023 | all rights reserved</h8>
       <div class="buttons">
         <a href="https://github.com/matthewslape" target="_blank">
           <img
@@ -39,23 +39,21 @@ h8 {
   text-transform: uppercase;
   font-weight: 600;
   font-size: 0.75rem;
-  align-self: end;
   opacity: 0.5;
   text-align: start;
   transform: translateX(1rem);
 }
 .buttons {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
 }
 .footer {
   padding: 1rem;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   justify-content: space-between;
   position: fixed;
   bottom: 0;
-  height: 5rem;
   width: 100%;
   z-index: 50;
 }

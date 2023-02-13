@@ -110,10 +110,10 @@ a {
 
 .protoButton {
   font-weight: 800;
-  color: white;
+  color: #0a090c;
   max-width: 22rem;
   height: 3rem;
-  background: #101010;
+  background: white;
   border-radius: 8px;
   display: flex;
   justify-content: center;
@@ -123,7 +123,8 @@ a {
   padding: 0rem 1rem;
 }
 .protoButton:hover {
-  background: #001d68;
+  background: white;
+  color: #0a090c;
 }
 
 .directory {
@@ -143,8 +144,9 @@ a {
   padding: 0.5rem;
   margin: 0.5rem;
   border-radius: 10px;
-  background: #f1f1f1;
-  color: #001d68;
+  background: #dea511;
+  color: #0a090c;
+
   transition-duration: 0.5s;
 }
 

@@ -357,12 +357,7 @@ export default {
 /*title*/
 h1 {
   margin-top: 7vw;
-  background: linear-gradient(
-    138.27deg,
-    #000000 0%,
-    #001d68 34.98%,
-    #1c6b6b 90.98%
-  );
+  background: #dea511;
   background-clip: text;
   color: transparent;
 }

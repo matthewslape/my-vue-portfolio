@@ -68,13 +68,14 @@ body::-webkit-scrollbar {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   width: 100%;
+  background: #0a090c;
 }
 
 h1 {
   font-family: Poppins;
   font-style: normal;
   letter-spacing: 0.02em;
-  fill: black;
+  color: white;
   padding-top: 1rem;
   font-size: 4vw;
   font-weight: bold;
@@ -87,6 +88,7 @@ h2 {
   font-weight: 400;
   font-size: 1.5rem;
   letter-spacing: 0.2em;
+  color: white;
   text-transform: uppercase;
   margin-bottom: 1.5rem;
 }
@@ -97,7 +99,7 @@ h3 {
   font-style: normal;
   font-weight: 500;
   font-size: 1.75rem;
-  color: #022269;
+  color: #dea511;
 }
 
 a,
@@ -110,9 +112,14 @@ a:active {
 h4,
 h5 {
   padding-top: 1rem;
+  color: white;
+}
+h8 {
+  color: white;
 }
 p {
   font-size: 1.25rem;
+  color: white;
 }
 /*loading animation*/
 .loader-wrapper {
@@ -122,12 +129,8 @@ p {
   position: absolute;
   top: 0;
   left: 0;
-  background: linear-gradient(
-    138.27deg,
-    #000000 0%,
-    #001d68 34.98%,
-    #1c6b6b 90.98%
-  );
+  background: #dea511
+    /*#dea511*/;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -159,7 +162,7 @@ p {
   width: 5px;
   height: 5px;
   border-radius: 5px;
-  background: #fff;
+  background: white;
 }
 
 .circle:nth-child(2) {
@@ -229,7 +232,7 @@ p {
     font-size: 8vw;
   }
   h2 {
-    font-size: 4vw;
+    font-size: 1rem;
   }
   p {
     font-size: 1rem;

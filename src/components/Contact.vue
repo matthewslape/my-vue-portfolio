@@ -77,12 +77,6 @@ export default {
 .contactHeader {
   color: white;
 }
-.swoosh2 {
-  object-fit: cover;
-  width: 100vw;
-  min-width: 430px;
-}
-
 /*MAYBE COPY LANDING AND BASE OFF THAT?*/
 .contactWrapper {
   transform: translateY(-16vw);
@@ -94,8 +88,10 @@ export default {
 }
 .swoosh2 {
   object-fit: cover;
+  z-index: -20;
   width: 102vw;
   min-width: 1100px;
+  opacity: 0.3;
 }
 .contact {
   position: absolute;
@@ -154,14 +150,13 @@ label {
   width: 48%;
 }
 .sendButton {
-  color: white;
+  color: #0a090c;
   width: auto;
   height: 3rem;
-  background: #101010;
+  background: #dea511;
   border-radius: 8px;
   margin: 1rem 0;
   padding: 0 2rem;
-
   font-family: Poppins;
   font-style: normal;
   font-weight: 800;
@@ -172,7 +167,8 @@ label {
   transition: 0.1s ease-in-out;
 }
 .sendButton:hover {
-  background: #1c6b6b;
+  color: white;
+  border: white solid;
 }
 
 /*TEXTURE CLASS*/

@@ -110,8 +110,9 @@ h6 {
   padding: 0.5rem;
   margin: 0.5rem;
   border-radius: 10px;
-  background: #f1f1f1;
-  color: #001d68;
+  background: #dea511;
+  color: #0a090c;
+
   transition-duration: 0.5s;
 }
 

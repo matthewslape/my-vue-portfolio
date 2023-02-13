@@ -82,10 +82,10 @@ export default {
   right: 0;
   justify-content: space-between;
   display: flex;
-  align-items: start;
+  align-items: center;
   height: 5rem;
   z-index: 50;
-  background: white;
+  background-color: #0a090c;
 }
 
 .pageHeader {
@@ -95,12 +95,15 @@ export default {
 }
 
 .pageHeader1 {
-  color: #022269;
-  padding-top: 0.4rem;
+  color: #b3b3b3;
+  padding-top: 0rem;
   font-weight: 800;
+  margin-bottom: 0rem;
 }
 .pageHeader2 {
   padding-left: 0.75rem;
+  padding-top: 0rem;
+  margin-bottom: 0rem;
 }
 
 .hamburgerWrapper {
@@ -138,7 +141,7 @@ export default {
 .hamLayer1,
 .hamLayer2,
 .hamLayer3 {
-  background: #022269;
+  background: #b3b3b3;
   height: 0.35rem;
   width: 2.65rem;
   border-radius: 0.25rem;
@@ -167,7 +170,7 @@ export default {
 
 .navTabActive {
   transition: 0.5s ease-in-out;
-  background-color: white;
+  background-color: #0a090c;
   padding: 0rem 0.5rem 0rem 0.5rem;
   border-radius: 0.25rem;
   margin-right: 1rem;

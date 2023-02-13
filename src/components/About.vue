@@ -1,6 +1,6 @@
 <template>
   <div class="aboutWrapper">
-    <h1 class="aboutHeader" id="aboutUs" style="color: black">About Me</h1>
+    <h1 class="aboutHeader" id="aboutUs">About Me</h1>
     <div class="aboutContent">
       <div class="leftColumn">
         <div class="aboutSub">Oh, Whats Up. My name is Matthew Slape.</div>
@@ -8,13 +8,8 @@
           <p>
             I am a <b>hardworking</b>, problem solving, coffee loving
             <b>human</b>, on a mission to serve others through design thinking.
-            Fueled by my excessive need to <b>understand how things work</b>,
-            learning comes easy to me. I know what you're thinking... my
-            background in UX design, psychology, front end development,
-            production design, photography and videography might come off as a
-            sign that I am not great at making decisions. However I can assure
-            you, this all comes from a place of wanting to
-            <b>grow as a person.</b>
+            Fueled by my excessive need to <b>understand how things work</b>, my
+            desire to learn is instinctive.
           </p>
           <p>
             Organized creativity is my happy place. No matter the discipline
@@ -27,7 +22,7 @@
             community, growth, and service through creativity are top priority.
             I am confident in my abilities to help out a company that aligns
             with these pillars. Please contact me if you want to
-            <b>connect!</b>
+            <b>connect.</b>
           </p>
         </div>
         <div class="buttonRow">
@@ -70,13 +65,16 @@ b {
 }
 
 .button {
-  width: 45%;
+  width: 40%;
+  min-width: 11rem;
+  max-width: 20rem;
 }
 .contactButton {
-  color: white;
+  color: #0a090c;
   width: 100%;
+  padding: 0 2rem;
   height: 3rem;
-  background: #101010;
+  background: #dea511;
   border-radius: 8px;
   display: flex;
   justify-content: center;
@@ -86,13 +84,14 @@ b {
 }
 
 .contactButton:hover {
-  background: #1c6b6b;
+  color: white;
+  border: white solid;
 }
 
 .resumeButton {
-  color: black;
-  border: black solid;
-  width: 100%;
+  color: #0a090c;
+  width: auto;
+  padding: 0 2rem;
   height: 3rem;
   background: white;
   border-radius: 8px;
@@ -104,8 +103,8 @@ b {
 }
 
 .resumeButton:hover {
-  color: #1c6b6b;
-  border: #1c6b6b solid;
+  color: #dea511;
+  border: #dea511 solid;
 }
 .aboutSub {
   line-height: 115% !important;
@@ -118,7 +117,7 @@ b {
   text-align: left;
   display: flex;
   align-items: center;
-  color: #1c6b6b;
+  color: #dea511;
 }
 .aboutBody {
   text-align: left;
@@ -203,9 +202,7 @@ p {
     flex-direction: column;
     align-items: center;
   }
-  .button {
-    width: 70%;
-  }
+  
 }
 @media (min-width: 2000px) {
   .aboutWrapper {

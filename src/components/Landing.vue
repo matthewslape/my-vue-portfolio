@@ -115,12 +115,8 @@ export default {
 }
 #titleBold {
   font-weight: 700;
-  background: linear-gradient(
-    138.27deg,
-    #000000 0%,
-    #001d68 34.98%,
-    #1c6b6b 90.98%
-  );
+  background: #dea511
+    /*#dea511*/;
   background-clip: text;
   color: transparent;
   text-transform: none;
@@ -139,6 +135,7 @@ export default {
   width: 102vw;
   min-width: 560px;
   z-index: -20;
+  opacity: 0.3;
 }
 .directory {
   position: absolute;
@@ -172,8 +169,7 @@ export default {
 .decorType {
   letter-spacing: 0.195em;
   text-transform: uppercase;
-  color: white;
-  opacity: 30%;
+  color: #dea511;
   transform: rotate(-90deg);
   font-weight: 800;
   font-size: 2.5vw;
