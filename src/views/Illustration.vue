@@ -213,7 +213,7 @@ h1 {
 
 .column img:hover ~ .photoTitle {
   opacity: 1;
-  color: black;
+  color: white;
 }
 
 /* Row of columns that sits next to each other */
