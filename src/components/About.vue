@@ -152,7 +152,7 @@ p {
   padding-bottom: 5rem;
   width: 75vw;
   height: 75vh;
-  max-width: 80rem;
+  max-width: 86rem;
   max-height: 52rem;
   min-height: 36rem;
   margin: auto;
