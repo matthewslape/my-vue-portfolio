@@ -26,6 +26,11 @@ const routes = [
     path: "/ux",
     name: "UX",
     component: () => import("../views/UX.vue"),
+    redirect: (to) => {
+      // the function receives the target route as the argument
+      // we return a redirect path/location here.
+      return { path: "/", query: { q: to.params.searchText } };
+    },
   },
   {
     path: "/ph",
@@ -43,9 +48,19 @@ const routes = [
     component: () => import("../views/Branding.vue"),
   },
   {
+    path: "/motion",
+    name: "Motion",
+    component: () => import("../views/Motion.vue"),
+  },
+  {
     path: "/code",
     name: "Code",
     component: () => import("../views/Code.vue"),
+    redirect: (to) => {
+      // the function receives the target route as the argument
+      // we return a redirect path/location here.
+      return { path: "/", query: { q: to.params.searchText } };
+    },
   },
   {
     path: "/ux/wikiHow",

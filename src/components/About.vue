@@ -12,24 +12,36 @@
             desire to learn is instinctive.
           </p>
           <p>
-            Organized creativity is my happy place. No matter the discipline
-            creating in order to <b>serve others</b> is what I find joy in. In
-            design, I believe that accessibility, intentionality, and
-            sustainability are key to developing great <b>solutions</b>. I am
-            <b>driven</b> to make a creative impact on the world that will last
-            longer than myself, in order to help fellow humans around me.
-            Currently, I am on the <b>job hunt</b> to find a place where
-            community, growth, and service through creativity are top priority.
-            I am confident in my abilities to help out a company that aligns
-            with these pillars. Please contact me if you want to
-            <b>connect.</b>
+            I thrive in the realm of <b>organized creativity</b>, where my
+            passion finds its truest expression. Across various fields, I derive
+            immense joy from the act of creation with a sincere desire to
+            contribute to the well-being of others. When it comes to design, I
+            firmly believe that accessibility, intentionality, and
+            sustainability are the fundamental building blocks for crafting
+            exceptional solutions.
+          </p>
+          <p>
+            Motivated by a deep sense of purpose, my drive stems from the desire
+            to make a lasting, <b>positive impact</b> on the world that extends
+            far beyond my own lifetime. I am dedicated to using my creative
+            abilities to assist and uplift those around me. Currently, I am
+            actively seeking a new opportunity, a place where a sense of
+            community, personal growth, and service through creativity are
+            valued above all else.
+          </p>
+          <p>
+            I have unwavering confidence in my abilities to make a
+            <b>meaningful contribution</b> to any company that shares these core
+            values. If you wish to establish a connection, I warmly welcome you
+            to reach out to me. Let's explore the possibilities and forge a path
+            towards collective success.
           </p>
         </div>
         <div class="buttonRow">
           <a class="button" href="/#contact">
             <h2 class="contactButton">Contact</h2>
           </a>
-          <a class="button" href="/mslape-resume-w22.pdf">
+          <a class="button" href="/mslape-resume-s23.pdf">
             <h2 class="resumeButton">Resume</h2>
           </a>
         </div>
@@ -202,7 +214,6 @@ p {
     flex-direction: column;
     align-items: center;
   }
-  
 }
 @media (min-width: 2000px) {
   .aboutWrapper {
