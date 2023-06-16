@@ -61,7 +61,7 @@ a {
   color: white;
   max-width: 20rem;
   height: 3rem;
-  background: #101010;
+  background: #dea511;
   border-radius: 8px;
   display: flex;
   justify-content: center;
