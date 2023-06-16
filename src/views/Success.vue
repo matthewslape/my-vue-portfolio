@@ -37,7 +37,7 @@ h1 {
   color: transparent;
 }
 p {
-  color: black;
+  color: white;
   font-size: 1.5rem;
   padding: 1rem;
   max-width: 40rem;
@@ -71,6 +71,6 @@ a {
   padding: 0rem 1rem;
 }
 .homeButton:hover {
-  background: #1c6b6b;
+  scale: 1.1;
 }
 </style>
