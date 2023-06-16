@@ -133,10 +133,8 @@ b {
 }
 .aboutBody {
   text-align: left;
-  overflow-y: auto;
   padding: 1rem;
   overflow-y: scroll;
-  scrollbar-color: dark;
 }
 
 .matthewSitting {
@@ -145,20 +143,6 @@ b {
   object-fit: cover;
   object-position: center;
   margin-bottom: 1rem;
-}
-
-::-webkit-scrollbar {
-  background: #0a090c;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #dea511;
-  -webkit-border-radius: 1ex;
-  -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
-}
-
-::-webkit-scrollbar-corner {
-  background: #0a090c;
 }
 
 /*REBUILD*/
