@@ -4,8 +4,8 @@
       <div class="animationWrapper">
         <h1>SUCCESS</h1>
         <p>
-          Hey you, thanks for reaching out, it means a lot. I will get back to
-          you as soon as possible!
+          Thank you for reaching out; I truly appreciate it. I'll respond to you
+          as quickly as I can!
         </p>
         <h5 class="homeButton"><a href="/">Back to Home Page</a></h5>
       </div>
@@ -47,7 +47,7 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: white;
+  background-color: black;
   width: 100vw;
   height: 90vh;
 }
