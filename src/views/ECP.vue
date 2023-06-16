@@ -10,29 +10,31 @@
     <h1>Energy Conservation Program</h1>
     <h2>Branding and Production Design</h2>
     <p>
-      The Energy Conservation Program is a subdivision of Cheney Public Works
-      that helps the homeowners of Cheney get rebates on appliance upgrades, in
-      order to decrease energy usage. The problem was that not many people knew
-      about this program. My mission was to create a visual identity for the
-      ECP, as well as a few promotional pieces to get the word out.
+      The Energy Conservation Program (ECP) operates under the umbrella of
+      Cheney Public Works, dedicated to assisting homeowners in Cheney to reduce
+      energy consumption by offering rebates on appliance upgrades.
+      Unfortunately, the program's awareness among the community was limited. In
+      light of this, I was entrusted with the task of developing a comprehensive
+      visual identity for the ECP and creating several promotional materials to
+      effectively communicate the program's benefits and raise public awareness.
     </p>
-    <h4>Sketches</h4>
+    <h4>Proccess</h4>
     <img
       class="infoPhoto"
       src="../assets/photos/branding/ecp/branding-ecp-sketches.png"
       alt="ECP Logo Sketches"
     />
     <h4>Finished Product</h4>
-    <img
-      class="infoPhoto"
-      src="../assets/photos/branding/ecp/branding-ecp-logosheet.png"
-      alt="ECP Logos"
-    />
-    <img
-      class="infoPhoto"
-      src="../assets/photos/branding/ecp/branding-ecp-icons.png"
-      alt="ECP Icons"
-    />
+    <div class="grid">
+      <img
+        src="../assets/photos/branding/ecp/branding-ecp-logosheet.png"
+        alt="ECP Logos"
+      />
+      <img
+        src="../assets/photos/branding/ecp/branding-ecp-icons.png"
+        alt="ECP Icons"
+      />
+    </div>
     <h4>Promotional Assets</h4>
     <img
       class="infoPhoto"
@@ -119,7 +121,7 @@ a {
   justify-content: center;
   align-items: center;
   transition: 0.1s ease-in-out;
-  margin: 1rem;
+  margin: 3rem;
   padding: 0rem 1rem;
 }
 .protoButton:hover {
@@ -129,7 +131,7 @@ a {
 
 .directory {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   width: 40%;
   max-width: 30rem;
   align-self: center;
@@ -152,6 +154,28 @@ a {
 
 .dOption:hover {
   font-size: 130%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-gap: 10px;
+}
+
+.grid img {
+  width: 100%;
+  height: auto;
+}
+
+.infoPhoto {
+  width: 88vh;
+  align-self: center;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  }
 }
 
 @media (max-width: 900px) {

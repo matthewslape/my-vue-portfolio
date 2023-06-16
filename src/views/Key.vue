@@ -13,38 +13,43 @@
     <h1>KEYTHECONNECT</h1>
     <h2>Branding and Creative Direction</h2>
     <p>
-      The motto behind Key Connect is utilizing your own specialized Key that
-      has built your identity to Connect yourself to growing opportunities. My
-      goal was to help Keyvan, the owner of KTC, create a visual identity for
-      Key Connect, as well as a few branding components.
+      Key Connect embodies the ethos of leveraging one's unique and
+      individualized Key, which has shaped their identity, to establish
+      connections with emerging opportunities. With Keyvan, the proprietor of
+      KTC, as the driving force, my objective entailed the development of a
+      comprehensive visual identity for Key Connect, along with the creation of
+      essential branding elements to support its brand positioning.
     </p>
-    <h4>Sketches</h4>
-    <img
-      class="infoPhoto"
-      src="../assets/photos/branding/key/branding-key-sketches.jpeg"
-      alt="KTC Sketches"
-    />
-    <img
-      class="infoPhoto"
-      src="../assets/photos/branding/key/branding-key-sketches2.jpeg"
-      alt="KTC Sketches"
-    />
+    <h4>Proccess</h4>
+    <div class="grid">
+      <img
+        src="../assets/photos/branding/key/branding-key-sketches.jpeg"
+        alt="KTC Sketches"
+      />
+      <img
+        src="../assets/photos/branding/key/branding-key-sketches2.jpeg"
+        alt="KTC Sketches"
+      />
+    </div>
     <h4>Final Product</h4>
-    <img
-      class="infoPhoto"
-      src="../assets/photos/branding/key/branding-key-logo1.jpg"
-      alt="KTC Logos"
-    />
-    <img
-      class="infoPhoto"
-      src="../assets/photos/branding/key/branding-key-logo2.jpg"
-      alt="KTC Logos"
-    />
-    <img
-      class="infoPhoto"
-      src="../assets/photos/branding/key/branding-key-logo3.jpg"
-      alt="KTC Logos"
-    />
+    <div class="grid">
+      <img
+        src="../assets/photos/branding/key/branding-key-logo1.jpg"
+        alt="KTC Logos"
+      />
+      <img
+        src="../assets/photos/branding/key/branding-key-logo2.jpg"
+        alt="KTC Logos"
+      />
+      <img
+        src="../assets/photos/branding/key/branding-key-logo3.jpg"
+        alt="KTC Logos"
+      />
+      <img
+        src="../assets/photos/branding/key/branding-key-logo4.jpg"
+        alt="KTC Logos 4"
+      />
+    </div>
   </div>
   <div class="directory">
     <a href="#coverPhoto"><h5 class="dOption">to Start</h5></a>
@@ -95,7 +100,7 @@ h6 {
 
 .directory {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   width: 40%;
   max-width: 30rem;
   align-self: center;
@@ -118,6 +123,27 @@ h6 {
 
 .dOption:hover {
   font-size: 130%;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-gap: 10px;
+}
+
+.grid img {
+  width: 100%;
+  height: auto;
+}
+
+.infoPhoto {
+  width: 88vh;
+  align-self: center;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  }
 }
 
 @media (max-width: 900px) {

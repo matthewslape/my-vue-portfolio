@@ -10,19 +10,22 @@
     <h1>Nike "Iconic" Poster</h1>
     <h2>Personal Project</h2>
     <p>
-      A historical poster in light of Nike hitting its 50 year mark. The poster
-      includes 10 of the most iconic Nike sponsored athletes over the last 50
-      years, along with what they have accomplished. Designed with Adobe
-      Photoshop and Adobe InDesign.
+      In commemoration of Nike's 50th anniversary, a distinguished historical
+      poster has been created. This visually captivating piece showcases a
+      curated selection of the ten most iconic athletes who have been sponsored
+      by Nike throughout the past half-century, accompanied by notable
+      achievements attained by each individual. Meticulously crafted with the
+      industry-leading tools of Adobe Photoshop and Adobe InDesign, this poster
+      stands as a testament to Nike's enduring legacy and the indelible impact
+      it has made on the world of sports.
     </p>
-    <!--
     <h4>Final Poster</h4>
     <iframe
       src="https://issuu.com/matthewslape/docs/nike_poster/1?ff"
       width="100%"
       height="500px"
-    />-->
-     <a
+    />
+    <a
       class="protoButton"
       href="https://issuu.com/matthewslape/docs/nike_poster/1?ff"
       target="_blank"
@@ -98,7 +101,6 @@ h6 {
 .protoButtonText:hover {
   background: #dea511;
 }
-
 
 .directory {
   display: flex;

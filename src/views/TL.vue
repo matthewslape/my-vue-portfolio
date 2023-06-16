@@ -9,10 +9,20 @@
   <div class="articleWrapper">
     <h1>Tyler Lockett Poster</h1>
     <p>
-      Tyler Lockett is an American football wide receiver for the Seattle
-      Seahawks of the National Football League. He was drafted by the Seahawks
-      in the third round of the 2015 NFL Draft. He played college football at
-      Kansas State. Designed with Adobe Photoshop.
+      Tyler Lockett is a prominent American football wide receiver, currently
+      showcasing his exceptional skills as a valued member of the Seattle
+      Seahawks in the esteemed National Football League (NFL). Having been
+      selected by the Seahawks during the third round of the 2015 NFL Draft,
+      Lockett's talent and dedication have propelled him to achieve remarkable
+      success in the sport. His football journey initially flourished during his
+      collegiate years at Kansas State University, where he honed his skills and
+      solidified his reputation as an outstanding player.
+    </p>
+    <p>
+      In recognition of Tyler Lockett's exceptional contributions to the world
+      of professional football, I have crafted this poster utilizing Adobe
+      Photoshop. This creation serves as a testament to Lockett's prowess on the
+      field and pays tribute to his commitment to the game.
     </p>
     <h4>Final Poster</h4>
     <iframe
@@ -20,7 +30,7 @@
       width="100%"
       height="500px"
     />
-     <a
+    <a
       class="protoButton"
       href="https://issuu.com/matthewslape/docs/tlPoster/1?ff"
       target="_blank"
@@ -96,7 +106,6 @@ h6 {
 .protoButtonText:hover {
   background: #dea511;
 }
-
 
 .directory {
   display: flex;

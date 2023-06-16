@@ -10,19 +10,32 @@
     <h1>Jordan Burroughs Poster</h1>
     <h2>Personal Project</h2>
     <p>
-      I have always had a passion for the sport of wrestling. It has taught me
-      to be disciplined, work hard, and keep fighting even when the odds are
-      against me. Jordan Burroughs is arguably one of the greatest wrestlers of
-      all time, and a huge advocate for the sport. I created this poster in
-      honor of him, and all he has done for the wrestling community. Designed
-      with Adobe Photoshop.
+      The sport of wrestling has ignited a profound passion within me, serving
+      as a constant source of inspiration. It has instilled in me invaluable
+      virtues of discipline, perseverance, and unwavering determination, urging
+      me to persist relentlessly even in the face of adversity. Among the
+      luminaries who have graced the wrestling mat, Jordan Burroughs stands as
+      an emblem of greatness, widely regarded as one of the greatest wrestlers
+      of all time. His dedication and unwavering advocacy for the sport have
+      left an indelible mark on the wrestling community.
     </p>
-    <!--<h4>Final Poster</h4>
+    <p>
+      In homage to the remarkable achievements and indomitable spirit of Jordan
+      Burroughs, I have created this poster, paying tribute not only to him but
+      also to the transformative power of wrestling itself. Designed with the
+      creative prowess of Adobe Photoshop, this artwork serves as a testament to
+      the boundless inspiration that emanates from athletes who embody the
+      essence of perseverance and triumph. May this poster serve as a reminder
+      of the immense impact that dedication, resilience, and the pursuit of
+      excellence can have on our own journeys within the realm of wrestling and
+      beyond.
+    </p>
+    <h4>Final Poster</h4>
     <iframe
       src="https://issuu.com/matthewslape/docs/jbPoster/1?ff"
       width="100%"
       height="500px"
-    />-->
+    />
     <a
       class="protoButton"
       href="https://issuu.com/matthewslape/docs/jbPoster/1?ff"

@@ -8,29 +8,32 @@
   />
   <div class="articleWrapper">
     <h1>Manzanar History Book</h1>
-    <h2>Class Project</h2>
+    <h2>EWU VCD Project</h2>
     <p>
-      Manzanar is the site of one of ten American concentration camps, where
-      more than 120,000 Japanese Americans were incarcerated during World War II
-      from March 1942 to November 1945. It is located at the foot of the Sierra
-      Nevada mountains in California's Owens Valley, between the towns of Lone
-      Pine to the south and Independence to the north, approximately 230 miles
-      north of Los Angeles.
+      Manzanar stands as one of the ten American concentration camps that served
+      as confinement sites for over 120,000 Japanese Americans during the period
+      spanning from March 1942 to November 1945, encompassing the duration of
+      World War II. Situated at the base of California's Owens Valley, nestled
+      amidst the majestic Sierra Nevada mountains, Manzanar lies between the
+      towns of Lone Pine to the south and Independence to the north,
+      approximately 230 miles north of Los Angeles.
     </p>
     <p>
-      This book highlights the impact that this camp had through photos from
-      Dortha Lange and Ansel Adams. I do not take credit for any of the writing
-      or photography in this book. I was in charge of layout and design, and
-      used Adobe InDesign to execute this.
+      This meticulously crafted book showcases the profound impact of this
+      historical camp through a compelling collection of photographs captured by
+      the esteemed artists Dorothea Lange and Ansel Adams. It is essential to
+      note that neither the written content nor the photographic contributions
+      within this book are accredited to me. My role encompassed the intricate
+      aspects of layout and design, utilizing Adobe InDesign as the medium to
+      bring this vision to fruition.
     </p>
-    <!--
     <h4>Final Book</h4>
     <iframe
       src="https://issuu.com/matthewslape/docs/manzanar/1?ff"
       width="100%"
       height="500px"
-    />-->
-     <a
+    />
+    <a
       class="protoButton"
       href="https://issuu.com/matthewslape/docs/manzanar/1?ff"
       target="_blank"
@@ -106,7 +109,6 @@ h6 {
 .protoButtonText:hover {
   background: #dea511;
 }
-
 
 .directory {
   display: flex;

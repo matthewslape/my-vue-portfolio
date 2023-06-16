@@ -10,39 +10,41 @@
     <h1>JS Trucking and Excavation</h1>
     <h2>Branding and Creative Direction</h2>
     <p>
-      Trucking and excavation services in Lewis, Thurston and Cowlitz counties.
-      A business that takes pride in providing honest and reliable work. JS
-      Trucking and Excavation needed an identity to convey this message, and my
-      task was to create this visual identity for them.
+      JS Trucking and Excavation offers professional trucking and excavation
+      services in Lewis, Thurston, and Cowlitz counties. As a company that
+      values integrity and dependability, they sought to establish a visual
+      identity that effectively communicates this message. I was entrusted with
+      the responsibility of crafting this distinctive visual identity for their
+      business.
     </p>
-    <h4>Sketches</h4>
+    <h4>Proccess</h4>
     <img
       class="infoPhoto"
       src="../assets/photos/branding/js/branding-js-sketches.jpg"
       alt="JS Logo Sketches"
     />
     <h4>Final Product</h4>
-    <img
-      class="infoPhoto"
-      src="../assets/photos/branding/js/branding-js-sheet.png"
-      alt="JS Logos"
-    />
-    <img
-      class="infoPhoto"
-      src="../assets/photos/branding/js/branding-js-pattern.png"
-      alt="JS Pattern"
-    />
+    <div class="grid">
+      <img
+        src="../assets/photos/branding/js/branding-js-sheet.png"
+        alt="JS Logos"
+      />
+      <img
+        src="../assets/photos/branding/js/branding-js-pattern.png"
+        alt="JS Pattern"
+      />
+    </div>
     <h4>Mockups</h4>
-    <img
-      class="infoPhoto"
-      src="../assets/photos/branding/js/branding-js-frontShirt.png"
-      alt="JS T-Shirt"
-    />
-    <img
-      class="infoPhoto"
-      src="../assets/photos/branding/js/branding-js-backShirt.jpg"
-      alt="JS T-Shirt"
-    />
+    <div class="grid">
+      <img
+        src="../assets/photos/branding/js/branding-js-frontShirt.png"
+        alt="JS T-Shirt"
+      />
+      <img
+        src="../assets/photos/branding/js/branding-js-backShirt.jpg"
+        alt="JS T-Shirt"
+      />
+    </div>
   </div>
   <div class="directory">
     <a href="#coverPhoto"><h5 class="dOption">to Start</h5></a>
@@ -93,7 +95,7 @@ h6 {
 
 .directory {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   width: 40%;
   max-width: 30rem;
   align-self: center;
@@ -116,6 +118,28 @@ h6 {
 
 .dOption:hover {
   font-size: 130%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-gap: 10px;
+}
+
+.grid img {
+  width: 100%;
+  height: auto;
+}
+
+.infoPhoto {
+  width: 88vh;
+  align-self: center;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  }
 }
 
 @media (max-width: 900px) {

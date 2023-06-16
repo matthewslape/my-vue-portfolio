@@ -8,20 +8,23 @@
   />
   <div class="articleWrapper">
     <h1>Boeing History Book</h1>
-    <h2>Class Project</h2>
+    <h2>EWU VCD Project</h2>
     <p>
-      A historical book highlighting what Boeing has accomplished since their
-      start in 1915. I do not take credit for any of the writing or photography
-      in this book. I was in charge of layout and design of the book, and used
-      Adobe InDesign to execute this.
+      This historical book illuminates the remarkable achievements of Boeing
+      since its inception in 1915. Serving as a comprehensive chronicle of the
+      company's transformative journey, this book captures the essence of
+      Boeing's enduring legacy. It is essential to note that neither the written
+      content nor the captivating photography within this publication are
+      accredited to me. My role entailed assuming the responsibility of layout
+      and design, skillfully executing the vision of this book's presentation
+      utilizing the versatile capabilities of Adobe InDesign.
     </p>
-    <!--
-    <h4>Final Poster</h4>
+    <h4>Final Book</h4>
     <iframe
       src="https://issuu.com/matthewslape/docs/boeing/1?ff"
       width="100%"
       height="500px"
-    />-->
+    />
     <a
       class="protoButton"
       href="https://issuu.com/matthewslape/docs/boeing/1?ff"

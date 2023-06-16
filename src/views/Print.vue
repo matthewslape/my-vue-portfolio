@@ -25,7 +25,7 @@ export default {
         { photo: "jbPoster", title: "Jordan Burroughs Poster" },
         { photo: "lockett", title: "Tyler Lockett Poster" },
         { photo: "boeing", title: "Boeing History Book" },
-        { photo: "polaroid", title: "Polaroid Poster" },
+        /*{ photo: "polaroid", title: "Polaroid Poster" },*/
       ],
     };
   },
