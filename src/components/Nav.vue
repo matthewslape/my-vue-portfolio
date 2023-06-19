@@ -28,12 +28,12 @@
         >
           Code
         </h3></a
-      >
-      <a v-on:click="toggle" href="/ux" style="text-decoration: none"
-        ><h3 :class="[isActive ? 'navTabActive' : 'navTab']">UX Design</h3></a
       >-->
       <a v-on:click="toggle" href="/motion" style="text-decoration: none"
         ><h3 :class="[isActive ? 'navTabActive' : 'navTab']">Motion</h3></a
+      >
+      <a v-on:click="toggle" href="/ux" style="text-decoration: none"
+        ><h3 :class="[isActive ? 'navTabActive' : 'navTab']">UX Design</h3></a
       >
       <a v-on:click="toggle" href="/ph" style="text-decoration: none"
         ><h3 :class="[isActive ? 'navTabActive' : 'navTab']">

@@ -23,14 +23,14 @@
         <div class="workDirectory" id="work">
           <!--<a href="/code"
             ><h1 class="customHeader" style="font-weight: 500">Code</h1></a
-          >
-          <a href="/ux"
-            ><h1 class="customHeader" style="font-weight: 500">UX Design</h1></a
           >-->
-          <!-- TOOK OUT HREF TO DISABLE ON CODE, P+H, AND GRAPHICS-->
           <a href="/motion"
             ><h1 class="customHeader" style="font-weight: 500">Motion</h1></a
           >
+          <a href="/ux"
+            ><h1 class="customHeader" style="font-weight: 500">UX Design</h1></a
+          >
+          <!-- TOOK OUT HREF TO DISABLE ON CODE, P+H, AND GRAPHICS-->
           <a href="/ph"
             ><h1 class="customHeader" style="font-weight: 500">
               Photo + Video
