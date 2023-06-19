@@ -12,25 +12,23 @@
             desire to learn is instinctive.
           </p>
           <p>
-            I thrive in the realm of <b>organized creativity</b>, where my
-            passion finds its truest expression. Across various fields, I derive
-            immense joy from the act of creation with a sincere desire to
-            contribute to the well-being of others. When it comes to design, I
-            firmly believe that accessibility, intentionality, and
-            sustainability are the fundamental building blocks for crafting
-            exceptional solutions.
+            I find joy in <b>organized creativity</b>. Across various fields, I
+            find joy in the act of creation with a sincere desire to contribute
+            to the well-being of others. When it comes to design, I firmly
+            believe that accessibility, intentionality, and sustainability are
+            the fundamental building blocks for crafting exceptional solutions.
           </p>
           <p>
             Motivated by a deep sense of purpose, my drive stems from the desire
             to make a lasting, <b>positive impact</b> on the world that extends
-            far beyond my own lifetime. I am dedicated to using my creative
+            beyond my own lifetime. I am dedicated to using my creative
             abilities to assist and uplift those around me. Currently, I am
             actively seeking a new opportunity, a place where a sense of
             community, personal growth, and service through creativity are
             valued above all else.
           </p>
           <p>
-            I have unwavering confidence in my abilities to make a
+            I have confidence in my abilities to make a
             <b>meaningful contribution</b> to any company that shares these core
             values. If you wish to establish a connection, I warmly welcome you
             to reach out to me. Let's explore the possibilities and forge a path
