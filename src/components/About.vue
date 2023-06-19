@@ -12,11 +12,11 @@
             desire to learn is instinctive.
           </p>
           <p>
-            I find joy in <b>organized creativity</b>. Across various fields, I
-            find joy in the act of creation with a sincere desire to contribute
-            to the well-being of others. When it comes to design, I firmly
-            believe that accessibility, intentionality, and sustainability are
-            the fundamental building blocks for crafting exceptional solutions.
+            Organized creativity is my go to. Across various fields, I find joy
+            in creating with a desire to contribute to the well-being of others.
+            When it comes to design, I firmly believe that accessibility,
+            intentionality, and sustainability are the fundamental building
+            blocks for crafting <b>exceptional solutions.</b>
           </p>
           <p>
             Motivated by a deep sense of purpose, my drive stems from the desire
