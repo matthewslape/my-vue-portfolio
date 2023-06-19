@@ -9,17 +9,17 @@
     <h1>WikiHow App Redesign</h1>
     <h4>Overview</h4>
     <p>
-      The goal of this project was to create a more usable, easily navigated
-      mobile interface for wikiHow users.
-      <i
-        >(This is a personal project and in no way is affiliated with
-        wikiHow)</i
-      >
+      The objective of this project was to develop a highly functional and
+      user-friendly mobile interface for wikiHow users. It is important to note
+      that this project is a personal endeavor and is not affiliated with
+      wikiHow.
     </p>
-    <h4>Why is this a thing?</h4>
+    <h4>Rationale</h4>
     <p>
-      The current wikiHow app is confusing and hard to navigate and use. I saw
-      this as an opportunity to solve a problem, and practice my UX skills.
+      The existing wikiHow app suffers from usability issues and presents
+      challenges in terms of navigation and user experience. Recognizing this as
+      an opportunity to address these issues and further enhance my UX skills, I
+      embarked on this project.
     </p>
     <div class="detailCard">
       <h5>Client</h5>
@@ -31,14 +31,15 @@
       <h5>My Role</h5>
       <h6>UX Designer (Individual Project)</h6>
     </div>
-    <h4>Audit of the old wikiHow App</h4>
+    <h4>Audit of the Previous wikiHow App</h4>
     <p>
-      I started off this project by auditing the old wikiHow app. I went through
-      it as a user, and took notes on what made sense to me and what did not. I
-      found some problems like no indicator or title to the page you are on, the
-      menu style feeling out of place, the options button not making sense, and
-      much more. I took note of these problems, so that I could solve them in my
-      redesign.
+      To begin the project, I conducted a thorough assessment of the previous
+      wikiHow app. By assuming the role of a user, I carefully examined its
+      strengths and weaknesses. During this analysis, I identified several
+      issues, such as the absence of clear page indicators or titles, a
+      mismatched menu style, and a confusing options button, among others. These
+      observations were documented meticulously in order to address them
+      effectively in my redesign.
     </p>
     <img
       class="infoPhoto"
@@ -56,14 +57,16 @@
       src="../assets/photos/ux/wikihow/ux-wikihow-sketch2.png"
       alt="wikiHow App Sketch 2"
     />
-    <h4>Finished Project</h4>
+    <h4>Completed Project</h4>
     <p>
-      After analysing and building a usable system that made sense for wikiHow
-      and their app, I designed and wireframed a prototype of the redesign of
-      the app. Through auditing and finding problems in the old app, ideating
-      and sketching out a new system to solve those problems, and designing a
-      wireframe, I feel that I improved the app through proper UX and design
-      practices.
+      After a comprehensive analysis and the development of a coherent system
+      tailored specifically for wikiHow and its app, I proceeded to design and
+      create wireframes for the app's redesign. Leveraging my findings from the
+      audit stage, I successfully generated innovative solutions to overcome the
+      identified problems. Through this iterative process of auditing, ideation,
+      sketching, and wireframing, I am confident that I have significantly
+      improved the app's overall user experience and functionality, employing
+      sound UX principles and design practices.
     </p>
     <img
       class="finalPhoto"

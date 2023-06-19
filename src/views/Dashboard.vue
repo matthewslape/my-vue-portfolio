@@ -7,29 +7,33 @@
   />
   <div class="articleWrapper">
     <h1>Daily Dashboard</h1>
-    <h4>Overview</h4>
+    <h4>Project Overview</h4>
     <p>
-      This idea of a daily dashboard has been around for awhile. At first, it
-      was just shown in movies like Star Trek through FUIs (Fictional User
-      Interfaces), and then the idea quickly became more real with the
-      introduction of the smartphone. Thus a new problem arises, too many
-      dashboards to manage. This project was created in order to hone back and
-      simplify the idea of a daily dashboard, through a hub that is in a
-      location visited multiple times a day, connected to all other devices, in
-      order to simplify our way of life as users.
+      The concept of a daily dashboard has existed for quite some time.
+      Initially portrayed in movies like Star Trek through Fictional User
+      Interfaces (FUIs), this idea quickly gained practicality with the advent
+      of smartphones. However, this introduced a new challenge: the management
+      of multiple dashboards. The purpose of this project was to refine and
+      simplify the notion of a daily dashboard by creating a centralized hub,
+      located in a frequently visited area, that seamlessly connects all
+      devices. The objective was to enhance user experience and streamline daily
+      activities.
     </p>
-    <h4>Why is this a thing?</h4>
+    <h4>Rationale</h4>
     <p>
-      People get stressed. Our days become busy quickly with how much stuff we
-      have to stay on top of. We live in a world where the average person has
-      ten devices to keep track of. This is too much. Having ONE place to keep
-      track of all your progress and to-dos for the day is needed.
+      In today's fast-paced world, people often experience stress due to the
+      multitude of tasks they need to stay on top of. It is common for
+      individuals to possess an overwhelming number of devices to manage,
+      averaging around ten per person. This excessive burden necessitates a
+      solution. A unified platform that consolidates all progress and daily
+      to-dos into a single location is needed.
     </p>
     <h4>Goal</h4>
     <p>
-      To create a hub where all the users widgets can be found in one place,
-      personalized to fit them best. This hub needs to be in a central location
-      that is seen by the user at least twice a day.
+      The primary aim of this project was to develop a hub where users can
+      access all their widgets in one place, personalized to suit their
+      preferences. This centralized hub needed to be positioned in a prominent
+      location that users encounter at least twice a day.
     </p>
     <div class="detailCard">
       <h5>Client</h5>
@@ -46,25 +50,22 @@
     </div>
     <h4>Sketches</h4>
     <p>
-      I started out by sketching some ideas for how the daily dashboard layout
-      would be structrued. This daily dashboard is designed for the structure of
-      a smart mirror in a bathroom. I feel that as humans, we visit this spot in
-      our homes at least three times a day, so it is a great place to have a
-      central hub for managing our days.
+      The initial phase involved sketching various ideas for the daily dashboard
+      layout. Specifically designed for a smart mirror in a bathroom, this daily
+      dashboard capitalizes on the fact that individuals typically visit this
+      area of their homes multiple times daily. Thus, it serves as an ideal
+      location for a central hub to manage their daily activities.
     </p>
     <p>
-      The interface consists of a clock, the date, a music player, a to-do list,
-      a screen time display that tells the cumulative screen time for all
-      devices, weather, a personalized message, and a navigation menu for
-      notifications on linked devices throughout the day.
-    </p>
-    <p>
-      I wanted to create something that helps the user not get overwhelmed or
-      stressed with what they have to accomplish. My approach to this is having
-      the display change what is presented depending on the time of the day. For
-      example, I do not do homework in the evening, so canvas notifications
-      wouldn't be shown on the display at this time. This helps us be more
-      intentional with our devices and what we are putting our focus on.
+      The interface encompasses key elements such as a clock, date, music
+      player, to-do list, screen time display for cumulative device usage,
+      weather information, personalized messages, and a navigation menu for
+      linked device notifications throughout the day. The objective was to
+      create a user-friendly solution that prevents users from feeling
+      overwhelmed by their tasks. To achieve this, the display adapts its
+      content based on the time of day. For instance, if it's evening,
+      notifications related to academic tasks would not be displayed, promoting
+      intentional device usage and focused attention.
     </p>
     <img
       class="infoPhoto"
@@ -73,11 +74,11 @@
     />
     <h4>Lo Fidelity Prototypes</h4>
     <p>
-      I then took my sketches and digitized them on Figma, by creating some gray
-      box designs, in order to get the layout and navigation of the dashboard
-      more concrete. At this point, I took the actual dimensions of my bathroom
-      mirror into account, as well as adding some gradients for depth. Besides
-      this, not much visual design was developed at this stage.
+      The next step involved digitizing the sketches using Figma, employing gray
+      box designs to refine the layout and navigation of the dashboard. Careful
+      consideration was given to the dimensions of the bathroom mirror, and
+      subtle gradients were added to create a sense of depth. At this stage,
+      visual design elements were not extensively developed.
     </p>
     <img
       class="infoPhoto"
@@ -86,11 +87,12 @@
     />
     <h4>Finished Project</h4>
     <p>
-      I then added color, fonts, icons (courtesy of The Noun Project), and other
-      visual components to my dashboard designs. In this stage, I also included
-      a picture of me as the background to mock up the mirror portion of the
-      project, and to top it all off threw in a mockup photo of what it would
-      look like in action.
+      Subsequently, color schemes, fonts, icons (courtesy of The Noun Project),
+      and other visual components were incorporated into the dashboard designs.
+      In this phase, a picture was included as the background, simulating the
+      mirror aspect of the project. Additionally, a mockup photo was created to
+      depict the dashboard in action, providing a comprehensive visualization of
+      the final product.
     </p>
     <div class="mockupsWrapper">
       <img
@@ -116,14 +118,14 @@
     />
     <h4>Taking it One Step Further</h4>
     <p>
-      This was a class project for my UX 3 class. Towards the end of my project,
-      I had a classmate who showed the class how he took his dashboard and built
-      it as a website, using the camera as the mirror portion of the project.
-      With his permission, I took my knowledge from my Web 3 class, forked his
-      code, and connected the time, date and weather of his dashboard through
-      DOM elements. A link to this project is below. A special thanks to Will
-      Hall for letting me fork his code, and add some functionality to his
-      amazing approach to this project.
+      This was a class project for my 300 level UX Design class. Towards the end
+      of my project, I had a classmate who showed the class how he took his
+      dashboard and built it as a website, using the camera as the mirror
+      portion of the project. With his permission, I took my knowledge from my
+      Web 3 class, forked his code, and connected the time, date and weather of
+      his dashboard through DOM elements. A link to this project is below. A
+      special thanks to Will Hall for letting me fork his code, and add some
+      functionality to his amazing approach to this project.
     </p>
     <h4>Final Thoughts</h4>
     <p>
@@ -132,7 +134,8 @@
       designing and coding, I feel that this project is a great example of real
       life problem solving through user experience design. I learned that too
       much of anything can be overstimulating, and that as designers we need to
-      consider the simplest solution possible in order to not confuse the user.
+      consider the simplest solution possible in order to not overwhelm the
+      user.
     </p>
     <img
       class="infoPhoto"

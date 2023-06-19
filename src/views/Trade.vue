@@ -9,24 +9,26 @@
     <h1>Trade Coffee App</h1>
     <h4>Overview</h4>
     <p>
-      Trade Coffee is a sustainably sourced subscription based coffee company
-      that partners with coffee roasters around the nation to help support
-      communities near and far. It is a great way for a variety of coffee
-      drinkers to both support small roasters and try coffee from around the
-      country. Sadly, they still do not have a mobile app. This was frustrating
-      for me to see, so I decided to design an app for them.
-      <i>(This is a personal project and in no way is affiliated with Trade)</i>
+      Trade Coffee is a subscription-based coffee company that prioritizes
+      sustainable sourcing and collaborates with coffee roasters nationwide to
+      support communities. It offers an excellent opportunity for diverse coffee
+      enthusiasts to experience specialty coffees from different regions.
+      However, Trade Coffee currently lacks a mobile app. Recognizing this gap,
+      I took the initiative to design an app for them. Please note that this
+      project is a personal endeavor and is not affiliated with Trade.
     </p>
-    <h4>Why is this a thing?</h4>
+    <h4>Rationale</h4>
     <p>
-      Trade Coffee does not have a mobile app, and I feel that it is frustrating
-      to the user to have to log in online every time on a browser to manage
-      their subscription.
+      The absence of a mobile app for Trade Coffee results in user frustration,
+      as customers are required to log in through a web browser every time they
+      wish to manage their subscription. This inconvenience led me to
+      conceptualize a solution in the form of a mobile app.
     </p>
     <h4>Goal</h4>
     <p>
-      To create a usable, easily navigated mobile app for Trade Coffee
-      subscribers, in order that they can manage their subscription on the go.
+      The primary objective was to create a user-friendly and easily navigable
+      mobile app specifically for Trade Coffee subscribers. This app would
+      empower users to conveniently manage their subscriptions while on the go.
     </p>
     <div class="detailCard">
       <h5>Client</h5>
@@ -40,9 +42,10 @@
     </div>
     <h4>Empathy Map</h4>
     <p>
-      To get a better idea of who would use Trade, I created an empathy map, so
-      that I could really dive deep into the emotions and feelings that the user
-      would have both while using Trade, and in general.
+      To gain a comprehensive understanding of the potential Trade Coffee user
+      base, I created an empathy map. This allowed me to delve deep into the
+      emotions, feelings, and perspectives of the users both while using the app
+      and in general.
     </p>
     <img
       class="infoPhoto"
@@ -51,9 +54,10 @@
     />
     <h4>Lo Fidelity Prototype</h4>
     <p>
-      Next, I created and wireframed a low fidelity prototype, so that I could
-      properly design the layout and system of the app without the distractions
-      of colors and fonts. This was done in Figma.
+      The next step involved developing a low-fidelity prototype, where I
+      wireframed the app's layout and system. By eliminating the distractions of
+      colors and fonts, I could focus on designing a functional and intuitive
+      user interface using Figma.
     </p>
     <img
       class="infoPhoto"
@@ -62,9 +66,10 @@
     />
     <h4>Style Sheet</h4>
     <p>
-      I then, while considering my empathy map, started building components for
-      the application in Figma. These components included fonts, colors, cards,
-      and buttons.
+      With the insights gained from the empathy map, I proceeded to build
+      various design components for the application in Figma. This involved
+      defining fonts, colors, cards, buttons, and other visual elements while
+      keeping the user's needs and preferences in mind.
     </p>
     <img
       class="infoPhoto"
@@ -74,13 +79,13 @@
     />
     <h4>Finished Project</h4>
     <p>
-      Finally, I created a high fidelity prototype using my style guide and lofi
-      prototype. When I would get stuck, I would refer back to my empathy map,
-      to ground myself in who would be using this app. It really helped my case
-      that I fit the user description to a T, and use Trade on a day to day
-      basis. I feel that I completed the goal of creating an easily navigated
-      mobile app to help Trade subscribers manage their subscriptions more
-      efficiently.
+      Lastly, I created a high-fidelity prototype, incorporating the style guide
+      and insights from the lo-fi prototype. Whenever faced with design
+      challenges, I referred back to the empathy map to ensure alignment with
+      the app's intended users. It was convenient that I closely matched the
+      user description and used Trade Coffee on a daily basis, as it enabled me
+      to create an easily navigable mobile app that efficiently assists Trade
+      subscribers in managing their subscriptions.
     </p>
     <img
       class="finalPhoto"
