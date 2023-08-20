@@ -9,7 +9,7 @@
             I am a <b>hardworking</b>, problem solving, coffee loving
             <b>human</b>, on a mission to serve others through design thinking.
             Fueled by my excessive need to <b>understand how things work</b>, my
-            desire to learn is instinctive.
+            desire to learn is immense.
           </p>
           <p>
             Organized creativity is my go to. Across various fields, I find joy
@@ -39,7 +39,7 @@
           <a class="button" href="/#contact">
             <h2 class="contactButton">Contact</h2>
           </a>
-          <a class="button" href="/mslape-resume-s23.pdf">
+          <a class="button" href="/mslape-resume-s23-solo.pdf">
             <h2 class="resumeButton">Resume</h2>
           </a>
         </div>
