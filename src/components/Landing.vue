@@ -27,10 +27,9 @@
           <a href="/motion"
             ><h1 class="customHeader" style="font-weight: 500">Motion</h1></a
           >
-          <a href="/ux"
+          <!--<a href="/ux"
             ><h1 class="customHeader" style="font-weight: 500">UX Design</h1></a
-          >
-          <!-- TOOK OUT HREF TO DISABLE ON CODE, P+H, AND GRAPHICS-->
+          >-->
           <a href="/ph"
             ><h1 class="customHeader" style="font-weight: 500">
               Photo + Video
@@ -41,9 +40,9 @@
               Illustration
             </h1></a
           >
-          <a href="/branding"
+              <!--<a href="/branding"
             ><h1 class="customHeader" style="font-weight: 500">Branding</h1></a
-          >
+          >-->
           <a href="/print"
             ><h1 class="customHeader" style="font-weight: 500">Print</h1></a
           >

@@ -19,12 +19,6 @@
       and design, skillfully executing the vision of this book's presentation
       utilizing the versatile capabilities of Adobe InDesign.
     </p>
-    <h4>Final Book</h4>
-    <iframe
-      src="https://issuu.com/matthewslape/docs/boeing/1?ff"
-      width="100%"
-      height="500px"
-    />
     <a
       class="protoButton"
       href="https://issuu.com/matthewslape/docs/boeing/1?ff"

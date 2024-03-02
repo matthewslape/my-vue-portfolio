@@ -27,12 +27,6 @@
       aspects of layout and design, utilizing Adobe InDesign as the medium to
       bring this vision to fruition.
     </p>
-    <h4>Final Book</h4>
-    <iframe
-      src="https://issuu.com/matthewslape/docs/manzanar/1?ff"
-      width="100%"
-      height="500px"
-    />
     <a
       class="protoButton"
       href="https://issuu.com/matthewslape/docs/manzanar/1?ff"

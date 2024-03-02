@@ -30,12 +30,6 @@
       excellence can have on our own journeys within the realm of wrestling and
       beyond.
     </p>
-    <h4>Final Poster</h4>
-    <iframe
-      src="https://issuu.com/matthewslape/docs/jbPoster/1?ff"
-      width="100%"
-      height="500px"
-    />
     <a
       class="protoButton"
       href="https://issuu.com/matthewslape/docs/jbPoster/1?ff"
