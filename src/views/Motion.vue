@@ -6,9 +6,15 @@
         <iframe
           src="https://player.vimeo.com/video/836683250?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
           frameborder="0"
-          allow="autoplay; fullscreen; picture-in-picture"
+          allow="autoplay; fullscreen; accelerometer; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
-          style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+          style="
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100% !important;
+          "
           title="SLAPE-MotionReel2023-v2"
         ></iframe>
       </div>
@@ -75,8 +81,6 @@ h3 {
 }
 
 .videoBox {
-  border: #dea511 solid 6px;
-  border-radius: 10px;
   display: flex;
   flex-direction: column;
   width: 46%;
@@ -87,6 +91,10 @@ h3 {
   margin: 1rem;
 }
 
+iframe {
+  border-radius: 1rem;
+}
+
 @media (max-width: 850px) {
   .projectWrapper {
     justify-content: center;
@@ -94,10 +102,10 @@ h3 {
   .videoBox {
     width: 100%;
     height: 20rem;
-    margin: 2rem 0rem 2rem 0rem;
-    border: none;
+    margin: 0.5rem 0.25rem 0.5rem 0.25rem;
   }
 }
+
 @media (max-width: 850px) {
   h3 {
     font-size: 1.5rem;
