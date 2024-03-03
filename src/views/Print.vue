@@ -46,6 +46,7 @@ h3 {
   display: flex;
   flex-wrap: wrap;
   width: 96vw;
+  max-width: 1920px;
   margin: auto;
   justify-content: flex-start;
 }
