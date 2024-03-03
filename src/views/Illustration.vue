@@ -37,7 +37,7 @@
           />
           <h3 class="photoTitle">{{ item.title }}</h3>
         </div>
-    </div>
+      </div>
       <div class="column">
         <div class="photoWrapper" v-for="item in column4" :key="item">
           <img
