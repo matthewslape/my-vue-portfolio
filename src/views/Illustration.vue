@@ -37,6 +37,33 @@
           />
           <h3 class="photoTitle">{{ item.title }}</h3>
         </div>
+    </div>
+      <div class="column">
+        <div class="photoWrapper" v-for="item in column4" :key="item">
+          <img
+            :src="`https://lh3.googleusercontent.com/${item.key}`"
+            alt="Project"
+          />
+          <h3 class="photoTitle">{{ item.title }}</h3>
+        </div>
+      </div>
+      <div class="column">
+        <div class="photoWrapper" v-for="item in column5" :key="item">
+          <img
+            :src="`https://lh3.googleusercontent.com/${item.key}`"
+            alt="Project"
+          />
+          <h3 class="photoTitle">{{ item.title }}</h3>
+        </div>
+      </div>
+      <div class="column">
+        <div class="photoWrapper" v-for="item in column6" :key="item">
+          <img
+            :src="`https://lh3.googleusercontent.com/${item.key}`"
+            alt="Project"
+          />
+          <h3 class="photoTitle">{{ item.title }}</h3>
+        </div>
       </div>
     </div>
   </div>
@@ -48,6 +75,70 @@ export default {
     return {
       column1: [
         {
+          key: "AP1GczPCSRMgL-TMMQ2rbWoAjuVNQc2GWJyA0lB9WPFFd1sSqSsFT7s6tbCxjT-0WYIZvTDEInSLV5GBIARiepPs3v1bfRjJUX8PmnkMpQ_c6T336HGXsfY=w2400",
+          title: "Cowgirl Boot",
+        },
+
+        {
+          key: "AP1GczOYCMvgYHNPHsw6vYdzOX3o-1zvDmepUnIitmDSeLvnb8J0RmEfcRlbA8Ks1079o4jPSjajQWxhIsNf99EXSJGS0LWZvqM6FsmjXTTJUsXw5Kr7qB8=w2400",
+          title: "Stay Wild Wolf",
+        },
+        {
+          key: "AP1GczNO2BOFODIXuvfydEsoK3Oo_h2fDWYmlfnQHGdSvkZnNsO_zT5jbPbrN8cOhSnmGc763UNZv8QHWD11ZxFQkRQ7khK6elR36YJhJcxNoZKC-UZ8mTI=w2400",
+          title: "Campfire Mountain",
+        },
+        {
+          key: "AP1GczOapRs9UD3Rwh4InXB63I6tOGUqt7eARdY5vVC0zKc9McenOtRPFEYlUliy6PX1-OpWDtfP7C6xA_okdfj2jbfOEW13WnI6dyd0cE7MbzY8tnqwDjo=w2400",
+          title: "PNW Air Freshener",
+        },
+        {
+          key: "AP1GczNdYG4Wc-Bc-FOXr0GSF6r6E-7jB1q2g2MCEOoYknOA5aGKfGVFevvGWhQI8d0Wi2WACu4b_N_hkSllIf1A882Hz5lFwcvlh9c5pxLGD4oQSIGlZ2s=w2400",
+          title: "PNW Abstraction",
+        },
+
+        {
+          key: "AP1GczPhbBm4bY7onwmn1qedpQAe7s-lmsSk_k_Qp-7_L5A15xNaW4CqFAY8Z252X9iYf_z3yR4pWFMqVXvPGRiRwwPiMqkJXLlveu0kafQfJgWOFCdM9ns=w2400",
+          title: "PNW Bear",
+        },
+        {
+          key: "AP1GczOWXqaHZgzSzkm1DqLBxLole1otizwU6sIPn3GytZID8c16Vyr7HDPEDAKXR7L23Nlj9bQ2T9JRP4RjlXSWFz5-KOnMXSRd398XZcizP0ULSrtklKk=w2400",
+          title: "Corefit Gym Tee Design",
+        },
+      ],
+      column2: [
+        {
+          key: "AP1GczMjebYw5re0WjfsGCzwrnGrqeaGAGCOJ-slR27mDs6dNaSjoqq-R7hXYmtJUjg5n8by8ze3OcbcDumvjSFozrNKXSYKuzTvmzWzjLGzOA-MjIEYzWE=w2400",
+          title: "Print Cowboy",
+        },
+
+        {
+          key: "AP1GczMdnulke135fwIICMxCNgNWrbDeQgyw61BOjM8mg8-CVgrjnhVaa8YOjIwJbq_9CK1Fgd2hKL015gVY2-WUVUp-YMW4eyAUqGz8vspNZkhSuBtJjyc=w2400",
+          title: "Sinful Hearts",
+        },
+        {
+          key: "AP1GczPnlJpgewmXW7OkMlr-1a4CFhN-rYfmHvoWngWiPdWBYjyYTuFxxg_XHTlkMEaVeB0wGCQi8_MzuyLo_pm_bNX5zv4jOfQp_18TN8wTTLE9uPcC8Lw=w2400",
+          title: "Pike St. Coffee Tee",
+        },
+        {
+          key: "AP1GczOks0TB3t-I5_REUBejNygyv0dkdV8SrhOFlW-weorNITQCJX3TA4Vi0IOJrNHIIk2OG0NVehVgsKV5cLexxteKWVrdrqUHXvdjBtuKsJuKjdmW_hE=w2400",
+          title: "Pike St. Coffee Biker",
+        },
+        {
+          key: "AP1GczPqRoOmpstHouqgnYC6xkjmx7UUo_nSJVPYQMu2Xs9GfAX9Qjp83zYuo--Rv4iP58kQiRw8efigQdtHTzFdKqobDBY6SMCwVmmxt0AyYBCyJjq4MbY=w2400",
+          title: "Pike St. Coffee Pigeon",
+        },
+
+        {
+          key: "AP1GczMgMYT3OhzD9c25ocWluVTSzD9NLYiZnrz7SRTij6jvczc6dT9BzdgdMqPKbMaEOvtkpJooaOVFttDrdDxn_0W_UmuUV2xOIOLb268zKmr0ItJUQhs=w2400",
+          title: "Lucky Horseshoe",
+        },
+        {
+          key: "AP1GczNhw_x078h4UrO4vt_PXMXu1Lr25XdqlgI_zbEp6Jbz6gkK8e6-izNercRIkrX8H1574WS3XAPmc49bcJUntITfjd-OuKoVRu-t0vTzH0d6xlUp1rg=w2400",
+          title: "Longhorn Skull",
+        },
+      ],
+      column3: [
+        {
           key: "U06VLuf0zg7tYlFqBg-XwDjEh3HyoY3hSnteG-WSklLLvixLNol54ZyBDCrsgzeLcgyhtFZgpZREWW3ZdAexw4B7UpfLoTfqRKHAJYBqPJ-v_YQk-67TuGQmiNYsHj71MKmFbT4LkA=w2400",
           title: "Do Good Illustration",
         },
@@ -55,17 +146,23 @@ export default {
           key: "OIqMjQBUocF_zQpNRs13N_wl6BJbCA15V4p1FkoFMpWYpVwygvsc-R-zQ_SJrDXALltYkiuhm80yv6D683s9iLTSWwDTGcj6NlWoKvkmRrNUfMqecVFD76lBQ_4cyRGXIcLLEkQhoQ=w2400",
           title: "Coffee Skull",
         },
+
         {
-          key: "Y4bf2CtcgG8cvB9CfZ4PEkAWUkE9jl6pxo3-y2LA8dkE5FOJz1SlsXkJ69I_uwKpCkrLBvn0zw8PwBkRL-kycFwTvWKKiOvmF3PCrplZRDsx55kRQ1MRlZv08sYQjh2OQV09v3x95g",
-          title: "West Plains Tools",
+          key: "AP1GczP6Fdy1TiFBJZj9-Du_T6yHTt146Sd77s4X0-WzHTSmjxn6ecV19zCnEqWYzGbU01Y6iVgKc7phR2WQnOCCZVgWLDUTPkct_sPV2oTyMt3_dg1hYes=w2400",
+          title: "RHBC Tee",
         },
         {
-          key: "gHRIFCSl6qabeeTDd1K7VGFshu1fv0qbzLIEKF6EDe3bt8w6OA76-mjFc8DwsJJGu-oM3kGtx2CG2Jb55nTUMA46enU4EJ-cs8HT1FTDTJNhnzksm69K8mNzPpGhyz9-OxkD2QqPMA=w2400",
-          title: "West Plains Tools",
+          key: "AP1GczMQKEA80e54_Foap6YY1MngrPj87ycteBljp3RrD60H6w03k0TDaYw64xDH__X_1ccKcPPRSGTaphPQbQ6borKG1JFasE5Xcp8XnYAl-D_KZWqpDMA=w2400",
+          title: "Big Foot Print",
+        },
+
+        {
+          key: "AP1GczNA7ZI49lGhPK0Lhhr5HQ4gpmy4MyqNsywa_v6inxgAjk2NUVaLmwpvHmMgUbGMxvkgmLSsGvOJlOoDMKkJmsAQnR1q8hZbrohCEC400j_-yp60hYY=w2400",
+          title: "Rejoice Type",
         },
         {
-          key: "IZXrYlz4d2FEeUW7687kaZpkSXvJP1qyxyP8KQC6CR5mKIn84QiR8kc6lMBg4AIOeCCJB6eOw7_sWg9PAr_fnzkvSbChhfvN0rBWosklbHI3FBUzL3PCpgW15U9ZLFLzFrSBmXgfxw=w2400",
-          title: "West Plains Tools",
+          key: "AP1GczNNVZ8vccH81ajra6nM_4GU1Cjk3Pgy3mFvaCl_Wuj0agnKteklSx8BABZIdwoZAIOHZsY7XhH946YaEExShKQ7bQPSS9KXsWfatp1_iyOL7ehO6Vs=w2400",
+          title: "JS Trucking Assets",
         },
         {
           key: "uAzds0pHq7422gCn2PqMAbGyLL6TdYsB_b64wQNQrAQnLMkO78011H3zE0NQolpYYQmfUOcM3kaf5o9sPjchyZ8hjwH4_83c2KriJZRPp4dWiYSN8GcXxy-2HvxT4KaUvs4WgUZltA=w2400",
@@ -76,7 +173,7 @@ export default {
           title: "Bully Breed Logo",
         },
       ],
-      column2: [
+      column4: [
         {
           key: "dJUV9Ve4bO5lrM62y-uxQPPSvfG2k9HpaLxJMX9kjdmroJ_ujbvtuV5bC12GQ3Vwc8pe8VDHjyl2zQsqNVkRomcF9VS7iYw4Q-XBhRft_jojqtJasWWQ4aNcpGWkSbeZ0ipl9Ng0tA=w2400",
           title: "Just AiM Tiger",
@@ -107,7 +204,7 @@ export default {
           title: "Futuristic EWU Logo",
         },
       ],
-      column3: [
+      column5: [
         {
           key: "XdPYJqlqCIdw74xcmlGpBL-P-wc6WqgqTlzXloLi8uD1_xwCIU7C96SjIWIxuO-21L_fMnNVoBDjgogHGC2q7n6Rg6HwiwCed7JooJ__LQw6ONlC1zACWO57fly9F1ZC7LgBCpVpQQ=w2400",
           title: "West Plains Stickers",
@@ -137,7 +234,7 @@ export default {
           title: "Washington State Logo (1)",
         },
       ],
-      column4: [
+      column6: [
         {
           key: "rp9Jjfk0Uuq8YwRFDRnNiH--7h9I9oKf6FHmSmQ8qJUFs9R7d6Els75OojS81mpY67gAvqLZ8FVScdqJSw9eW4UBnmEh8oo_zZ2GC-2qFXzAKX3MD3oWjyzgfryCgNjOuqOOcHDSSw=w2400",
           title: "Mount Rainier Logo",
@@ -159,7 +256,6 @@ export default {
           key: "rQSv_mtnSJ6fCOujS3HN1MYGjfqOdHA6lFqWGSIdfBg1Xxjej0dEztTPAilK9fiSuuXqN6-uReQOzRRSRlc6cED4ovu55jQ6kH9bwzuAmzipWQtuRmcRO7EopOP1NqZJtfAiV-eEgw=w2400",
           title: "Psalm 1 Tree (Bible)",
         },
-
         {
           key: "b3GCdPqmOESJ3IlL-B4pzqY5FQQDNb4q-Yj9eibwopjDCh5_zLWn8RrzBxuxsXfhzw-ZZ7Kuq5qas3KM777zVsegRjeP_kNwI9JM2LhmNMtBBJxfAMxig9Nb4khuUhTR5NIiQqxOtw=w2400",
           title: "Coffee Type",
