@@ -24,12 +24,6 @@
       Photoshop. This creation serves as a testament to Lockett's prowess on the
       field and pays tribute to his commitment to the game.
     </p>
-    <h4>Final Poster</h4>
-    <iframe
-      src="https://issuu.com/matthewslape/docs/tlPoster/1?ff"
-      width="100%"
-      height="500px"
-    />
     <a
       class="protoButton"
       href="https://issuu.com/matthewslape/docs/tlPoster/1?ff"
